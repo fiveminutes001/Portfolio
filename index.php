@@ -781,6 +781,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			  <h5 class="w3-opacity"><a href="https://www.taasuka.gov.il/he/Applicants/pages/onlinecourses.aspx"><b>EXCEL | SEO | FACEBOOK</b></a></h5>
 				<p>Free courses in Hebrew.</p>
 			</div>
+			
+			<div class="w3-container column">
+			  <h5 class="w3-opacity"><a href="http://git-scm.com/book/en/v2"><b>GIT Pro</b></a></h5>
+				<p>Git Pro book.</p>
+			</div>
 	    </div>
       </div> 
 	
