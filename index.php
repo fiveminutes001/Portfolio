@@ -487,6 +487,22 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
+				
+				<a href="https://notepad-plus-plus.org/downloads/">
+					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
+							Notepad++
+						</div>
+					</div>
+				</a>
+				
+				<a href="https://code.visualstudio.com/>
+					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
+							Visual Studio Code
+						</div>
+					</div>
+				</a>
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
