@@ -1,14 +1,27 @@
 <html>
 <head></head>
 <body>
-	<h1>To update local repo</h1>
+	<h1>To update local repo (fetch + merge)</h1>
 	<p>git pull https://github.com/fiveminutes001/Portfolio.git</p>
 	
 	<h1>To update remote repo</h1>
 	<p>git add -A</p>
+	<p>git git diff --check</p>
 	<p>git commit -m "initial commit 2"</p>
 	<p>git push origin master</p>
 	
+	<h1>To get current work from remote</h1>
+	<p>git fetch origin</p>
+	
+	<h1>To get merge work</h1>
+	<p>git merge origin/master</p>
+	
+	<h1>To find out which part of fetched work needs to be merged</h1>
+	<p>git log --no-merges issue54..origin/master</p>
+	
+	<h1>To show project's roadmap</h1>
+	<p>git log --graph</p>
+		
 	<h1>To work correctly with merge and rebase</h1>
 	<p>Rebase local changes before pushing to clean up your work, but never rebase anything that you’ve pushed somewhere.</p>
 	
@@ -32,6 +45,9 @@
 	
 	<h1>To show one line commit log</h1>
 	<p>git log --pretty=oneline</p>
+	
+	<h1>To show commit log</h1>
+	<p>git log</p>
 	
 	<h1>To tag a commit (5 first figures of signature from git log --pretty=online)</h1>
 	<p>git tag -a v1.0 60a85</p>
