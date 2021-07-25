@@ -197,10 +197,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				</div>
 			  </div>
 			  
-			  <p>C</p>
+			  <p>Git</p>
 			  <div class="w3-light-grey w3-round-xlarge w3-small">
 				<div class="w3-round-xlarge w3-blue" style="width:100%">
-					<div class="w3-center w3-text-white">90%</div>
+					<div class="w3-center w3-text-white">95%</div>
 				</div>
 			  </div>
 			  
