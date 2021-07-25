@@ -76,6 +76,12 @@
 	<h1>To create a summary of logs by author form version v1.0</h1>
 	<p>git shortlog --no-merges master --not v1.0</p>
 	
+	<h1>To shorten git commands (pull and push)</h1>
+	<p>$ git remote add progit https://github.com/progit/progit2.git (1) <br>
+		$ git fetch progit (2) <br>
+		$ git branch --set-upstream-to=progit/master master (3) <br>
+		$ git config --local remote.pushDefault origin (4)</p>
+	
 	<h1>To work correctly with pull request and merge changes (examples)</h1>
 	<p><a href="http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project">Link</a></p>
 	
