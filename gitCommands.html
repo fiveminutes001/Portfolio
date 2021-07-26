@@ -7,7 +7,7 @@
 	<h1>To update remote repo</h1>
 	<p>git add -A</p>
 	<p>git diff --check</p>
-	<p>git commit -m "initial commit 2"</p><p>Or git commit -v (for longer message)</p> 
+	<p>git commit -m "initial commit 2" Or git commit -v (for longer message)</p> 
 	<p>git push origin master</p>
 	
 	<h1>To add longer commit message (-v with reminder of what has changed)</h1>
@@ -53,6 +53,16 @@
 	<p>git reflog</p>
 	<p>git show HEAD@{5}</p>
 	
+	<h1>To find commits that are in refA branch but not in refB branch (these 3 commands are equivalent)</h1>
+	<p>git log refA..refB</p> 
+	<p>git log ^refA refB</p>
+	<p>git log refB --not refA</p> 
+	<p>In branches A and B but not in C:</p>
+	<p>git log refA refB --not refC</p>
+	
+	<h1>To find commits in either branches but not in both</h1>
+	<p>git log --left-right master...experiment</p>
+
 	<h1>To get rid of pull alert</h1>
 	<p>git config pull.ff only</p>
 	
