@@ -7,7 +7,7 @@
 	<h1>To update remote repo</h1>
 	<p>git add -A</p>
 	<p>git diff --check</p>
-	<p>git commit -m "initial commit 2"</p>
+	<p>git commit -m "initial commit 2"</p><p>Or git commit -v (for longer message)</p> 
 	<p>git push origin master</p>
 	
 	<h1>To add longer commit message (-v with reminder of what has changed)</h1>
@@ -18,6 +18,9 @@
 	
 	<h1>To merge work</h1>
 	<p>git merge origin/master</p>
+	
+	<h1>To fix commit message</h1>
+	<p>git commit --amend</p>
 	
 	<h1>To find out which part of fetched work needs to be merged</h1>
 	<p>git log --no-merges issue54..origin/master</p>
@@ -46,6 +49,10 @@
 	<h1>To find out what's the origin</h1>
 	<p>git remote -v</p>
 	
+	<h1>To find last couple of months LOCAL changes</h1>
+	<p>git reflog</p>
+	<p>git show HEAD@{5}</p>
+	
 	<h1>To get rid of pull alert</h1>
 	<p>git config pull.ff only</p>
 	
@@ -54,6 +61,7 @@
 	
 	<h1>To show one line commit log</h1>
 	<p>git log --pretty=oneline</p>
+	<p>git log --pretty=format:%h%s --graph</p>
 	
 	<h1>To show commit log</h1>
 	<p>git log</p>
