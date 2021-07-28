@@ -21,7 +21,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- DESCRIPTION -->
-	<meta name="description" content="Elad Sheskin | Fullstack Developer">
+	<meta name="description" content="Elad Sheskin | Fullstack and Blockchain Developer">
 		
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
@@ -210,7 +210,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <img src="/img/hack.JPG" style="width:100%" alt="Pic">
         </div>
 		
-		<form method="get" action="files/Fullstack Developer - Elad Sheskin.pdf">
+		<form method="get" action="files/Fullstack and Blockchain developer - Elad Sheskin">
 			<button class="btn" style="width:100%"><i class="fa fa-download"></i> Download As PDF</button>
 		</form>
 		
