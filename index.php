@@ -210,7 +210,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <img src="/img/hack.JPG" style="width:100%" alt="Pic">
         </div>
 		
-		<form method="get" action="files/Fullstack and Blockchain developer - Elad Sheskin">
+		<form method="get" action="files/Fullstack and Blockchain developer - Elad Sheskin.pdf">
 			<button class="btn" style="width:100%"><i class="fa fa-download"></i> Download As PDF</button>
 		</form>
 		
