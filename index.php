@@ -820,6 +820,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			  <h5 class="w3-opacity"><a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"><b>TypeScript</b></a></h5>
 				<p>TypeScript</p>
 			</div>
+
+			<div class="w3-container column">
+			  <h5 class="w3-opacity"><a href="https://www.elad.explainit.online/files/protected/js 50 - updated.pdf"><b>JS Concepts</b></a></h5>
+				<p>JS Concepts (PDF)</p>
+			</div>
 	    </div>
       </div> 
 	
