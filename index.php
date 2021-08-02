@@ -537,23 +537,23 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
+				
+				<a href="https://www.udacity.com/blog/2021/02/javascript-json.html">
+					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+							JSON (Article, Udacity)
+						</div>
+					</div>
+				</a>
+				
+				<a href="https://web.dev/javascript-this/">
+					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+							Js THIS operator (Article, Udacity)
+						</div>
+					</div>
+				</a>
 		<!--		
-				<a href="https://zeplin.io/">
-					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
-						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							Zeplin
-						</div>
-					</div>
-				</a>
-				
-				<a href="https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl">
-					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
-						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							Full page screeshot
-						</div>
-					</div>
-				</a>
-				
 				<a href="https://elad.explainit.online/gitCommands.html">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
@@ -642,59 +642,59 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
-		<!--		
-				<a href="https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl">
+				
+				<a href="https://www.udacity.com/course/javascript-and-the-dom--ud117">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							Full page screeshot
+							JavaScript and the DOM
 						</div>
 					</div>
 				</a>
 				
-				<a href="https://elad.explainit.online/gitCommands.html">
+				<a href="https://www.udacity.com/course/object-oriented-javascript--ud711">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							Useful git commands
+							Object-Oriented JavaScript
 						</div>
 					</div>
 				</a>
-		-->
+		
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
-		<!--	
-				<a href="https://builtwith.com/">
+			
+				<a href="https://www.udacity.com/course/intermediate-javascript-nanodegree--nd032">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							Built with
+							Intermediate JavaScript (Nanodegree, Udacity)
 						</div>
 					</div>
 				</a>
 				
-				<a href="http://css3generator.com/">
+				<a href="https://www.udacity.com/blog/2021/02/javascript-json.html">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							css3
+							JSON (Article, Udacity)
 						</div>
 					</div>
 				</a>
 				
-				<a href="https://notepad-plus-plus.org/downloads/">
+				<a href="https://web.dev/javascript-this/">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							Notepad++
+							Js THIS operator (Article, Udacity)
 						</div>
 					</div>
 				</a>
 				
-				<a href="https://code.visualstudio.com/">
+				<a href="https://classroom.udacity.com/nanodegrees/nd0067/dashboard/overview">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							Visual Studio Code
+							Full Stack JavaScript Developer (Nanodegree, Udacity)
 						</div>
 					</div>
 				</a>
-		-->
+		
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
