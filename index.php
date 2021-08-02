@@ -623,6 +623,103 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       </div>
 	  
 	  <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-tools fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Courses</h2>
+        
+		<div class="row">
+			<div class="column" style="margin-bottom:6px;">
+				<a href="https://classroom.udacity.com/courses/ud803">
+					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+							Intro to Javascript (Udacity)
+						</div>
+					</div>
+				</a>
+		<!--		
+				<a href="https://zeplin.io/">
+					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+							Zeplin
+						</div>
+					</div>
+				</a>
+				
+				<a href="https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl">
+					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+							Full page screeshot
+						</div>
+					</div>
+				</a>
+				
+				<a href="https://elad.explainit.online/gitCommands.html">
+					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+							Useful git commands
+						</div>
+					</div>
+				</a>
+		-->
+			</div>
+			
+			<div class="column" style="margin-bottom:6px;">
+		<!--	
+				<a href="https://builtwith.com/">
+					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
+							Built with
+						</div>
+					</div>
+				</a>
+				
+				<a href="http://css3generator.com/">
+					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
+							css3
+						</div>
+					</div>
+				</a>
+				
+				<a href="https://notepad-plus-plus.org/downloads/">
+					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
+							Notepad++
+						</div>
+					</div>
+				</a>
+				
+				<a href="https://code.visualstudio.com/">
+					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
+							Visual Studio Code
+						</div>
+					</div>
+				</a>
+		-->
+			</div>
+			
+			<div class="column" style="margin-bottom:6px;">
+		<!--
+				<a href="https://www.responsinator.com/about/">
+					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
+							responsinator
+						</div>
+					</div>
+				</a>
+				
+				<a href="https://www.gimp.org/">
+					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
+							gimp
+						</div>
+					</div>
+				</a>
+		-->
+			</div>
+		</div>
+      </div>
+
+	  <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-fan fa-spin fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>3D effects</h2>
         
 		<div class="row">
