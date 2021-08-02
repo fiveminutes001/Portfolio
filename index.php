@@ -434,7 +434,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       </div> 
 	  	  
 	  <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-tools fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tools</h2>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-briefcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tools</h2>
         
 		<div class="row">
 			<div class="column" style="margin-bottom:6px;">
@@ -526,7 +526,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       </div>
 
 	  <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-tools fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Links</h2>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-link fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Links</h2>
         
 		<div class="row">
 			<div class="column" style="margin-bottom:6px;">
@@ -623,7 +623,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       </div>
 	  
 	  <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-tools fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Courses</h2>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-book fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Courses</h2>
         
 		<div class="row">
 			<div class="column" style="margin-bottom:6px;">
