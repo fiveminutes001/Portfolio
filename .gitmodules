@@ -1,0 +1,3 @@
+[submodule "udacity/JsAndTheDOM2"]
+	path = udacity/JsAndTheDOM2
+	url = https://github.com/fiveminutes001/JsAndTheDOM.git
