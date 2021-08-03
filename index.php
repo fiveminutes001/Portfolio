@@ -434,7 +434,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       </div> 
 	  	  
 	  <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-briefcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tools</h2>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-briefcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tools</h2>
         
 		<div class="row">
 			<div class="column" style="margin-bottom:6px;">
@@ -988,7 +988,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       </div>
 
 	  <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-video fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tutorials</h2>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-mortar-board fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tutorials</h2>
         <div class="row">
 			<div class="w3-container column">
 			  <h5 class="w3-opacity"><a href="https://www.youtube.com/watch?v=2cbvZf1jIJM"><b>WORDPRESS</b></a></h5>
