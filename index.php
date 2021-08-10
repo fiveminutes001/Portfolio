@@ -521,6 +521,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
+				
+				<a href="https://teamwork.github.io/visual-dom-diff/">
+					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
+							Compare HTML code
+						</div>
+					</div>
+				</a>
 			</div>
 		</div>
       </div>
@@ -553,15 +561,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
-		<!--		
-				<a href="https://elad.explainit.online/gitCommands.html">
+				
+				<a href="https://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							Useful git commands
+							React Props vs. State
 						</div>
 					</div>
 				</a>
-		-->
+		
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
