@@ -597,35 +597,43 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
-		<!--		
-				<a href="https://code.visualstudio.com/">
+				
+				<a href="https://www.w3.org/TR/DOM-Level-3-Events/#ui-events-intro">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							Visual Studio Code
+							W3 working draft
 						</div>
 					</div>
 				</a>
-		-->
+		
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
-		<!--
-				<a href="https://www.responsinator.com/about/">
+		
+				<a href="http://www.cupcakeipsum.com">
 					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
-							responsinator
+							Sample text
 						</div>
 					</div>
 				</a>
 				
-				<a href="https://www.gimp.org/">
+				<a href="https://davidwalsh.name/event-delegate">
 					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
-							gimp
+							How JavaScript Event Delegation Works
 						</div>
 					</div>
 				</a>
-		-->
+				
+				<a href="https://youtu.be/8aGhZQkoFbQ">
+					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
+							Js event loop
+						</div>
+					</div>
+				</a>
+		
 			</div>
 		</div>
       </div>
@@ -654,7 +662,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://www.udacity.com/course/javascript-and-the-dom--ud117">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							JavaScript and the DOM
+							JavaScript and the DOM (Udacity)
 						</div>
 					</div>
 				</a>
@@ -666,7 +674,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
-		
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
@@ -706,23 +713,23 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
-		<!--
-				<a href="https://www.responsinator.com/about/">
+		
+				<a href="https://www.udacity.com/course/website-performance-optimization--ud884">
 					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
-							responsinator
+						Website Performance Optimization
 						</div>
 					</div>
 				</a>
 				
-				<a href="https://www.gimp.org/">
+				<a href="https://www.udacity.com/course/browser-rendering-optimization--ud860">
 					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
-							gimp
+							Browser Rendering Optimization
 						</div>
 					</div>
 				</a>
-		-->
+		
 			</div>
 		</div>
       </div>
