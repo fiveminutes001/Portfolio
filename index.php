@@ -1049,7 +1049,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			</div>
 
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="https://javascript.info/"><b>JS and the DOM</b></a></h5>
+			  <h5 class="w3-opacity"><a href="https://javascript.info/"><b>JS</b></a></h5>
 				<p>The Modern JavaScript Tutorial</p>
 			</div>
 	    </div>
