@@ -577,6 +577,22 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
+
+				<a href="https://www.udacity.com/blog/2021/02/javascript-json.html">
+					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+							JSON (Article, Udacity)
+						</div>
+					</div>
+				</a>
+				
+				<a href="https://web.dev/javascript-this/">
+					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+							Js THIS operator (Article, Udacity)
+						</div>
+					</div>
+				</a>
 		
 			</div>
 			
@@ -697,7 +713,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://www.udacity.com/blog/2021/02/javascript-json.html">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							JSON (Article, Udacity)
+							
 						</div>
 					</div>
 				</a>
@@ -705,7 +721,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://web.dev/javascript-this/">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							Js THIS operator (Article, Udacity)
+							
 						</div>
 					</div>
 				</a>
