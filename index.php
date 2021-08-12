@@ -701,11 +701,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
-			
+				<span class="label success">Nanodegrees (Udacity)</span>
+						
 				<a href="https://www.udacity.com/course/intermediate-javascript-nanodegree--nd032">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							Intermediate JavaScript (Nanodegree, Udacity)
+							Intermediate JavaScript
 						</div>
 					</div>
 				</a>
@@ -713,7 +714,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://www.udacity.com/blog/2021/02/javascript-json.html">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							
+							React 
 						</div>
 					</div>
 				</a>
@@ -721,7 +722,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://web.dev/javascript-this/">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							
+							Blockchain development 
 						</div>
 					</div>
 				</a>
@@ -729,7 +730,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://classroom.udacity.com/nanodegrees/nd0067/dashboard/overview">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							Full Stack JavaScript Developer (Nanodegree, Udacity)
+							Full Stack JavaScript Developer
 						</div>
 					</div>
 				</a>
