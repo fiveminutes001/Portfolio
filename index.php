@@ -529,6 +529,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
+
+				<a href="https://mothereff.in/js-variables">
+					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
+							Js variable name validator
+						</div>
+					</div>
+				</a>
 			</div>
 		</div>
       </div>
@@ -1038,6 +1046,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			<div class="w3-container column">
 			  <h5 class="w3-opacity"><a href="https://elad.explainit.online/udacity/JsAndTheDOM/index.html"><b>JS and the DOM</b></a></h5>
 				<p>Course website implementation</p>
+			</div>
+
+			<div class="w3-container column">
+			  <h5 class="w3-opacity"><a href="https://javascript.info/"><b>JS and the DOM</b></a></h5>
+				<p>The Modern JavaScript Tutorial</p>
 			</div>
 	    </div>
       </div> 
