@@ -732,6 +732,22 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
+
+				<a href="https://ultimatecourses.com/blog/mastering-the-module-pattern#private-methods">
+					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
+							Js Modules Patterns
+						</div>
+					</div>
+				</a>
+
+				<a href="https://christianheilmann.com/2007/08/22/again-with-the-module-pattern-reveal-something-to-the-world/>
+					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
+							Js Revealing Module Patterns
+						</div>
+					</div>
+				</a>
 		
 			</div>
 		</div>
@@ -771,7 +787,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://www.udacity.com/course/object-oriented-javascript--ud711">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							Object-Oriented JavaScript
+							Object-Oriented JavaScript (Udacity)
 						</div>
 					</div>
 				</a>
@@ -1159,6 +1175,26 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			<div class="w3-container column">
 			  <h5 class="w3-opacity"><a href="http://www.letscodejavascript.com/"><b>JS</b></a></h5>
 				<p>Lets Code Javascript</p>
+			</div>
+
+			<div class="w3-container column">
+			  <h5 class="w3-opacity"><a href="https://purelyfunctional.tv/guide/programming-projects-resume/"><b>Article</b></a></h5>
+				<p>Programming projects</p>
+			</div>
+
+			<div class="w3-container column">
+			  <h5 class="w3-opacity"><a href="https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e"><b>Article</b></a></h5>
+				<p>Js classes vs factory functions vs constructors</p>
+			</div>
+
+			<div class="w3-container column">
+			  <h5 class="w3-opacity"><a href="https://medium.com/@pyrolistical/factory-functions-pattern-in-depth-356d14801c91"><b>Article</b></a></h5>
+				<p>Js factory functions' patterns</p>
+			</div>
+
+			<div class="w3-container column">
+			  <h5 class="w3-opacity"><a href="https://www.toptal.com/javascript/es6-class-chaos-keeps-js-developer-up"><b>Article</b></a></h5>
+				<p>Js Functions vs Classes</p>
 			</div>
 	    </div>
       </div> 

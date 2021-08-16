@@ -12,7 +12,14 @@
 	
 	<h1>To shorten commands to one line</h1>
 	<p>git add . && git commit -m "updated file" && git push</p>
-	
+
+	<h1>To update submodule in main directory</h1>
+	<p>In submodule local dir: git add . && git commit -m "updated file" && git push gitMaster master</p>
+	<p>In main local dir: git submodule update --remote udacity/JsAndTheDOM</p>
+	<p>In main local dir: git add . && git commit -m "updated file" && git push</p>
+	<p>In submodule remote dir: git pull origin master</p>
+	<p>In main remote dir: git pull</p>
+
 	<h1>To add longer commit message (-v with reminder of what has changed)</h1>
 	<p>git commit -v</p>
 	
