@@ -541,6 +541,30 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
+
+				<a href="https://www.jslint.com/">
+					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
+							Jslint - Js code quality tool
+						</div>
+					</div>
+				</a>
+				
+				<a href="https://jshint.com/">
+					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
+							Jshint - Js code quality tool
+						</div>
+					</div>
+				</a>
+
+				<a href="http://www.objectplayground.com/">
+					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
+							Object playground
+						</div>
+					</div>
+				</a>
 			</div>
 		</div>
       </div>
@@ -597,6 +621,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
+				
+				<a href="https://www.youtube.com/watch?v=f687hBjwFcM">
+					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+							React hooks video
+						</div>
+					</div>
+				</a>
 		
 			</div>
 			
@@ -641,6 +673,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
+
+				<a href="http://www.objectplayground.com/">
+					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
+							Js OOP video
+						</div>
+					</div>
+				</a>
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
@@ -673,6 +713,22 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
 							MDN glossary
+						</div>
+					</div>
+				</a>
+
+				<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">
+					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
+							Js reference
+						</div>
+					</div>
+				</a>
+
+				<a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/">
+					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
+							Learning JavaScript Design Patterns
 						</div>
 					</div>
 				</a>
@@ -1086,7 +1142,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			</div>
 
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="https://elad.explainit.online/files/protected/js 50 - updated.pdf"><b>JS Concepts</b></a></h5>
+			  <h5 class="w3-opacity"><a href="https://elad.explainit.online/files/protected/js 50 - updated.pdf"><b>JS</b></a></h5>
 				<p>JS Concepts (PDF)</p>
 			</div>
 
@@ -1098,6 +1154,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			<div class="w3-container column">
 			  <h5 class="w3-opacity"><a href="https://javascript.info/"><b>JS</b></a></h5>
 				<p>The Modern JavaScript Tutorial</p>
+			</div>
+
+			<div class="w3-container column">
+			  <h5 class="w3-opacity"><a href="http://www.letscodejavascript.com/"><b>JS</b></a></h5>
+				<p>Lets Code Javascript</p>
 			</div>
 	    </div>
       </div> 
