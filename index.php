@@ -1143,7 +1143,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-mortar-board fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tutorials</h2>
         <div class="row">
 			<div class="w3-container column">
-			  <h3 class="w3-text-teal"><a href="https://www.youtube.com/watch?v=2cbvZf1jIJM">WORDPRESS></a></h3>
+			  <h3 class="w3-text-teal"><a href="https://www.youtube.com/watch?v=2cbvZf1jIJM">WORDPRESS</a></h3>
 				<p>Building a simple website with <a href="https://www.tyler.com">tyler.com</a> and Elementor.</p>
 			</div>
 			
