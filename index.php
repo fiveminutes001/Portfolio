@@ -789,7 +789,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://classroom.udacity.com/courses/ud803">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							<span class="label info">Udacity</span>Intro to Javascript 
+							<span class="label info">Udacity</span><br>Intro to Javascript 
 						</div>
 					</div>
 				</a>
@@ -797,7 +797,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://classroom.udacity.com/courses/ud595">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							<span class="label info">Udacity</span>Linux command line basics 
+							<span class="label info">Udacity</span><br>Linux command line basics 
 						</div>
 					</div>
 				</a>
@@ -805,7 +805,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://www.udacity.com/course/javascript-and-the-dom--ud117">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							<span class="label info">Udacity</span>JavaScript and the DOM
+							<span class="label info">Udacity</span><br>JavaScript and the DOM
 						</div>
 					</div>
 				</a>
@@ -813,7 +813,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://www.udacity.com/course/object-oriented-javascript--ud711">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							<span class="label info">Udacity</span>Object-Oriented JavaScript
+							<span class="label info">Udacity</span><br>Object-Oriented JavaScript
 						</div>
 					</div>
 				</a>
