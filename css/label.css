@@ -1,6 +1,8 @@
 .label {
-  color: white;
+  color: black;
   padding: 2px;
+  line-height:32px;
+  border:1px black solid; 
 }
 
 .success {background-color: #04AA6D;} /* Green */
