@@ -218,7 +218,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			<button class="btn" style="width:100%"><i class="fa fa-download"></i> Download As PDF</button>
 		</form>
 		
-		<!--<div class="w3-row-padding">
+		<div class="w3-row-padding">
 			<div class="w3-half">
 			  <div class="w3-card">
 			  <div class="w3-container w3-red">
@@ -278,7 +278,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				</div>
 			  </div>
 			</div>
-		</div>-->
+		</div>
 	  </div>
 	  <br>
 
