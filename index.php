@@ -237,7 +237,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				</ul>
 			</div>
 			<br>
-			<div class="w3-half">
+			<!--<div class="w3-half">
 			  <div class="w3-card">
 			  <div class="w3-container w3-red">
 				<h1><b><span class="w3-tag w3-right w3-yellow">New!</span></b></h1>
@@ -295,7 +295,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				  Daily flights to Firenze and Pisa</p>
 				</div>
 			  </div>
-			</div>
+			</div>-->
 		</div>
 	  </div>
 	  <br>
