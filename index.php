@@ -236,6 +236,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 					<li>Organize office</li>
 				</ul>
 			</div>
+			<br>
 			<div class="w3-half">
 			  <div class="w3-card">
 			  <div class="w3-container w3-red">
