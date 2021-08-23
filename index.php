@@ -784,12 +784,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         
 		<div class="row">
 			<div class="column" style="margin-bottom:6px;">
-				<span class="label success"><u>Regular</u></span>
+				<span class="label warning"><u>Regular</u></span>
 				
 				<a href="https://classroom.udacity.com/courses/ud803">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							<span class="label info">Udacity</span><br>Intro to Javascript 
+							<span class="label other">Udacity</span><br>Intro to Javascript 
 						</div>
 					</div>
 				</a>
@@ -797,7 +797,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://classroom.udacity.com/courses/ud595">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							<span class="label info">Udacity</span><br>Linux command line basics 
+							<span class="label other">Udacity</span><br>Linux command line basics 
 						</div>
 					</div>
 				</a>
@@ -805,7 +805,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://www.udacity.com/course/javascript-and-the-dom--ud117">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							<span class="label info">Udacity</span><br>JavaScript and the DOM
+							<span class="label other">Udacity</span><br>JavaScript and the DOM
 						</div>
 					</div>
 				</a>
@@ -813,14 +813,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://www.udacity.com/course/object-oriented-javascript--ud711">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							<span class="label info">Udacity</span><br>Object-Oriented JavaScript
+							<span class="label other">Udacity</span><br>Object-Oriented JavaScript
 						</div>
 					</div>
 				</a>
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
-				<span class="label success"><u>Nanodegrees (Udacity)</u></span>
+				<span class="label warning"><u>Nanodegrees (Udacity)</u></span>
 						
 				<a href="https://www.udacity.com/course/intermediate-javascript-nanodegree--nd032">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
@@ -857,7 +857,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
-				<span class="label success"><u>More</u></span>
+				<span class="label warning"><u>More</u></span>
 
 				<a href="https://www.udacity.com/course/website-performance-optimization--ud884">
 					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
