@@ -121,7 +121,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>0508523270</p>
           <hr>
 
-			<p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+			<!--<p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
           
 			  <p>Web Development</p>
 			  <div class="w3-light-grey w3-round-xlarge w3-small">
@@ -136,7 +136,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			  <p>Marketing</p>
 			  <div class="w3-light-grey w3-round-xlarge w3-small">
 				<div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-			  </div>
+			  </div>-->
 			  
 			  <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
 			  
@@ -226,7 +226,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 		<div class="w3-row-padding">
 			<div class="w3-card">
 				<div id="myDIV" class="header">
-					<h2 style="margin:5px">Skills List</h2>
+					<h2 style="margin:5px">Skills</h2>
 					<input type="text" id="myInput" placeholder="Title...">
 					<span onclick="newElement()" class="addBtn">Add</span>
 				</div>
