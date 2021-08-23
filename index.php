@@ -741,7 +741,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 					</div>
 				</a>
 
-				<a href="https://christianheilmann.com/2007/08/22/again-with-the-module-pattern-reveal-something-to-the-world/>
+				<a href="https://christianheilmann.com/2007/08/22/again-with-the-module-pattern-reveal-something-to-the-world/">
 					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
 							Js Revealing Module Patterns
