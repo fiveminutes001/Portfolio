@@ -90,6 +90,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 	text-align:left!important;
 }
 .w3-green,.w3-purple, .w3-blue {background-color: white!important; color:black!important;}
+.labelClass {padding:6px; border:1px black solid; background-color:yellow;line-height:32px;}
 </style>
 <link rel="stylesheet" href="css/ToDoList.css">
 <link rel="stylesheet" href="css/label.css">
@@ -788,7 +789,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://classroom.udacity.com/courses/ud803">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							<span class="label other">Udacity</span><br>Intro to Javascript 
+						<h5 class="w3-opacity"><b><span class="labelClass">Freelance</span><br>Intro to Javascript 
 						</div>
 					</div>
 				</a>
