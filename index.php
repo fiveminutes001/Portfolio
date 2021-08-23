@@ -920,14 +920,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 					</div>
 				</a>
 				
-				<a href="https://threejs.org/examples/#webgl_physics_cloth">
-					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
-						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							move cloth
-						</div>
-					</div>
-				</a>
-				
 				<h6 class="w3-text-teal">Display</h6>
 				
 				<a href="https://threejs.org/examples/#webgl_lights_physical">
