@@ -234,8 +234,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 					<li>Write valid, clear TypeScript to prevent errors and improve maintainability to produce the best possible code for your application.</li>
 					<li>Deploy unit tests with Jasmine to improve debugging and refactoring which will decrease the time it takes for the development cycle.</li>
 					<li>Build a server with Express to create an API that writes and reads files and responds to requests to prepare you to create more complex applications.</li>
-					<li>Read a book</li>
-					<li>Organize office</li>
 				</ul>
 			</div>
 			<br>
