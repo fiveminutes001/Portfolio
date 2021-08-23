@@ -91,6 +91,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 }
 .w3-green,.w3-purple, .w3-blue {background-color: white!important; color:black!important;}
 .labelClass {padding:6px; border:1px black solid; background-color:yellow;line-height:32px;}
+.row h5 {margin:0px;}
 </style>
 <link rel="stylesheet" href="css/ToDoList.css">
 <link rel="stylesheet" href="css/label.css">
