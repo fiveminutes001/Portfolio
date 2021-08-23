@@ -222,16 +222,16 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 		<div class="w3-row-padding">
 			<div class="w3-card">
 				<div id="myDIV" class="header">
-					<h2 style="margin:5px">My To Do List</h2>
+					<h2 style="margin:5px">Skills List</h2>
 					<input type="text" id="myInput" placeholder="Title...">
 					<span onclick="newElement()" class="addBtn">Add</span>
 				</div>
 
 				<ul id="myUL">
-					<li>Hit the gym</li>
-					<li class="checked">Pay bills</li>
-					<li>Meet George</li>
-					<li>Buy eggs</li>
+					<li>Setup and install a NodeJS environment to run server-side javascript and setup NPM to create project dependencies. So that you can take advantage of third party dependencies to extend your application</li>
+					<li>Write valid, clear TypeScript to prevent errors and improve maintainability to produce the best possible code for your application.</li>
+					<li>Deploy unit tests with Jasmine to improve debugging and refactoring which will decrease the time it takes for the development cycle.</li>
+					<li>Build a server with Express to create an API that writes and reads files and responds to requests to prepare you to create more complex applications.</li>
 					<li>Read a book</li>
 					<li>Organize office</li>
 				</ul>
