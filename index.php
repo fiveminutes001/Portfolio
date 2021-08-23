@@ -785,7 +785,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         
 		<div class="row">
 			<div class="column" style="margin-bottom:6px;">
-				<span class="label warning"><u>Regular</u></span>
+				<h6 class="w3-text-teal">Regular</h6>
 				
 				<a href="https://classroom.udacity.com/courses/ud803">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
@@ -821,16 +821,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
-				<span class="label warning"><u>Nanodegrees (Udacity)</u></span>
-						
-				<a href="https://www.udacity.com/course/intermediate-javascript-nanodegree--nd032">
-					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
-						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							Intermediate JavaScript
-						</div>
-					</div>
-				</a>
-				
+				<h6 class="w3-text-teal">Nanodegrees</h6>
+										
 				<a href="https://www.udacity.com/blog/2021/02/javascript-json.html">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
@@ -858,8 +850,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
-				<span class="label warning"><u>More</u></span>
-
+				<h6 class="w3-text-teal">More</h6>
+				
 				<a href="https://www.udacity.com/course/website-performance-optimization--ud884">
 					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
