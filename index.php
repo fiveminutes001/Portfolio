@@ -90,6 +90,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 	text-align:left!important;
 }
 </style>
+<link rel="stylesheet" href="css/ToDoList.css">
 <body class="w3-light-grey">
 
 <!-- Page Container -->
@@ -219,6 +220,22 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 		</form>
 		
 		<div class="w3-row-padding">
+			<div class="w3-card">
+				<div id="myDIV" class="header">
+					<h2 style="margin:5px">My To Do List</h2>
+					<input type="text" id="myInput" placeholder="Title...">
+					<span onclick="newElement()" class="addBtn">Add</span>
+				</div>
+
+				<ul id="myUL">
+					<li>Hit the gym</li>
+					<li class="checked">Pay bills</li>
+					<li>Meet George</li>
+					<li>Buy eggs</li>
+					<li>Read a book</li>
+					<li>Organize office</li>
+				</ul>
+			</div>
 			<div class="w3-half">
 			  <div class="w3-card">
 			  <div class="w3-container w3-red">
@@ -1217,6 +1234,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <a href="https://fiveminutes001.blogspot.com/"><i class="fab fa-blogger-b w3-hover-opacity"></i></a>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
+
+<!-- Todo List -->
+<script src="js/ToDoList.js"></script>
 
 </body>
 </html>
