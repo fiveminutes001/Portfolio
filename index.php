@@ -850,12 +850,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
-				<h6 class="w3-text-teal">More</h6>
+				<h3 class="w3-text-teal">More</h3>
 				
 				<a href="https://www.udacity.com/course/website-performance-optimization--ud884">
 					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
-						Website Performance Optimization
+							<h5 class="w3-opacity"><!--<b><span class="labelClass">Udacity</span></b><br>-->ES6 - JavaScript Improved</h5>  
 						</div>
 					</div>
 				</a>
@@ -863,7 +863,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://www.udacity.com/course/browser-rendering-optimization--ud860">
 					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
-							Browser Rendering Optimization
+							<h5 class="w3-opacity"><!--<b><span class="labelClass">Udacity</span></b><br>-->Browser Rendering Optimization</h5>  
 						</div>
 					</div>
 				</a>
@@ -871,7 +871,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://www.udacity.com/course/es6-javascript-improved--ud356">
 					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-purple w3-border w3-border-white" style="margin-top:0px;">
-							ES6 - JavaScript Improved
+							<h5 class="w3-opacity"><!--<b><span class="labelClass">Udacity</span></b><br>-->Website Performance Optimization</h5>  
 						</div>
 					</div>
 				</a>
