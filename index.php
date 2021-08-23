@@ -314,7 +314,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         	<div class="row">
 				<div class="column">
 					<div class="w3-container">
-					  <h5 class="w3-opacity"><b><span style="padding:6px; border:1px black solid; background-color:yellow;line-height:32px;">Freelance</span> | <a href="https://www.explainit.online/s/practiceit.xyz/s1/psychometric/questions_10/index.php">Learn Words</a></b></h5>
+					  <h3 class="w3-text-teal"><b><span style="padding:6px; border:1px black solid; background-color:yellow;line-height:32px;">Freelance</span> | <a href="https://www.explainit.online/s/practiceit.xyz/s1/psychometric/questions_10/index.php">Learn Words</a></b></h5>
 					  <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2020</h6>
 					  <p>Preparation for the Israeli SAT's.</p><br>
 					</div>
@@ -1142,67 +1142,67 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-mortar-board fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tutorials</h2>
         <div class="row">
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="https://www.youtube.com/watch?v=2cbvZf1jIJM"><b>WORDPRESS</b></a></h5>
+			  <h3 class="w3-text-teal"><a href="https://www.youtube.com/watch?v=2cbvZf1jIJM"><b>WORDPRESS</b></a></h3>
 				<p>Building a simple website with <a href="https://www.tyler.com">tyler.com</a> and Elementor.</p>
 			</div>
 			
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="https://www.taasuka.gov.il/he/Applicants/pages/onlinecourses.aspx"><b>EXCEL | SEO | FACEBOOK</b></a></h5>
+			  <h3 class="w3-text-teal"><a href="https://www.taasuka.gov.il/he/Applicants/pages/onlinecourses.aspx"><b>EXCEL | SEO | FACEBOOK</b></a></h3>
 				<p>Free courses in Hebrew.</p>
 			</div>
 			
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="http://git-scm.com/book/en/v2"><b>GIT Pro</b></a></h5>
+			  <h3 class="w3-text-teal"><a href="http://git-scm.com/book/en/v2"><b>GIT Pro</b></a></h3>
 				<p>Git Pro book (online)</p>
 			</div>
 			
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="https://elad.explainit.online/files/progit.pdf"><b>GIT Pro</b></a></h5>
+			  <h3 class="w3-text-teal"><a href="https://elad.explainit.online/files/progit.pdf"><b>GIT Pro</b></a></h3>
 				<p>Git Pro book (PDF)</p>
 			</div>
 			
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"><b>TypeScript</b></a></h5>
+			  <h3 class="w3-text-teal"><a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"><b>TypeScript</b></a></h3>
 				<p>TypeScript</p>
 			</div>
 
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="https://elad.explainit.online/files/protected/js 50 - updated.pdf"><b>JS</b></a></h5>
+			  <h3 class="w3-text-teal"><a href="https://elad.explainit.online/files/protected/js 50 - updated.pdf"><b>JS</b></a></h3>
 				<p>JS Concepts (PDF)</p>
 			</div>
 
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="https://elad.explainit.online/udacity/JsAndTheDOM/index.html"><b>JS and the DOM</b></a></h5>
+			  <h3 class="w3-text-teal"><a href="https://elad.explainit.online/udacity/JsAndTheDOM/index.html"><b>JS and the DOM</b></a></h3>
 				<p>Course website implementation</p>
 			</div>
 
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="https://javascript.info/"><b>JS</b></a></h5>
+			  <h3 class="w3-text-teal"><a href="https://javascript.info/"><b>JS</b></a></h3>
 				<p>The Modern JavaScript Tutorial</p>
 			</div>
 
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="http://www.letscodejavascript.com/"><b>JS</b></a></h5>
+			  <h3 class="w3-text-teal"><a href="http://www.letscodejavascript.com/"><b>JS</b></a></h3>
 				<p>Lets Code Javascript</p>
 			</div>
 
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="https://purelyfunctional.tv/guide/programming-projects-resume/"><b>Article</b></a></h5>
+			  <h3 class="w3-text-teal"><a href="https://purelyfunctional.tv/guide/programming-projects-resume/"><b>Article</b></a></h3>
 				<p>Programming projects</p>
 			</div>
 
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e"><b>Article</b></a></h5>
+			  <h3 class="w3-text-teal"><a href="https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e"><b>Article</b></a></h3>
 				<p>Js classes vs factory functions vs constructors</p>
 			</div>
 
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="https://medium.com/@pyrolistical/factory-functions-pattern-in-depth-356d14801c91"><b>Article</b></a></h5>
+			  <h3 class="w3-text-teal"><a href="https://medium.com/@pyrolistical/factory-functions-pattern-in-depth-356d14801c91"><b>Article</b></a></h3>
 				<p>Js factory functions' patterns</p>
 			</div>
 
 			<div class="w3-container column">
-			  <h5 class="w3-opacity"><a href="https://www.toptal.com/javascript/es6-class-chaos-keeps-js-developer-up"><b>Article</b></a></h5>
+			  <h3 class="w3-text-teal"><a href="https://www.toptal.com/javascript/es6-class-chaos-keeps-js-developer-up"><b>Article</b></a></h3>
 				<p>Js Functions vs Classes</p>
 			</div>
 	    </div>
