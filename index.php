@@ -89,7 +89,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 .w3-tag {
 	text-align:left!important;
 }
-.w3-green.w3-green,.w3-purple.w3-purple, .w3-blue.w3-blue {background-color: white; color:black;}
+.w3-green,.w3-purple, .w3-blue {background-color: white!important; color:black!important;}
 </style>
 <link rel="stylesheet" href="css/ToDoList.css">
 <link rel="stylesheet" href="css/label.css">
