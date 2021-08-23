@@ -887,7 +887,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 		<div class="row">
 			<div class="column" style="margin-bottom:6px;">
 							
-				<h6 class="w3-text-teal">Do Stuff</h6>
+				<h3 class="w3-text-teal">Do Stuff</h3>
 							
 				<a href="https://threejs.org/examples/#webgl_decals">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
@@ -921,7 +921,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 					</div>
 				</a>
 				
-				<h6 class="w3-text-teal">Display</h6>
+				<h3 class="w3-text-teal">Display</h3>
 				
 				<a href="https://threejs.org/examples/#webgl_lights_physical">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
@@ -947,7 +947,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 					</div>
 				</a>
 				
-				<h6 class="w3-text-teal">Card Galleries</h6>
+				<h3 class="w3-text-teal">Card Galleries</h3>
 							
 				<a href="https://threejs.org/examples/#css3d_periodictable">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
@@ -969,7 +969,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			
 			<div class="column" style="margin-bottom:6px;">
 				
-			<h6 class="w3-text-teal">Loaders</h6>
+			<h3 class="w3-text-teal">Loaders</h3>
 				
 				<a href="https://threejs.org/examples/#webgl_effects_parallaxbarrier">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
@@ -1003,7 +1003,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 					</div>
 				</a>
 				
-				<h6 class="w3-text-teal">Math</h6>
+				<h3 class="w3-text-teal">Math</h3>
 				
 				<a href="https://threejs.org/examples/#webgl_geometries_parametric">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
@@ -1029,7 +1029,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 					</div>
 				</a>	
 
-				<h6 class="w3-text-teal">Carousels</h6>
+				<h3 class="w3-text-teal">Carousels</h3>
 				
 				<a href="https://codepen.io/desandro/pen/wjeBpp">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
@@ -1051,7 +1051,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			
 			<div class="column" style="margin-bottom:6px;">
 							
-				<h6 class="w3-text-teal">Landscape</h6>
+				<h3 class="w3-text-teal">Landscape</h3>
 				
 				<a href="https://threejs.org/examples/#webgl_geometry_minecraft_ao">
 					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
@@ -1085,7 +1085,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 					</div>
 				</a>
 				
-				<h6 class="w3-text-teal">Models</h6>
+				<h3 class="w3-text-teal">Models</h3>
 				
 				<a href="https://threejs.org/examples/#webgl_loader_3ds">
 					<div class="w3-tag w3-round w3-purple" style="padding:3px;margin-top:6px;">
