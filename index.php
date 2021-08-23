@@ -784,12 +784,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         
 		<div class="row">
 			<div class="column" style="margin-bottom:6px;">
-				<h6 class="w3-text-teal">Regular</h6>
+				<h3 class="w3-text-teal">Regular</h3>
 				
 				<a href="https://classroom.udacity.com/courses/ud803">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							<h5 class="w3-opacity"><b><span class="labelClass">Udacity</span><br>Intro to Javascript</h5> 
+							<h5 class="w3-opacity"><b><span class="labelClass">Udacity</span></b><br>Intro to Javascript</h5> 
 						</div>
 					</div>
 				</a>
@@ -797,7 +797,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://classroom.udacity.com/courses/ud595">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							<h5 class="w3-opacity"><b><span class="labelClass">Udacity</span><br>Linux command line basics</h5> 
+							<h5 class="w3-opacity"><b><span class="labelClass">Udacity</span></b><br>Linux command line basics</h5> 
 						</div>
 					</div>
 				</a>
@@ -805,7 +805,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://www.udacity.com/course/javascript-and-the-dom--ud117">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							<h5 class="w3-opacity"><b><span class="labelClass">Udacity</span><br>JavaScript and the DOM</h5>
+							<h5 class="w3-opacity"><b><span class="labelClass">Udacity</span></b><br>JavaScript and the DOM</h5>
 						</div>
 					</div>
 				</a>
@@ -813,7 +813,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://www.udacity.com/course/object-oriented-javascript--ud711">
 					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-							<h5 class="w3-opacity"><b><span class="labelClass">Udacity</span><br>Object-Oriented JavaScript</h5>
+							<h5 class="w3-opacity"><b><span class="labelClass">Udacity</span></b><br>Object-Oriented JavaScript</h5>
 						</div>
 					</div>
 				</a>
