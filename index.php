@@ -819,6 +819,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 						</div>
 					</div>
 				</a>
+
+				<a href="https://www.udacity.com/course/javascript-promises--ud898">
+					<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+						<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+							<h5 class="w3-opacity"><b><span class="labelClass">Udacity</span></b><br>JavaScript Promises</h5>
+						</div>
+					</div>
+				</a>
 			</div>
 			
 			<div class="column" style="margin-bottom:6px;">
@@ -1142,6 +1150,16 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 	  <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-mortar-board fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tutorials</h2>
         <div class="row">
+			<div class="w3-container column">
+			  <h3 class="w3-text-teal"><a href="https://jakearchibald.com/">Blog</a></h3>
+				<p>Jake Archibald.</p>
+			</div>
+
+			<div class="w3-container column">
+			  <h3 class="w3-text-teal"><a href="https://web.dev/promises/#whats-all-the-fuss-about">Promises</a></h3>
+				<p>Js promises.</p>
+			</div>
+
 			<div class="w3-container column">
 			  <h3 class="w3-text-teal"><a href="https://www.youtube.com/watch?v=2cbvZf1jIJM">WORDPRESS</a></h3>
 				<p>Building a simple website with <a href="https://www.tyler.com">tyler.com</a> and Elementor.</p>
