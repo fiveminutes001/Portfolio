@@ -840,10 +840,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 					</div>
 				</a>
 				
-				<a href="https://web.dev/javascript-this/">
+				<!--<a href="https://web.dev/javascript-this/">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							<h5 class="w3-opacity"><!--<b><span class="labelClass">Udacity</span></b><br>-->React</h5>  
+							<h5 class="w3-opacity"><b><span class="labelClass">Udacity</span></b><br>React</h5>  
 						</div>
 					</div>
 				</a>
@@ -851,10 +851,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 				<a href="https://classroom.udacity.com/nanodegrees/nd0067/dashboard/overview">
 					<div class="w3-tag w3-round w3-blue" style="padding:3px;margin-top:6px;">
 						<div class="w3-tag w3-round w3-blue w3-border w3-border-white" style="margin-top:0px;">
-							<h5 class="w3-opacity"><!--<b><span class="labelClass">Udacity</span></b><br>-->Blockchain development</h5>  
+							<h5 class="w3-opacity"><b><span class="labelClass">Udacity</span></b><br>Blockchain development</h5>  
 						</div>
 					</div>
-				</a>
+				</a>-->
 		
 			</div>
 			
