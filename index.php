@@ -115,7 +115,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </div>
         </div>
         <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Full Stack, Blockchain Developer</p>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Fullstack developer</p>
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Tel Aviv, IL</p>
           <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>4889889@gmail.com</p>
           <p><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://github.com/fiveminutes001">fiveminutes001</a></p>
@@ -441,7 +441,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 			<div class="w3-container column">
 			  <h5 class="w3-opacity"><b>Udacity</b></h5>
 			  <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021</h6>
-			  <p>Blockchain development.</p>
+			  <p>Fullstack development.</p>
 			</div>
 			
 			<div class="w3-container column">
