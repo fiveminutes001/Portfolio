@@ -1175,6 +1175,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-mortar-board fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tutorials</h2>
         <div class="row">
 			<div class="w3-container column">
+			  <h3 class="w3-text-teal"><a href="https://elad.explainit.online/udacity/QuantumComputing">Quantum Computing</a></h3>
+				<p>Learning path.</p>
+			</div>
+
+			<div class="w3-container column">
 			  <h3 class="w3-text-teal"><a href="https://jakearchibald.com/">Blog</a></h3>
 				<p>Jake Archibald.</p>
 			</div>
