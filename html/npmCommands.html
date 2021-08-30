@@ -74,13 +74,21 @@
 				need a different script depending on the project.
 			</li>
 			<li>
-				<!-- prettier-ignore -->
 				<code>
-				// example config file, path structure to check, and write fixes 
-                "prettier": "prettier --config .prettierrc 'src/**/*.js' --write"
-                // or
-                "prettier": "prettier --config .prettierrc \"src/**/*.js\" --write"
-                </code>
+					<ul>
+						<li>
+							// example config file, path structure to check, and write fixes
+						</li>
+						<li>
+							"prettier": "prettier --config .prettierrc 'src/**/*.js' --write"
+						</li>
+						<li>// or</li>
+						<li>
+							"prettier": "prettier --config .prettierrc \"src/**/*.js\"
+							--write"
+						</li>
+					</ul>
+				</code>
 			</li>
 			<li>Create a .prettierrc file for any custom configurations.</li>
 			<li>
@@ -109,7 +117,7 @@
 
 		<h1>To export functions from module</h1>
 		<!-- prettier-ignore -->
-		<code>
+		<pre>
 			// working file = util/logger.js 
             // exports as object 
             module.exports = {
@@ -121,7 +129,7 @@
                 myFirstFunction,
 			    mySecondFunction 
             }
-		</code>
+		</pre>
 
 		<h1>To import functions from module</h1>
 		<p>It is standard to name the const the same as the file or module name.</p>
