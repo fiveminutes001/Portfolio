@@ -1,31 +1,58 @@
 <html>
-	<head></head>
+	<head>
+		<style>
+			pre {
+				background-color: transparent;
+				float: left;
+				margin: 0;
+				min-width: 100%;
+				overflow: initial;
+				padding: 0.8em 1em;
+				border: 0 !important;
+				background: #2b2b2b;
+				border-radius: 0.3em;
+				word-wrap: normal;
+				color: #f8f8f2;
+				font-family: Menlo, Monaco, Consolas, Operator Mono, Andale Mono,
+					Ubuntu Mono, monospace;
+				font-size: 16px;
+				hyphens: none;
+				line-height: 1.5;
+				tab-size: 4;
+				text-align: left;
+				white-space: pre;
+				word-break: normal;
+				word-spacing: normal;
+				box-sizing: inherit;
+			}
+		</style>
+	</head>
 	<body>
-		<h1>To check which npm packages are installed globally</h1>
+		<h3>To check which npm packages are installed globally</h3>
 		<p>npm list -g</p>
 
-		<h1>To check if specific npm package is installed locally</h1>
+		<h3>To check if specific npm package is installed locally</h3>
 		<p>npm list</p>
 		<p>npm list react</p>
 
-		<h1>To download node</h1>
+		<h3>To download node</h3>
 		<p>https://nodejs.org/.</p>
 
-		<h1>To check node version</h1>
+		<h3>To check node version</h3>
 		<p>node -v</p>
 
-		<h1>To run file</h1>
+		<h3>To run file</h3>
 		<p>node index.js</p>
 
-		<h1>To initialize npm and go through all of the settings use:</h1>
+		<h3>To initialize npm and go through all of the settings use:</h3>
 		<!-- prettier-ignore -->
 		<pre style="white-space: pre-line;">$ npm init</pre>
 
-		<h1>To automatically select all defaults use -y</h1>
+		<h3>To automatically select all defaults use -y</h3>
 		<!-- prettier-ignore -->
 		<pre style="white-space: pre-line;">$ npm init -y</pre>
 
-		<h1>To install dependencies</h1>
+		<h3>To install dependencies</h3>
 		<p>npmjs.com</p>
 		<!-- prettier-ignore -->
 		<pre style="white-space: pre-line;">  
@@ -67,7 +94,7 @@
 			</li>
 		</ul>
 
-		<h1>To install npm dependency Prettier (example)</h1>
+		<h3>To install npm dependency Prettier (example)</h3>
 		<ul>
 			<li>
 				Locate prettier on npmjs.com to get the install script and other
@@ -103,11 +130,11 @@
 				script).
 			</li>
 		</ul>
-		<h1>To update npm dependencies</h1>
+		<h3>To update npm dependencies</h3>
 		<!-- prettier-ignore -->
 		<pre style="white-space: pre-line;">running $ npm update will update all of your dependencies based on the specifications given in your package.json file.</pre>
 
-		<h1>To add prettier script to package.json</h1>
+		<h3>To add prettier script to package.json</h3>
 		<!-- prettier-ignore -->
 		<pre style="white-space: pre-line;">
             "scripts": {
@@ -115,14 +142,14 @@
             },
         </pre>
 
-		<h1>To run scripts</h1>
+		<h3>To run scripts</h3>
 		<p>
 			To run a script that you have added to your package.json file, simply run
 			$ npm run argument with the name of the script as the argument.
 		</p>
 		<pre style="white-space: pre-line">$ npm run prettier</pre>
 
-		<h1>To export functions from module</h1>
+		<h3>To export functions from module</h3>
 		<!-- prettier-ignore -->
 		<pre style="white-space: pre-line;">// working file = util/logger.js 
             
@@ -137,7 +164,7 @@
             }
 		</pre>
 
-		<h1>To import functions from module</h1>
+		<h3>To import functions from module</h3>
 		<p>It is standard to name the const the same as the file or module name.</p>
 		<!-- prettier-ignore -->
 		<pre style="white-space: pre-line;">
@@ -149,7 +176,7 @@
             const { myFirstFunction } = require('./util/logger.js');
         </pre>
 
-		<h1>To get current directory name/file name</h1>
+		<h3>To get current directory name/file name</h3>
 		<!-- prettier-ignore -->
 		<pre style="white-space: pre-line;">
             // working file = /app/util/logger.js
@@ -160,14 +187,14 @@
                 // prints /app/util/logger.js
 		</pre>
 
-		<h1>To get file path</h1>
+		<h3>To get file path</h3>
 		<!-- prettier-ignore -->
 		<pre style="white-space: pre-line;">
             console.log(path.resolve('index.js'));
             // prints /Users/user/Desktop/app/index.js
 		</pre>
 
-		<h1>To get file path with no .</h1>
+		<h3>To get file path with no .</h3>
 		<p>
 			Normalizes any path by removing instances of . , turning double slashes
 			into single slashes and removing a directory when .. is found.
@@ -178,7 +205,7 @@
             // prints app/src
 		</pre>
 
-		<h1>To create path with no .</h1>
+		<h3>To create path with no .</h3>
 		<p>
 			Used to concatenate strings to create a path that works across operating
 			systems. It joins the strings, then normalizes the result.
@@ -189,7 +216,7 @@
             // prints  /app/src/index.js
 		</pre>
 
-		<h1>To get data from the file system</h1>
+		<h3>To get data from the file system</h3>
 		<p>
 			The File System Module is highly sophisticated and must be imported using
 			the module system's const fs = require('fs');. File system (fs) allows for
@@ -200,7 +227,7 @@
             const fs = require('fs');
 		</pre>
 
-		<h1>To do things with other core modules</h1>
+		<h3>To do things with other core modules</h3>
 
 		<ul>
 			<li>
@@ -214,7 +241,7 @@
 			</li>
 		</ul>
 
-		<h1>To control events when running code through NodeJs</h1>
+		<h3>To control events when running code through NodeJs</h3>
 		<!-- prettier-ignore -->
 		<pre style="white-space: pre-line;">    
             Process Module
@@ -271,7 +298,7 @@
             Allows you to run JavaScript between the different phases of the event loop. process.nextTick will be described in detail when discussing the event loop.
         </pre>
 
-		<h1>To schedule events</h1>
+		<h3>To schedule events</h3>
 		<ul>
 			<li>synchronous - using nothing.</li>
 			<li>setTimeout - assigning to 0 or a second iteration.</li>
@@ -288,7 +315,7 @@
 			<li>process.on - to run beforeExit or at exit.</li>
 		</ul>
 
-		<h1>To use utilities folder</h1>
+		<h3>To use utilities folder</h3>
 		<ul>
 			<li>Create a utilities folder</li>
 			<li>Separate the functions into two files</li>
