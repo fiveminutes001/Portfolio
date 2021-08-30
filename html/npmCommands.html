@@ -49,20 +49,22 @@
 
 		<h3>To initialize npm and go through all of the settings use:</h3>
 		<!-- prettier-ignore -->
-		<pre style="white-space: pre-line;">$ npm init</pre>
+		<pre>$ npm init</pre>
 
 		<h3>To automatically select all defaults use -y</h3>
 		<!-- prettier-ignore -->
-		<pre style="white-space: pre-line;">$ npm init -y</pre>
+		<pre>$ npm init -y</pre>
 
 		<h3>To install dependencies</h3>
-		<pre>npmjs.com</pre>
 		<!-- prettier-ignore -->
-		<pre style="white-space: pre-line;">  
-            $ npm i module-name // install module to dependencies
+		<pre>
+            //go to npmjs.com
+		
+		    $ npm i module-name // install module to dependencies
             $ npm i --save-dev module-name // install to dev dependencies
             $ npm i --save-dev module-name@1.19 // install a specific version (1.19 here) of module
-        </pre>
+        </pre
+		>
 		<p>
 			Pay special attention to the version listed. The format is as follows:
 		</p>
@@ -109,21 +111,21 @@
 				need a different script depending on the project.
 			</li>
 			<li>
-				<pre style="white-space: pre-line">
-					<ul>
-						<li>
+				<pre>
+				
+						
 							// example config file, path structure to check, and write fixes
-						</li>
-						<li>
+						
 							"prettier": "prettier --config .prettierrc 'src/**/*.js' --write"
-						</li>
-						<li>// or</li>
-						<li>
+						
+						// or
+						
 							"prettier": "prettier --config .prettierrc \"src/**/*.js\"
 							--write"
-						</li>
-					</ul>
-				</pre>
+						
+					
+				</pre
+				>
 			</li>
 			<li>Create a .prettierrc file for any custom configurations.</li>
 			<li>
@@ -133,11 +135,11 @@
 		</ul>
 		<h3>To update npm dependencies</h3>
 		<!-- prettier-ignore -->
-		<pre style="white-space: pre-line;">running $ npm update will update all of your dependencies based on the specifications given in your package.json file.</pre>
+		<pre>running $ npm update will update all of your dependencies based on the specifications given in your package.json file.</pre>
 
 		<h3>To add prettier script to package.json</h3>
 		<!-- prettier-ignore -->
-		<pre style="white-space: pre-line;">
+		<pre>
             "scripts": {
             "prettier":"prettier --config .prettierrc ./**/*.js --write"
             },
@@ -148,11 +150,11 @@
 			To run a script that you have added to your package.json file, simply run
 			$ npm run argument with the name of the script as the argument.
 		</p>
-		<pre style="white-space: pre-line">$ npm run prettier</pre>
+		<pre>$ npm run prettier</pre>
 
 		<h3>To export functions from module</h3>
 		<!-- prettier-ignore -->
-		<pre style="white-space: pre-line;">// working file = util/logger.js 
+		<pre>// working file = util/logger.js 
             
             // exports as object module.exports = {
 			    myFirstFunction: myFirstFunction, 
@@ -168,7 +170,7 @@
 		<h3>To import functions from module</h3>
 		<p>It is standard to name the const the same as the file or module name.</p>
 		<!-- prettier-ignore -->
-		<pre style="white-space: pre-line;">
+		<pre>
             // working file = index.js
             // all functions in util/logger.js are available
             const logger = require('./util/logger.js');
@@ -179,7 +181,7 @@
 
 		<h3>To get current directory name/file name</h3>
 		<!-- prettier-ignore -->
-		<pre style="white-space: pre-line;">
+		<pre>
             // working file = /app/util/logger.js
                 console.log(__dirname);
                 // prints /app/util
@@ -190,7 +192,7 @@
 
 		<h3>To get file path</h3>
 		<!-- prettier-ignore -->
-		<pre style="white-space: pre-line;">
+		<pre>
             console.log(path.resolve('index.js'));
             // prints /Users/user/Desktop/app/index.js
 		</pre>
@@ -201,7 +203,7 @@
 			into single slashes and removing a directory when .. is found.
 		</p>
 		<!-- prettier-ignore -->
-		<pre style="white-space: pre-line;">
+		<pre>
             console.log(path.normalize('./app//src//util/..'));
             // prints app/src
 		</pre>
@@ -212,7 +214,7 @@
 			systems. It joins the strings, then normalizes the result.
 		</p>
 		<!-- prettier-ignore -->
-		<pre style="white-space: pre-line;">
+		<pre>
             console.log(path.join('/app', 'src', 'util', '..', '/index.js'));
             // prints  /app/src/index.js
 		</pre>
@@ -224,7 +226,7 @@
 			reading and writing to files with many options.
 		</p>
 		<!-- prettier-ignore -->
-		<pre style="white-space: pre-line;">
+		<pre>
             const fs = require('fs');
 		</pre>
 
@@ -244,7 +246,7 @@
 
 		<h3>To control events when running code through NodeJs</h3>
 		<!-- prettier-ignore -->
-		<pre style="white-space: pre-line;">    
+		<pre>    
             Process Module
             Not found in the browser APIs, Process relates to the global node execution process which occurs when you run a js file through Node.js. Process has many options available--we will focus on the most commonly seen.
 
