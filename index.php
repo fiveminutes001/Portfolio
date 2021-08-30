@@ -534,7 +534,7 @@
 									</div>
 								</div>
 							</a>
-							<a href="https://elad.explainit.online/npmCommands.html">
+							<a href="https://elad.explainit.online/html/npmCommands.html">
 								<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 									<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
 										Useful node commands
