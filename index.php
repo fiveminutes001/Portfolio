@@ -250,7 +250,26 @@
 
 						<p><b><u>BACKEND</u></b></p>
 
-						<p>Node.js</p>
+						<div class="chip">
+							<img src="img/NodeJs.png" alt="NodeJsLogo" width="96" height="96">
+							Node Js
+						</div>
+
+						<div class="chip">
+							<img src="img/PHPLogo.jpg" alt="PHPLogo" width="96" height="96">
+							PHP
+						</div>
+
+						<div class="chip">
+							<img src="img/MysqlLogo.png" alt="MysqlLogo" width="96" height="96">
+							MySql
+						</div>
+
+						<div class="chip">
+							<img src="img/GitLogo.png" alt="GitLogo" width="96" height="96">
+							Git
+						</div>
+						<!-- <p>Node.js</p>
 						<div class="w3-light-grey w3-round-xlarge w3-small">
 							<div class="w3-round-xlarge w3-teal" style="width:80%">
 								<div class="w3-center w3-text-white">80%</div>
@@ -276,7 +295,7 @@
 							<div class="w3-round-xlarge w3-teal" style="width:100%">
 								<div class="w3-center w3-text-white">95%</div>
 							</div>
-						</div>
+						</div> -->
 
 						<br>
 					</div>
