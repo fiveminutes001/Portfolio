@@ -195,7 +195,7 @@
 
 						<div class="chip">
 							<img src="img/Es6Logo.jpg" alt="Es6Logo" width="96" height="96">
-							JQuery
+							JS
 						</div>
 
 						<div class="chip">
@@ -205,7 +205,7 @@
 
 						<div class="chip">
 							<img src="img/html5Logo.png" alt="HTML5Logo" width="96" height="96">
-							CSS3
+							HTML5
 						</div>
 						<!-- <p>WordPress</p>
 						<div class="w3-light-grey w3-round-xlarge w3-small">
@@ -228,7 +228,7 @@
 							</div>
 						</div> -->
 
-						<p>JS ES6</p>
+						<!-- <p>JS ES6</p>
 						<div class="w3-light-grey w3-round-xlarge w3-small">
 							<div class="w3-round-xlarge w3-orange" style="width:100%">
 								<div class="w3-center w3-text-white">100%</div>
@@ -246,7 +246,7 @@
 							<div class="w3-round-xlarge w3-orange" style="width:100%">
 								<div class="w3-center w3-text-white">100%</div>
 							</div>
-						</div>
+						</div> -->
 
 						<p><b><u>BACKEND</u></b></p>
 
