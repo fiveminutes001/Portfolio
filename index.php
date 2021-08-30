@@ -184,7 +184,7 @@
 
 						<p><b><u>FRONTEND</u></b></p>
 						<div class="chip">
-							<img src="img/ReactLogo.jpg" alt="ReactLogo" width="96" height="96">
+							<img src="img/ReactLogo.png" alt="ReactLogo" width="96" height="96">
 							React
 						</div>
 						<p>WordPress</p>
