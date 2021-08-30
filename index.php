@@ -187,26 +187,46 @@
 							<img src="img/ReactLogo.png" alt="ReactLogo" width="96" height="96">
 							React
 						</div>
-						<p>WordPress</p>
+
+						<div class="chip">
+							<img src="img/JqueryLogo.png" alt="JqueryLogo" width="96" height="96">
+							JQuery
+						</div>
+
+						<div class="chip">
+							<img src="img/Es6Logo.jpg" alt="Es6Logo" width="96" height="96">
+							JQuery
+						</div>
+
+						<div class="chip">
+							<img src="img/CSS3Logo.png" alt="CSS3Logo" width="96" height="96">
+							CSS3
+						</div>
+
+						<div class="chip">
+							<img src="img/html5Logo.png" alt="HTML5Logo" width="96" height="96">
+							CSS3
+						</div>
+						<!-- <p>WordPress</p>
 						<div class="w3-light-grey w3-round-xlarge w3-small">
 							<div class="w3-round-xlarge w3-orange" style="width:80%">
 								<div class="w3-center w3-text-white">80%</div>
 							</div>
-						</div>
+						</div> -->
 
-						<p>React</p>
+						<!-- <p>React</p>
 						<div class="w3-light-grey w3-round-xlarge w3-small">
 							<div class="w3-round-xlarge w3-orange" style="width:80%">
 								<div class="w3-center w3-text-white">80%</div>
 							</div>
-						</div>
+						</div> -->
 
-						<p>JQuery</p>
+						<!-- <p>JQuery</p>
 						<div class="w3-light-grey w3-round-xlarge w3-small">
 							<div class="w3-round-xlarge w3-orange" style="width:100%">
 								<div class="w3-center w3-text-white">100%</div>
 							</div>
-						</div>
+						</div> -->
 
 						<p>JS ES6</p>
 						<div class="w3-light-grey w3-round-xlarge w3-small">
