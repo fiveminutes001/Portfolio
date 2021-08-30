@@ -522,7 +522,7 @@
 							<a href="https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl">
 								<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 									<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
-										Full page screeshot
+										Full page screenshot
 									</div>
 								</div>
 							</a>
@@ -531,6 +531,13 @@
 								<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 									<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
 										Useful git commands
+									</div>
+								</div>
+							</a>
+							<a href="https://elad.explainit.online/npmCommands.html">
+								<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+									<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+										Useful node commands
 									</div>
 								</div>
 							</a>
@@ -642,6 +649,14 @@
 
 					<div class="row">
 						<div class="column" style="margin-bottom:6px;">
+							<a href="https://www.npmjs.com/">
+								<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+									<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+										NPMJS
+									</div>
+								</div>
+							</a>
+
 							<a href="https://github.com/goldbergyoni/nodebestpractices">
 								<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 									<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
