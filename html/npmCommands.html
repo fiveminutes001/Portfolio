@@ -12,22 +12,22 @@
 
 		<h1>To initialize npm and go through all of the settings use:</h1>
 		<!-- prettier-ignore -->
-		<code>$ npm init</code>
+		<pre style="white-space: pre-line;">$ npm init</pre>
 
 		<h1>To automatically select all defaults use -y</h1>
 		<!-- prettier-ignore -->
-		<code>$ npm init -y</code>
+		<pre style="white-space: pre-line;">$ npm init -y</pre>
 
 		<h1>To install dependencies</h1>
 		<p>npmjs.com</p>
 		<!-- prettier-ignore -->
-		<code>  
+		<pre style="white-space: pre-line;">  
                 <ul>
                     <li>$ npm i module-name // install module to dependencies</li>
                     <li>$ npm i --save-dev module-name // install to dev dependencies</li>
                     <li>$ npm i --save-dev module-name@1.19 // install a specific version (1.19 here) of module</li>
                 </ul>
-        </code>
+        </pre>
 		<p>
 			Pay special attention to the version listed. The format is as follows:
 		</p>
@@ -74,7 +74,7 @@
 				need a different script depending on the project.
 			</li>
 			<li>
-				<code>
+				<pre style="white-space: pre-line">
 					<ul>
 						<li>
 							// example config file, path structure to check, and write fixes
@@ -88,7 +88,7 @@
 							--write"
 						</li>
 					</ul>
-				</code>
+				</pre>
 			</li>
 			<li>Create a .prettierrc file for any custom configurations.</li>
 			<li>
@@ -98,22 +98,22 @@
 		</ul>
 		<h1>To update npm dependencies</h1>
 		<!-- prettier-ignore -->
-		<code>running $ npm update will update all of your dependencies based on the specifications given in your package.json file.</code>
+		<pre style="white-space: pre-line;">running $ npm update will update all of your dependencies based on the specifications given in your package.json file.</pre>
 
 		<h1>To add prettier script to package.json</h1>
 		<!-- prettier-ignore -->
-		<code>
+		<pre style="white-space: pre-line;">
             "scripts": {
             "prettier":"prettier --config .prettierrc ./**/*.js --write"
             },
-        </code>
+        </pre>
 
 		<h1>To run scripts</h1>
 		<p>
 			To run a script that you have added to your package.json file, simply run
 			$ npm run argument with the name of the script as the argument.
 		</p>
-		<code>$ npm run prettier</code>
+		<pre style="white-space: pre-line">$ npm run prettier</pre>
 
 		<h1>To export functions from module</h1>
 		<!-- prettier-ignore -->
@@ -144,21 +144,21 @@
 
 		<h1>To get current directory name/file name</h1>
 		<!-- prettier-ignore -->
-		<code>
+		<pre style="white-space: pre-line;">
             // working file = /app/util/logger.js
                 console.log(__dirname);
                 // prints /app/util
 
                 console.log(__filename);
                 // prints /app/util/logger.js
-		</code>
+		</pre>
 
 		<h1>To get file path</h1>
 		<!-- prettier-ignore -->
-		<code>
+		<pre style="white-space: pre-line;">
             console.log(path.resolve('index.js'));
             // prints /Users/user/Desktop/app/index.js
-		</code>
+		</pre>
 
 		<h1>To get file path with no .</h1>
 		<p>
@@ -166,10 +166,10 @@
 			into single slashes and removing a directory when .. is found.
 		</p>
 		<!-- prettier-ignore -->
-		<code>
+		<pre style="white-space: pre-line;">
             console.log(path.normalize('./app//src//util/..'));
             // prints app/src
-		</code>
+		</pre>
 
 		<h1>To create path with no .</h1>
 		<p>
@@ -177,10 +177,10 @@
 			systems. It joins the strings, then normalizes the result.
 		</p>
 		<!-- prettier-ignore -->
-		<code>
+		<pre style="white-space: pre-line;">
             console.log(path.join('/app', 'src', 'util', '..', '/index.js'));
             // prints  /app/src/index.js
-		</code>
+		</pre>
 
 		<h1>To get data from the file system</h1>
 		<p>
@@ -189,9 +189,9 @@
 			reading and writing to files with many options.
 		</p>
 		<!-- prettier-ignore -->
-		<code>
+		<pre style="white-space: pre-line;">
             const fs = require('fs');
-		</code>
+		</pre>
 
 		<h1>To do things with other core modules</h1>
 
@@ -209,7 +209,7 @@
 
 		<h1>To control events when running code through NodeJs</h1>
 		<!-- prettier-ignore -->
-		<code>    
+		<pre style="white-space: pre-line;">    
             Process Module
             Not found in the browser APIs, Process relates to the global node execution process which occurs when you run a js file through Node.js. Process has many options available--we will focus on the most commonly seen.
 
@@ -262,7 +262,7 @@
 
             process.nextTick
             Allows you to run JavaScript between the different phases of the event loop. process.nextTick will be described in detail when discussing the event loop.
-        </code>
+        </pre>
 
 		<h1>To schedule events</h1>
 		<ul>
