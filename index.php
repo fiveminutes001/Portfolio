@@ -135,6 +135,7 @@
 </style>
 <link rel="stylesheet" href="css/ToDoList.css">
 <link rel="stylesheet" href="css/label.css">
+<link rel="stylesheet" href="css/contactChip.css">
 
 <body class="w3-light-grey">
 
