@@ -133,14 +133,14 @@
 		<h1>To import functions from module</h1>
 		<p>It is standard to name the const the same as the file or module name.</p>
 		<!-- prettier-ignore -->
-		<code>
+		<pre style="white-space: pre-line;">
             // working file = index.js
             // all functions in util/logger.js are available
             const logger = require('./util/logger.js');
             
             // using ES6 object destructuring, only myFirstFunction is available
             const { myFirstFunction } = require('./util/logger.js');
-		</code>
+        </pre>
 
 		<h1>To get current directory name/file name</h1>
 		<!-- prettier-ignore -->
