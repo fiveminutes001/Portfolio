@@ -116,21 +116,18 @@
 		<code>$ npm run prettier</code>
 
 		<h1>To export functions from module</h1>
-
-		<pre>
+		<!-- prettier-ignore -->
+		<samp>
 			// working file = util/logger.js 
-            // exports as object 
-            module.exports = {
+            // exports as object module.exports = {
 			    myFirstFunction: myFirstFunction, 
                 mySecondFunction: mySecondFunction 
-            } 
-            //using ES6 shorthand property names 
-            module.exports = { 
+            }
+			//using ES6 shorthand property names module.exports = { 
                 myFirstFunction,
 			    mySecondFunction 
             }
-		</pre
-		>
+		</samp>
 
 		<h1>To import functions from module</h1>
 		<p>It is standard to name the const the same as the file or module name.</p>
