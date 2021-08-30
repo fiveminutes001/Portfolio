@@ -34,33 +34,33 @@
 		</style>
 	</head>
 	<body>
-		<h3>To check which npm packages are installed globally</h3>
+		<h2>To check which npm packages are installed globally</h2>
 		<pre>npm list -g</pre>
 
-		<h3>To check if specific npm package is installed locally</h3>
+		<h2>To check if specific npm package is installed locally</h2>
 		<pre>
 npm list
 		npm list react</pre
 		>
 
-		<h3>To download node</h3>
+		<h2>To download node</h2>
 		<pre>https://nodejs.org/.</pre>
 
-		<h3>To check node version</h3>
+		<h2>To check node version</h2>
 		<pre>node -v</pre>
 
-		<h3>To run file</h3>
+		<h2>To run file</h2>
 		<pre>node index.js</pre>
 
-		<h3>To initialize npm and go through all of the settings use:</h3>
+		<h2>To initialize npm and go through all of the settings use:</h2>
 		<!-- prettier-ignore -->
 		<pre>$ npm init</pre>
 
-		<h3>To automatically select all defaults use -y</h3>
+		<h2>To automatically select all defaults use -y</h2>
 		<!-- prettier-ignore -->
 		<pre>$ npm init -y</pre>
 
-		<h3>To install dependencies</h3>
+		<h2>To install dependencies</h2>
 		<!-- prettier-ignore -->
 		<pre>
             //go to npmjs.com
@@ -102,7 +102,7 @@ npm list
 			</li>
 		</ul>
 
-		<h3>To install npm dependency Prettier (example)</h3>
+		<h2>To install npm dependency Prettier (example)</h2>
 		<ul>
 			<li>
 				Locate prettier on npmjs.com to get the install script and other
@@ -138,11 +138,11 @@ npm list
 				script).
 			</li>
 		</ul>
-		<h3>To update npm dependencies</h3>
+		<h2>To update npm dependencies</h2>
 		<!-- prettier-ignore -->
 		<pre>running $ npm update will update all of your dependencies based on the specifications given in your package.json file.</pre>
 
-		<h3>To add prettier script to package.json</h3>
+		<h2>To add prettier script to package.json</h2>
 		<!-- prettier-ignore -->
 		<pre>
             "scripts": {
@@ -150,14 +150,14 @@ npm list
             },
         </pre>
 
-		<h3>To run scripts</h3>
+		<h2>To run scripts</h2>
 		<p>
 			To run a script that you have added to your package.json file, simply run
 			$ npm run argument with the name of the script as the argument.
 		</p>
 		<pre>$ npm run prettier</pre>
 
-		<h3>To export functions from module</h3>
+		<h2>To export functions from module</h2>
 		<!-- prettier-ignore -->
 		<pre>// working file = util/logger.js 
             
@@ -172,7 +172,7 @@ npm list
             }
 		</pre>
 
-		<h3>To import functions from module</h3>
+		<h2>To import functions from module</h2>
 		<p>It is standard to name the const the same as the file or module name.</p>
 		<!-- prettier-ignore -->
 		<pre>
@@ -184,7 +184,7 @@ npm list
             const { myFirstFunction } = require('./util/logger.js');
         </pre>
 
-		<h3>To get current directory name/file name</h3>
+		<h2>To get current directory name/file name</h2>
 		<!-- prettier-ignore -->
 		<pre>
             // working file = /app/util/logger.js
@@ -195,14 +195,14 @@ npm list
                 // prints /app/util/logger.js
 		</pre>
 
-		<h3>To get file path</h3>
+		<h2>To get file path</h2>
 		<!-- prettier-ignore -->
 		<pre>
             console.log(path.resolve('index.js'));
             // prints /Users/user/Desktop/app/index.js
 		</pre>
 
-		<h3>To get file path with no .</h3>
+		<h2>To get file path with no .</h2>
 		<p>
 			Normalizes any path by removing instances of . , turning double slashes
 			into single slashes and removing a directory when .. is found.
@@ -213,7 +213,7 @@ npm list
             // prints app/src
 		</pre>
 
-		<h3>To create path with no .</h3>
+		<h2>To create path with no .</h2>
 		<p>
 			Used to concatenate strings to create a path that works across operating
 			systems. It joins the strings, then normalizes the result.
@@ -224,7 +224,7 @@ npm list
             // prints  /app/src/index.js
 		</pre>
 
-		<h3>To get data from the file system</h3>
+		<h2>To get data from the file system</h2>
 		<p>
 			The File System Module is highly sophisticated and must be imported using
 			the module system's const fs = require('fs');. File system (fs) allows for
@@ -235,7 +235,7 @@ npm list
             const fs = require('fs');
 		</pre>
 
-		<h3>To do things with other core modules</h3>
+		<h2>To do things with other core modules</h2>
 
 		<ul>
 			<li>
@@ -249,7 +249,7 @@ npm list
 			</li>
 		</ul>
 
-		<h3>To control events when running code through NodeJs</h3>
+		<h2>To control events when running code through NodeJs</h2>
 		<!-- prettier-ignore -->
 		<pre>    
             Process Module
@@ -306,7 +306,7 @@ npm list
             Allows you to run JavaScript between the different phases of the event loop. process.nextTick will be described in detail when discussing the event loop.
         </pre>
 
-		<h3>To schedule events</h3>
+		<h2>To schedule events</h2>
 		<ul>
 			<li>synchronous - using nothing.</li>
 			<li>setTimeout - assigning to 0 or a second iteration.</li>
@@ -323,7 +323,7 @@ npm list
 			<li>process.on - to run beforeExit or at exit.</li>
 		</ul>
 
-		<h3>To use utilities folder</h3>
+		<h2>To use utilities folder</h2>
 		<ul>
 			<li>Create a utilities folder</li>
 			<li>Separate the functions into two files</li>
