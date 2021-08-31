@@ -38,23 +38,39 @@
 					<h1 style="margin: 0px"><b>Git</b></h1>
 				</div>
 				<div>
-					<h2><u>Horizontal alignment</u></h2>
+					<h2><u>Creating a repository</u></h2>
+				</div>
+				<div>
+					<h3>To initiate a repo</h3>
+					<pre>git init</pre>
+				</div>
+				<div>
+					<h3 id="align-self">To clone a repo</h3>
+					<pre>git clone https://github.com/fiveminutes001/Portfolio.git</pre>
 				</div>
 				<div>
 					<h3 id="justify-content">To update local repo (fetch + merge)</h3>
 					<pre>git pull https://github.com/fiveminutes001/Portfolio.git</pre>
 				</div>
-				<!-- prettier-ignore -->
+
 				<div>
-					<h3>To update remote repo</h3>
-					<pre>git add . Or git add -A</pre>
-					<pre>git diff --check</pre>
-					<pre>git commit -m "initial commit 2" Or git commit -v (for longer message)</pre>
-					<pre>git push origin master</pre>
+					<h2><u>Updating a repository</u></h2>
 				</div>
 				<div>
 					<h3>To shorten commands to one line</h3>
 					<pre>git add . && git commit -m "updated file" && git push</pre>
+				</div>
+				<!-- prettier-ignore -->
+				<div>
+					<h3>To update remote repo</h3>
+					<pre>git add . Or git add -A <span class="pink">//with higher directories</span></pre>
+					<pre>git diff --check</pre>
+					<pre>git commit -m "initial commit 2" <span class="pink">Or</span>git commit -v (for longer message)</pre>
+					<pre>git push origin master</pre>
+				</div>
+				<div>
+					<h3>To fix commit message</h3>
+					<pre>git commit --amend</pre>
 				</div>
 				<div>
 					<h3>To update all modules</h3>
@@ -63,125 +79,34 @@
 				<!-- prettier-ignore -->
 				<div>
 					<h3>To update submodule in main directory</h3>
-					<pre>In submodule local dir: git add . && git commit -m "updated file" && git push gitMaster master</pre>
-					<pre>In main local dir: git submodule update --remote udacity/JsAndTheDOM</pre>
-					<pre>In main local dir: git add . && git commit -m "updated file" && git push</pre>
-					<pre>In submodule remote dir: git pull origin master</pre>
-					<pre>In main remote dir: git pull</pre>
-				</div>
-				<div>
-					<h2><u>Vertical alignement</u></h2>
-				</div>
-				<div>
-					<h3 id="align-items">To add longer commit message</h3>
-					<pre>git commit -v</pre>
-				</div>
-				<div>
-					<h3>To get current work from remote</h3>
-					<pre>git fetch origin</pre>
-				</div>
-				<div>
-					<h3>To merge work</h3>
-					<pre>git merge origin/master</pre>
-				</div>
-				<div>
-					<h3>To fix commit message</h3>
-					<pre>git commit --amend</pre>
-				</div>
-				<div>
-					<h3>To find out which part of fetched work needs to be merged</h3>
-					<pre>git log --no-merges currentBranch..origin/master</pre>
-				</div>
-				<div>
-					<h2><u>Horizontal order</u></h2>
-				</div>
-				<div>
-					<h3>To show project's roadmap</h3>
-					<pre>git log --graph</pre>
-				</div>
-				<div>
-					<h3>To view changes</h3>
-					<pre>gitk</pre>
-				</div>
-				<div>
-					<h2><u>Vertical order</u></h2>
-				</div>
-				<div>
-					<h3 id="flex-direction">To decide which files to stage</h3>
-					<p class="pink">
-						https://github.com/git-guides/git-add#accidentally-staging-and-committing-files
-					</p>
-				</div>
-				<div>
-					<h3 id="flex-direction">To reset changes</h3>
-					<p class="pink">
-						http://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified
-					</p>
-				</div>
-
-				<div>
-					<h2><u>Internal order</u></h2>
-				</div>
-				<div>
-					<h3 id="order">To add new remote repo</h3>
-					<!-- prettier-ignore -->
-					<p class="pink">Maybe I should post a different question but I think you guys are discussing what I want. I'd like to add a new remote, not replace the existing one so I can continue to pull from the old repository but push any changes to the new one. – 
-                        ThatAintWorking
-                         Sep 15 '14 at 20:56
-                        17
-                        @ThatAintWorking You probably should open a new question, but in short - you can add any number of remotes with the command git remote add. You can then push to one of them by explicitly stating the remote in git push. E.g. git push foobar master to push the current branch to master on remote foobar</p>
-				</div>
-				<div>
-					<h2><u>Across lines</u></h2>
-				</div>
-				<div>
-					<h3 id="flex-wrap">To add new submodule</h3>
-					<pre>git submodule add https://github.com/chaconinc/DbConnector</pre>
-				</div>
-				<!-- prettier-ignore -->
-				<div>
-					<h3>To reset submodule in same dir name</h3>
-					<pre>git submodule add --force https://github.com/fiveminutes001/FullJs.git</pre>
-				</div>
-				<div>
-					<h3>To show diffrences of commit from HEAD</h3>
-					<pre>git diff hash_of_commit</pre>
-				</div>
-				<div>
-					<h2><u>Across lines and Vertical design</u></h2>
-				</div>
-				<div>
-					<h3 id="flex-flow">To work correctly with merge and rebase</h3>
-					<!-- prettier-ignore -->
-					<p class="pink">Rebase local changes before pushing to clean up your work, but never rebase anything that you have pushed somewhere</p>
-				</div>
-				<div>
-					<h3>To initiate a repo</h3>
-					<pre>git init</pre>
-				</div>
-				<div>
-					<h2><u>Individual design</u></h2>
-				</div>
-				<div>
-					<h3 id="align-self">To clone a repo</h3>
-					<pre>git clone https://github.com/fiveminutes001/Portfolio.git</pre>
-				</div>
-				<div>
-					<h2><u>Lines space</u></h2>
-				</div>
-				<!-- prettier-ignore -->
-				<div>
-					<h3 id="align-content">To add a local source to remote repo</h3>
-					<pre>git remote add origin https://github.com/fiveminutes001/Portfolio.git/</pre>
+					<pre><span class="pink">In submodule local dir:</span> git add . && git commit -m "updated file" && git push gitMaster master</pre>
+					<pre><span class="pink">In main local dir:</span> git submodule update --remote udacity/JsAndTheDOM</pre>
+					<pre><span class="pink">In main local dir:</span> git add . && git commit -m "updated file" && git push</pre>
+					<pre><span class="pink">In submodule remote dir:</span> git pull origin master</pre>
+					<pre><span class="pink">In main remote dir:</span> git pull</pre>
 				</div>
 				<div>
 					<h3>To find out what's the origin</h3>
 					<pre>git remote -v</pre>
 				</div>
 				<div>
-					<h3>To find last couple of months LOCAL changes</h3>
-					<pre>git reflog</pre>
-					<pre>git show HEAD@{5}</pre>
+					<h3>To show remote details</h3>
+					<pre>git remote show origin</pre>
+				</div>
+				<!-- prettier-ignore -->
+				<div>
+					<h3 id="align-content">To add a local source to remote repo</h3>
+					<pre>git remote add origin https://github.com/fiveminutes001/Portfolio.git/</pre>
+                    <p class="pink">You can add any number of remotes with the command <span class="yellow">git remote add</span>. You can then push to one of them by explicitly stating the remote in <span class="yellow">git push</span>. E.g. <span class="yellow">git push foobar master</span> to push the current branch to <span class="yellow">master</span> on <span class="yellow">remote foobar</span></p>
+                    <p class="pink">https://stackoverflow.com/questions/5181845/git-push-existing-repo-to-a-new-and-different-remote-repo-server</p>
+				
+				</div>
+				<div>
+					<h2><u>Dealing with merge conflicts</u></h2>
+				</div>
+				<div>
+					<h3>To show differences of commit from HEAD</h3>
+					<pre>git diff hash_of_commit</pre>
 				</div>
 				<div>
 					<h3>
@@ -198,7 +123,59 @@
 					<pre>git log --left-right master...experiment</pre>
 				</div>
 				<div>
-					<h2><u>Image gallery example</u></h2>
+					<h3>To get current work from remote</h3>
+					<pre>git fetch origin</pre>
+				</div>
+
+				<div>
+					<h3>To find out which part of fetched work needs to be merged</h3>
+					<pre>git log --no-merges currentBranch..origin/master</pre>
+				</div>
+				<div>
+					<h3>To merge work</h3>
+					<pre>git merge origin/master</pre>
+				</div>
+				<div>
+					<h3>To decide which files to stage</h3>
+					<p class="pink">
+						https://github.com/git-guides/git-add#accidentally-staging-and-committing-files
+					</p>
+				</div>
+				<div>
+					<h3>To reset changes</h3>
+					<p class="pink">
+						http://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified
+					</p>
+				</div>
+
+				<div>
+					<h2><u>Viewing project's history</u></h2>
+				</div>
+				<div>
+					<h3>To show project's roadmap</h3>
+					<pre>git log --graph</pre>
+				</div>
+				<div>
+					<h3>To view changes</h3>
+					<pre>gitk</pre>
+				</div>
+				<div>
+					<h3>To show one line commit log</h3>
+					<pre>git log --pretty=oneline</pre>
+					<pre>git log --pretty=format:%h%s --graph</pre>
+				</div>
+				<div>
+					<h3>To show commit log</h3>
+					<pre>git log</pre>
+				</div>
+				<div>
+					<h3>To find last couple of months LOCAL changes</h3>
+					<pre>git reflog</pre>
+					<pre>git show HEAD@{5}</pre>
+				</div>
+				<div>
+					<h3>To create a summary of logs by author from version v1.0</h3>
+					<pre>git shortlog --no-merges master --not v1.0</pre>
 				</div>
 				<div>
 					<h3 id="examples">
@@ -206,13 +183,6 @@
 						file
 					</h3>
 					<pre>git log -L :git_deflate_bound:zlib.c</pre>
-				</div>
-				<div>
-					<h2><u>Another example</u></h2>
-				</div>
-				<div>
-					<h3>To fix commits on a local level</h3>
-					<pre>https://git-rebase.io/</pre>
 				</div>
 				<div>
 					<h3>To change work email address to personal</h3>
@@ -223,22 +193,22 @@
 						git commit-tree "$@"; fi' HEAD
 					</p>
 				</div>
+
 				<div>
-					<h3>To get rid of pull alert</h3>
-					<pre>git config pull.ff only</pre>
+					<h2><u>Sumbmodules</u></h2>
 				</div>
 				<div>
-					<h3>To show remote details</h3>
-					<pre>git remote show origin</pre>
+					<h3 id="flex-wrap">To add new submodule</h3>
+					<pre>git submodule add https://github.com/chaconinc/DbConnector</pre>
 				</div>
+				<!-- prettier-ignore -->
 				<div>
-					<h3>To show one line commit log</h3>
-					<pre>git log --pretty=oneline</pre>
-					<pre>git log --pretty=format:%h%s --graph</pre>
+					<h3>To reset submodule in same dir name</h3>
+					<pre>git submodule add --force https://github.com/fiveminutes001/FullJs.git</pre>
 				</div>
+
 				<div>
-					<h3>To show commit log</h3>
-					<pre>git log</pre>
+					<h2><u>Tags</u></h2>
 				</div>
 				<div>
 					<h3>To tag a commit</h3>
@@ -257,27 +227,44 @@
 					<h3>To push tags to remote</h3>
 					<pre>git push origin --tags</pre>
 				</div>
+
+				<div>
+					<h2><u>Making life easier</u></h2>
+				</div>
+				<!-- prettier-ignore -->
+				<div>
+                    <h3>To shorten git commands (pull and push)</h3>
+                    <pre>$ git remote add progit https://github.com/progit/progit2.git (1)</pre>
+                    <pre>$ git fetch progit (2)</pre>
+                    <pre>$ git branch --set-upstream-to=progit/master master (3)</pre>
+                    <pre>$ git config --local remote.pushDefault origin (4)</pre>
+                    <p class="pink">
+                        Add the source repository and give it a name. Here, I have chosen to
+                        call it progit. Get a reference on progit's branches, in particular
+                        master. Set your master branch to fetch from the progit remote.
+                        Define the default push repository to origin. //http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project
+                    </p>
+                </div>
+				<div>
+					<h3>To get rid of pull alert</h3>
+					<pre>git config pull.ff only</pre>
+				</div>
 				<div>
 					<h3>To create a zipped repository copy</h3>
 					<pre>git archive --format zip --output 1.zip master</pre>
 				</div>
+
 				<div>
-					<h3>To create a summary of logs by author from version v1.0</h3>
-					<pre>git shortlog --no-merges master --not v1.0</pre>
+					<h2><u>General</u></h2>
 				</div>
-				<!-- prettier-ignore -->
 				<div>
-					<h3>To shorten git commands (pull and push)</h3>
-					<pre>$ git remote add progit https://github.com/progit/progit2.git (1)</pre>
-					<pre>$ git fetch progit (2)</pre>
-					<pre>$ git branch --set-upstream-to=progit/master master (3)</pre>
-					<pre>$ git config --local remote.pushDefault origin (4)</pre>
-					<p class="pink">
-						Add the source repository and give it a name. Here, I have chosen to
-						call it progit. Get a reference on progit's branches, in particular
-						master. Set your master branch to fetch from the progit remote.
-						Define the default push repository to origin. //http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project
-					</p>
+					<h3 id="flex-flow">To work correctly with merge and rebase</h3>
+					<!-- prettier-ignore -->
+					<p class="pink">Rebase local changes before pushing to clean up your work, but never rebase anything that you have pushed somewhere</p>
+				</div>
+				<div>
+					<h3>To fix commits on a local level</h3>
+					<pre>https://git-rebase.io/</pre>
 				</div>
 				<div>
 					<h3>
@@ -287,6 +274,7 @@
 						http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project
 					</p>
 				</div>
+
 				<!-- topNav List -->
 			</div>
 		</div>
