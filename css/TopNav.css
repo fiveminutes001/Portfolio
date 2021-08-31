@@ -50,6 +50,18 @@ body {
 	}
 }
 
+@media screen and (max-width: 700px) {
+	pre {
+		font-size: 2.6em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	pre {
+		font-size: 2.6em;
+	}
+}
+
 /*For the menu to show fixed
 /* The sidenav
 .sidenav {
