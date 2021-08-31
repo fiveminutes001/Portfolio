@@ -35,351 +35,253 @@
 			<div class="content">
 				<div id="navbar"></div>
 				<div>
-					<h1 style="margin: 0px"><b>CSS Flex properties</b></h1>
+					<h1 style="margin: 0px"><b>Git</b></h1>
 				</div>
 				<div>
 					<h2><u>Horizontal alignment</u></h2>
 				</div>
 				<div>
-					<h3 id="justify-content">
-						To align items to the left side of the container
-					</h3>
-					<pre>justify-content: flex-start;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>justify-content: flex-start;</pre>
-					<pre>}</pre>
+					<h3 id="justify-content">To update local repo (fetch + merge)</h3>
+					<pre>git pull https://github.com/fiveminutes001/Portfolio.git</pre>
+				</div>
+				<!-- prettier-ignore -->
+				<div>
+					<h3>To update remote repo</h3>
+					<pre>git add . Or git add -A</pre>
+					<pre>git diff --check</pre>
+					<pre>git commit -m "initial commit 2" Or git commit -v (for longer message)</pre>
+					<pre>git push origin master</pre>
 				</div>
 				<div>
-					<h3>To align items to the right side of the container</h3>
-					<pre>justify-content: flex-end;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>justify-content: flex-end;</pre>
-					<pre>}</pre>
+					<h3>To shorten commands to one line</h3>
+					<pre>git add . && git commit -m "updated file" && git push</pre>
 				</div>
 				<div>
-					<h3>To align items to the center of the container</h3>
-					<pre>justify-content: center;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>justify-content: center;</pre>
-					<pre>}</pre>
+					<h3>To update all modules</h3>
+					<pre>git submodule update</pre>
 				</div>
+				<!-- prettier-ignore -->
 				<div>
-					<h3>To display items with equal spacing between them</h3>
-					<h3>(The outmost 2 will be on the far left and the far right)</h3>
-					<pre>justify-content: space-between;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>justify-content: space-between;</pre>
-					<pre>}</pre>
-				</div>
-				<div>
-					<h3>To display items with equal spacing around them</h3>
-					<pre>justify-content: space-around;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>justify-content: space-around;</pre>
-					<pre>}</pre>
+					<h3>To update submodule in main directory</h3>
+					<pre>In submodule local dir: git add . && git commit -m "updated file" && git push gitMaster master</pre>
+					<pre>In main local dir: git submodule update --remote udacity/JsAndTheDOM</pre>
+					<pre>In main local dir: git add . && git commit -m "updated file" && git push</pre>
+					<pre>In submodule remote dir: git pull origin master</pre>
+					<pre>In main remote dir: git pull</pre>
 				</div>
 				<div>
 					<h2><u>Vertical alignement</u></h2>
 				</div>
 				<div>
-					<h3 id="align-items">To align items to the top of the container</h3>
-					<pre>align-items: flex-start;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>align-items: flex-start;</pre>
-					<pre>}</pre>
+					<h3 id="align-items">To add longer commit message</h3>
+					<pre>git commit -v</pre>
 				</div>
 				<div>
-					<h3>To align items to the bottom of the container</h3>
-					<pre>align-items: flex-end;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>align-items: flex-end;</pre>
-					<pre>}</pre>
+					<h3>To get current work from remote</h3>
+					<pre>git fetch origin</pre>
 				</div>
 				<div>
-					<h3>To align items to the vertical center of the container</h3>
-					<pre>align-items: center;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>align-items: center;</pre>
-					<pre>}</pre>
+					<h3>To merge work</h3>
+					<pre>git merge origin/master</pre>
 				</div>
 				<div>
-					<h3>To align items to the baseline of the container</h3>
-					<pre>align-items: baseline;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>align-items: baseline;</pre>
-					<pre>}</pre>
+					<h3>To fix commit message</h3>
+					<pre>git commit --amend</pre>
 				</div>
 				<div>
-					<h3>To strech items to fit the container</h3>
-					<pre>align-items: stretch;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>align-items: stretch;</pre>
-					<pre>}</pre>
+					<h3>To find out which part of fetched work needs to be merged</h3>
+					<pre>git log --no-merges currentBranch..origin/master</pre>
 				</div>
 				<div>
 					<h2><u>Horizontal order</u></h2>
 				</div>
 				<div>
-					<h3>To put items in left-to-right order</h3>
-					<pre>flex-direction: row;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-direction: row;</pre>
-					<pre>}</pre>
+					<h3>To show project's roadmap</h3>
+					<pre>git log --graph</pre>
 				</div>
 				<div>
-					<h3>To put items in right-to-left order</h3>
-					<pre>flex-direction: row-reverse;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-direction: row-reverse;</pre>
-					<!-- prettier-ignore -->
-					<p class="pink">//Notice that when you set the 
-                direction to a reversed row or column, start and end are also reversed.
-                </p>
-					<pre>}</pre>
+					<h3>To view changes</h3>
+					<pre>gitk</pre>
 				</div>
 				<div>
 					<h2><u>Vertical order</u></h2>
 				</div>
 				<div>
-					<h3 id="flex-direction">To put items in top-to-bottom order</h3>
-					<pre>flex-direction: column;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-direction: column;</pre>
-					<!-- prettier-ignore -->
-					<p class="pink">//Notice that when the flex direction is a column, 
-                justify-content changes to the vertical and align-items to the horizontal.
-            </p>
-					<pre>}</pre>
+					<h3 id="flex-direction">To decide which files to stage</h3>
+					<pre><a href="https://github.com/git-guides/git-add#accidentally-staging-and-committing-files">Link</a></pre>
 				</div>
 				<div>
-					<h3>To put items in bottom-to-top order</h3>
-					<pre>flex-direction: column-reverse;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-direction: column-reverse;</pre>
-					<!-- prettier-ignore -->
-					<p class="pink">//Notice that when you set the direction to a reversed row or column, start and end are also reversed.
-            </p>
-					<pre>}</pre>
+					<h3 id="flex-direction">To reset changes</h3>
+					<pre><a href="http://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified">Link</a></pre>
 				</div>
+
 				<div>
 					<h2><u>Internal order</u></h2>
 				</div>
 				<div>
-					<h3 id="order">
-						To put items in bottom-to-top order and change their internal order
-					</h3>
-					<pre>flex-direction: column-reverse;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>}</pre>
+					<h3 id="order">To add new remote repo</h3>
 					<!-- prettier-ignore -->
-					<p class="pink">//Sometimes reversing the row or column order of a container is not enough. In these cases, 
-we can apply the order property to individual items. Let's say we have 3 items. By default, items have a 
-value of 0, but we can use this property to also set it to a positive or negative integer value (-2, -1, 0, 1, 2). 
-It's like z-index, and can be applied to several elements within the same class.</p>
-					<pre>.yellow {</pre>
-					<pre class="pink">order:-2;</pre>
-					<pre>}</pre>
+					<p class="pink">Maybe I should post a different question but I think you guys are discussing what I want. I'd like to add a new remote, not replace the existing one so I can continue to pull from the old repository but push any changes to the new one. – 
+                        ThatAintWorking
+                         Sep 15 '14 at 20:56
+                        17
+                        @ThatAintWorking You probably should open a new question, but in short - you can add any number of remotes with the command git remote add. You can then push to one of them by explicitly stating the remote in git push. E.g. git push foobar master to push the current branch to master on remote foobar</p>
 				</div>
 				<div>
 					<h2><u>Across lines</u></h2>
 				</div>
 				<div>
-					<h3 id="flex-wrap">To put every item in a single line</h3>
-					<pre>flex-wrap: nowrap;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-wrap: nowrap;</pre>
-					<pre>}</pre>
+					<h3 id="flex-wrap">To add new submodule</h3>
+					<pre>git submodule add https://github.com/chaconinc/DbConnector</pre>
+				</div>
+				<!-- prettier-ignore -->
+				<div>
+					<h3>To reset submodule in same dir name</h3>
+					<pre>git submodule add --force https://github.com/fiveminutes001/FullJs.git</pre>
 				</div>
 				<div>
-					<h3>To wrap items to additional lines</h3>
-					<pre>flex-wrap: wrap;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-wrap: wrap;</pre>
-					<pre>}</pre>
-				</div>
-				<div>
-					<h3>To wrap items to additional lines in reverse</h3>
-					<pre>flex-wrap: wrap-reverse;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-wrap: wrap-reverse;</pre>
-					<pre>}</pre>
+					<h3>To show diffrences of commit from HEAD</h3>
+					<pre>git diff hash_of_commit</pre>
 				</div>
 				<div>
 					<h2><u>Across lines and Vertical design</u></h2>
 				</div>
 				<div>
-					<h3 id="flex-flow">
-						To put every item in a single line and do also vertical design
-					</h3>
-					<pre>flex-flow: column wrap;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-flow: column wrap;</pre>
+					<h3 id="flex-flow">To work correctly with merge and rebase</h3>
 					<!-- prettier-ignore -->
-					<p class="pink">//The two properties flex-direction and flex-wrap are used so often together 
-                that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the 
-                two properties separated by a space.
-                For example, you can use flex-flow: row wrap to set rows and wrap them.</p>
-					<pre>}</pre>
+					<p class="pink">Rebase local changes before pushing to clean up your work, but never rebase anything that you have pushed somewhere</p>
 				</div>
 				<div>
-					<h3>
-						To put every item in a single line and do also vertical design
-					</h3>
-					<pre>flex-flow: row nowrap;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-flow: row nowrap;</pre>
-					<!-- prettier-ignore -->
-					<p class="pink">//The two properties flex-direction and flex-wrap are used so often together 
-                    that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the 
-                    two properties separated by a space.
-                    For example, you can use flex-flow: row wrap to set rows and wrap them.</p>
-					<pre>}</pre>
+					<h3>To initiate a repo</h3>
+					<pre>git init</pre>
 				</div>
 				<div>
 					<h2><u>Individual design</u></h2>
 				</div>
 				<div>
-					<h3 id="align-self">To style an individual item</h3>
-					<pre>align-self: flex-end;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>align-items: flex-start;</pre>
-					<pre>}</pre>
-					<!-- prettier-ignore -->
-					<p class="pink">//Another property you can apply to individual items is align-self. This property accepts the 
-                    same values as align-items and its value for the specific item.</p>
-					<pre>.yellow {</pre>
-					<pre>align-self: flex-end;</pre>
-					<pre>}</pre>
+					<h3 id="align-self">To clone a repo</h3>
+					<pre>git clone https://github.com/fiveminutes001/Portfolio.git</pre>
 				</div>
 				<div>
 					<h2><u>Lines space</u></h2>
 				</div>
+				<!-- prettier-ignore -->
 				<div>
-					<h3 id="align-content">To pack lines at the top of the container</h3>
-					<pre>align-content:flex-start;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-wrap: wrap;</pre>
-					<pre>align-content:flex-start;</pre>
-					<!-- prettier-ignore -->
-					<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
-                    while align-items determines how the items as a whole are aligned within the container. 
-                    When there is only one line, align-content has no effect.</p>
-					<pre>}</pre>
+					<h3 id="align-content">To add a local source to remote repo</h3>
+					<pre>git remote add origin https://github.com/fiveminutes001/Portfolio.git/</pre>
 				</div>
 				<div>
-					<h3>To pack lines at the bottom of the container</h3>
-					<pre>align-content:flex-end;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-wrap: wrap;</pre>
-					<pre>align-content:flex-end;</pre>
-					<!-- prettier-ignore -->
-					<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
-                    while align-items determines how the items as a whole are aligned within the container. 
-                    When there is only one line, align-content has no effect.</p>
-					<pre>}</pre>
+					<h3>To find out what's the origin</h3>
+					<pre>git remote -v</pre>
 				</div>
 				<div>
-					<h3>To pack lines at the vertical center of the container</h3>
-					<pre>align-content:center;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-wrap: wrap;</pre>
-					<pre>align-content:center;</pre>
-					<!-- prettier-ignore -->
-					<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
-                    while align-items determines how the items as a whole are aligned within the container. 
-                    When there is only one line, align-content has no effect.</p>
-					<pre>}</pre>
+					<h3>To find last couple of months LOCAL changes</h3>
+					<pre>git reflog</pre>
+					<pre>git show HEAD@{5}</pre>
 				</div>
 				<div>
-					<h3>To display lines with equal spacing between them</h3>
-					<pre>align-content:space-between;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-wrap: wrap;</pre>
-					<pre>align-content:space-between;</pre>
-					<!-- prettier-ignore -->
-					<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
-                    while align-items determines how the items as a whole are aligned within the container. 
-                    When there is only one line, align-content has no effect.</p>
-					<pre>}</pre>
+					<h3>
+						To find commits that are in refA branch but not in refB branch
+					</h3>
+					<pre>git log refA..refB</pre>
 				</div>
 				<div>
-					<h3>To display lines with equal spacing around them</h3>
-					<pre>align-content:space-around;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-wrap: wrap;</pre>
-					<pre>align-content:space-around;</pre>
-					<!-- prettier-ignore -->
-					<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
-                    while align-items determines how the items as a whole are aligned within the container. 
-                    When there is only one line, align-content has no effect.</p>
-					<pre>}</pre>
+					<h3>To find commits that are In branches A and B but not in C</h3>
+					<pre>git log refA refB --not refC</pre>
 				</div>
 				<div>
-					<h3>To stretch lines to fit the container</h3>
-					<pre>align-content:stretch;</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-wrap: wrap;</pre>
-					<pre>align-content:stretch;</pre>
-					<!-- prettier-ignore -->
-					<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
-                    while align-items determines how the items as a whole are aligned within the container. 
-                    When there is only one line, align-content has no effect.</p>
-					<pre>}</pre>
+					<h3>To find commits in either branches but not in both</h3>
+					<pre>git log --left-right master...experiment</pre>
 				</div>
 				<div>
 					<h2><u>Image gallery example</u></h2>
 				</div>
 				<div>
 					<h3 id="examples">
-						To center images in horizontal and vertical center
+						To find all historic changes in git_deflate_bound function in zlib.c
+						file
 					</h3>
-					<pre>example</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-wrap: wrap;</pre>
-					<pre>align-content:center;</pre>
-					<pre>flex-direction: column-reverse;</pre>
-					<pre>}</pre>
+					<pre>git log -L :git_deflate_bound:zlib.c</pre>
 				</div>
 				<div>
 					<h2><u>Another example</u></h2>
 				</div>
 				<div>
-					<h3>To center images in horizontal and vertical center</h3>
-					<pre>example #2, 7 ordered items</pre>
-					<pre>#content {</pre>
-					<pre>display: flex;</pre>
-					<pre>flex-flow: column-reverse wrap-reverse;</pre>
-					<pre>justify-content: center;</pre>
-					<pre>align-content:space-between;</pre>
-					<pre>}</pre>
+					<h3>To fix commits on a local level</h3>
+					<pre>https://git-rebase.io/</pre>
+				</div>
+				<div>
+					<h3>To change work email address to personal</h3>
+					<p class="pink">
+						git filter-branch --commit-filter ' if [ "$GIT_AUTHOR_EMAIL" =
+						"schacon@localhost" ]; then GIT_AUTHOR_NAME="Scott Chacon";
+						GIT_AUTHOR_EMAIL="schacon@example.com"; git commit-tree "$@"; else
+						git commit-tree "$@"; fi' HEAD
+					</p>
+				</div>
+				<div>
+					<h3>To get rid of pull alert</h3>
+					<pre>git config pull.ff only</pre>
+				</div>
+				<div>
+					<h3>To show remote details</h3>
+					<pre>git remote show origin</pre>
+				</div>
+				<div>
+					<h3>To show one line commit log</h3>
+					<pre>git log --pretty=oneline</pre>
+					<pre>git log --pretty=format:%h%s --graph</pre>
+				</div>
+				<div>
+					<h3>To show commit log</h3>
+					<pre>git log</pre>
+				</div>
+				<div>
+					<h3>To tag a commit</h3>
+					<h3>(5 first figures of signature from git log --pretty=online)</h3>
+					<pre>git tag -a v1.0 60a85</pre>
+				</div>
+				<div>
+					<h3>To show tags</h3>
+					<pre>git tag</pre>
+				</div>
+				<div>
+					<h3>To show tag details</h3>
+					<pre>git show v1.0</pre>
+				</div>
+				<div>
+					<h3>To push tags to remote</h3>
+					<pre>git push origin --tags</pre>
+				</div>
+				<div>
+					<h3>To create a zipped repository copy</h3>
+					<pre>git archive --format zip --output 1.zip master</pre>
+				</div>
+				<div>
+					<h3>To create a summary of logs by author from version v1.0</h3>
+					<pre>git shortlog --no-merges master --not v1.0</pre>
+				</div>
+				<!-- prettier-ignore -->
+				<div>
+					<h3>To shorten git commands (pull and push)</h3>
+					<pre>$ git remote add progit https://github.com/progit/progit2.git (1)</pre>
+					<pre>$ git fetch progit (2)</pre>
+					<pre>$ git branch --set-upstream-to=progit/master master (3)</pre>
+					<pre>$ git config --local remote.pushDefault origin (4)</pre>
+					<p class="pink">
+						Add the source repository and give it a name. Here, I have chosen to
+						call it progit. Get a reference on progit's branches, in particular
+						master. Set your master branch to fetch from the progit remote.
+						Define the default push repository to origin. //http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project
+					</p>
+				</div>
+				<div>
+					<h3>
+						To work correctly with pull request and merge changes (examples)
+					</h3>
+					<p class="pink">
+						http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project
+					</p>
 				</div>
 				<!-- topNav List -->
 			</div>
