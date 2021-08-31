@@ -38,7 +38,7 @@ body {
 
 #main {
 	transition: margin-left 0.5s;
-	padding: 16px;
+	padding: 0px; /* original padding: 16px; */
 }
 
 @media screen and (max-height: 450px) {
