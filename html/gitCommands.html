@@ -37,11 +37,11 @@
 				<div>
 					<h1 style="margin: 0px"><b>Git</b></h1>
 				</div>
-				<div>
+				<div id="creating">
 					<h2><u>Creating a repository</u></h2>
 				</div>
 				<div>
-					<h3 id="creating">To initiate a repo</h3>
+					<h3>To initiate a repo</h3>
 					<pre>git init</pre>
 				</div>
 				<div>
@@ -53,11 +53,11 @@
 					<pre>git pull https://github.com/fiveminutes001/Portfolio.git</pre>
 				</div>
 
-				<div>
+				<div id="updating">
 					<h2><u>Updating a repository</u></h2>
 				</div>
 				<div>
-					<h3 id="updating">To shorten commands to one line</h3>
+					<h3>To shorten commands to one line</h3>
 					<pre>git add . && git commit -m "updated file" && git push</pre>
 				</div>
 				<!-- prettier-ignore -->
@@ -95,17 +95,17 @@
 				</div>
 				<!-- prettier-ignore -->
 				<div>
-					<h3 id="align-content">To add a local source to remote repo</h3>
+					<h3>To add a local source to remote repo</h3>
 					<pre>git remote add origin https://github.com/fiveminutes001/Portfolio.git/</pre>
                     <p class="pink">You can add any number of remotes with the command <span class="yellow">git remote add</span>. You can then push to one of them by explicitly stating the remote in <span class="yellow">git push</span>. E.g. <span class="yellow">git push foobar master</span> to push the current branch to <span class="yellow">master</span> on <span class="yellow">remote foobar</span></p>
                     <p class="pink">https://stackoverflow.com/questions/5181845/git-push-existing-repo-to-a-new-and-different-remote-repo-server</p>
 				
 				</div>
-				<div>
+				<div id="submodules">
 					<h2><u>Sumbmodules</u></h2>
 				</div>
 				<div>
-					<h3 id="submodules">To add new submodule</h3>
+					<h3>To add new submodule</h3>
 					<pre>git submodule add https://github.com/chaconinc/DbConnector</pre>
 				</div>
 				<!-- prettier-ignore -->
@@ -114,11 +114,11 @@
 					<pre>git submodule add --force https://github.com/fiveminutes001/FullJs.git</pre>
 				</div>
 
-				<div>
+				<div id="tags">
 					<h2><u>Tags</u></h2>
 				</div>
 				<div>
-					<h3 id="tags">To tag a commit</h3>
+					<h3>To tag a commit</h3>
 					<p class="pink">
 						5 first figures of signature from git log --pretty=online
 					</p>
@@ -137,11 +137,11 @@
 					<pre>git push origin --tags</pre>
 				</div>
 
-				<div>
+				<div id="conflicts">
 					<h2><u>Dealing with merge conflicts</u></h2>
 				</div>
 				<div>
-					<h3 id="conflicts">To show differences of commit from HEAD</h3>
+					<h3>To show differences of commit from HEAD</h3>
 					<pre>git diff hash_of_commit</pre>
 				</div>
 				<div>
@@ -184,11 +184,11 @@
 					</p>
 				</div>
 
-				<div>
+				<div id="history">
 					<h2><u>Viewing project's history</u></h2>
 				</div>
 				<div>
-					<h3 id="history">To show project's roadmap</h3>
+					<h3>To show project's roadmap</h3>
 					<pre>git log --graph</pre>
 				</div>
 				<div>
@@ -214,7 +214,7 @@
 					<pre>git shortlog --no-merges master --not v1.0</pre>
 				</div>
 				<div>
-					<h3 id="examples">
+					<h3>
 						To find all historic changes in git_deflate_bound function in zlib.c
 						file
 					</h3>
@@ -230,12 +230,12 @@
 					</p>
 				</div>
 
-				<div>
+				<div id="easier">
 					<h2><u>Making life easier</u></h2>
 				</div>
 				<!-- prettier-ignore -->
 				<div>
-                    <h3 id="easier">To shorten git commands (pull and push)</h3>
+                    <h3 >To shorten git commands (pull and push)</h3>
                     <pre>$ git remote add progit https://github.com/progit/progit2.git (1)</pre>
                     <pre>$ git fetch progit (2)</pre>
                     <pre>$ git branch --set-upstream-to=progit/master master (3)</pre>
@@ -257,11 +257,11 @@
 					<pre>git archive --format zip --output 1.zip master</pre>
 				</div>
 
-				<div>
+				<div id="general">
 					<h2><u>General</u></h2>
 				</div>
 				<div>
-					<h3 id="general">To work correctly with merge and rebase</h3>
+					<h3>To work correctly with merge and rebase</h3>
 					<!-- prettier-ignore -->
 					<p class="pink">Rebase local changes before pushing to clean up your work, but never rebase anything that you have pushed somewhere</p>
 				</div>
@@ -277,8 +277,8 @@
 						http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project
 					</p>
 				</div>
-				<div>
-					<h3 id="book">GitPro book</h3>
+				<div id="book">
+					<h3>GitPro book</h3>
 					<p class="pink">https://git-scm.com/book/en/v2</p>
 				</div>
 
