@@ -45,6 +45,7 @@
 			}
 		</style>
 		<link href="../css/TopNav.css" rel="stylesheet" />
+		<link href="../css/TopNavbar.css" rel="stylesheet" />
 	</head>
 	<body>
 		<!-- prettier-ignore -->
@@ -60,355 +61,367 @@
 			<a href="#align-content">align-content</a>
 		</div>
 		<div id="main">
-			<div id="navbar"></div>
-			<div>
-				<h1><b>CSS Flex properties</b></h1>
-				<span style="font-size: 30px; cursor: pointer" onclick="openNav()"
-					>&#9776; open</span
-				>
+			<div class="header">
+				<h2>Scroll Down</h2>
+				<p>Scroll down to see the sticky effect.</p>
 			</div>
-			<div>
-				<h1><u>Horizontal alignment</u></h1>
+			<!-- prettier-ignore -->
+			<div id="Topnavbar">
+				<a class="active" href="javascript:void(0)"><span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776; open</span></a>
+				<a href="javascript:void(0)">News</a>
+				<a href="javascript:void(0)">Contact</a>
 			</div>
-			<div>
-				<h2 id="justify-content">
-					To align items to the left side of the container
-				</h2>
-				<pre>justify-content: flex-start;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>justify-content: flex-start;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To align items to the right side of the container</h2>
-				<pre>justify-content: flex-end;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>justify-content: flex-end;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To align items to the center of the container</h2>
-				<pre>justify-content: center;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>justify-content: center;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To display items with equal spacing between them</h2>
-				<h2>(The outmost 2 will be on the far left and the far right)</h2>
-				<pre>justify-content: space-between;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>justify-content: space-between;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To display items with equal spacing around them</h2>
-				<pre>justify-content: space-around;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>justify-content: space-around;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h1><u>Vertical alignement</u></h1>
-			</div>
-			<div>
-				<h2 id="align-items">To align items to the top of the container</h2>
-				<pre>align-items: flex-start;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>align-items: flex-start;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To align items to the bottom of the container</h2>
-				<pre>align-items: flex-end;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>align-items: flex-end;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To align items to the vertical center of the container</h2>
-				<pre>align-items: center;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>align-items: center;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To align items to the baseline of the container</h2>
-				<pre>align-items: baseline;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>align-items: baseline;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To strech items to fit the container</h2>
-				<pre>align-items: stretch;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>align-items: stretch;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h1><u>Horizontal order</u></h1>
-			</div>
-			<div>
-				<h2>To put items in left-to-right order</h2>
-				<pre>flex-direction: row;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-direction: row;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To put items in right-to-left order</h2>
-				<pre>flex-direction: row-reverse;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-direction: row-reverse;</pre>
-				<!-- prettier-ignore -->
-				<p class="pink">//Notice that when you set the 
+			<div class="content">
+				<div id="navbar"></div>
+				<div>
+					<h1><b>CSS Flex properties</b></h1>
+				</div>
+				<div>
+					<h1><u>Horizontal alignment</u></h1>
+				</div>
+				<div>
+					<h2 id="justify-content">
+						To align items to the left side of the container
+					</h2>
+					<pre>justify-content: flex-start;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>justify-content: flex-start;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To align items to the right side of the container</h2>
+					<pre>justify-content: flex-end;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>justify-content: flex-end;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To align items to the center of the container</h2>
+					<pre>justify-content: center;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>justify-content: center;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To display items with equal spacing between them</h2>
+					<h2>(The outmost 2 will be on the far left and the far right)</h2>
+					<pre>justify-content: space-between;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>justify-content: space-between;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To display items with equal spacing around them</h2>
+					<pre>justify-content: space-around;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>justify-content: space-around;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h1><u>Vertical alignement</u></h1>
+				</div>
+				<div>
+					<h2 id="align-items">To align items to the top of the container</h2>
+					<pre>align-items: flex-start;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>align-items: flex-start;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To align items to the bottom of the container</h2>
+					<pre>align-items: flex-end;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>align-items: flex-end;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To align items to the vertical center of the container</h2>
+					<pre>align-items: center;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>align-items: center;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To align items to the baseline of the container</h2>
+					<pre>align-items: baseline;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>align-items: baseline;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To strech items to fit the container</h2>
+					<pre>align-items: stretch;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>align-items: stretch;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h1><u>Horizontal order</u></h1>
+				</div>
+				<div>
+					<h2>To put items in left-to-right order</h2>
+					<pre>flex-direction: row;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-direction: row;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To put items in right-to-left order</h2>
+					<pre>flex-direction: row-reverse;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-direction: row-reverse;</pre>
+					<!-- prettier-ignore -->
+					<p class="pink">//Notice that when you set the 
                 direction to a reversed row or column, start and end are also reversed.
                 </p>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h1><u>Vertical order</u></h1>
-			</div>
-			<div>
-				<h2 id="flex-direction">To put items in top-to-bottom order</h2>
-				<pre>flex-direction: column;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-direction: column;</pre>
-				<!-- prettier-ignore -->
-				<p class="pink">//Notice that when the flex direction is a column, 
+					<pre>}</pre>
+				</div>
+				<div>
+					<h1><u>Vertical order</u></h1>
+				</div>
+				<div>
+					<h2 id="flex-direction">To put items in top-to-bottom order</h2>
+					<pre>flex-direction: column;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-direction: column;</pre>
+					<!-- prettier-ignore -->
+					<p class="pink">//Notice that when the flex direction is a column, 
                 justify-content changes to the vertical and align-items to the horizontal.
             </p>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To put items in bottom-to-top order</h2>
-				<pre>flex-direction: column-reverse;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-direction: column-reverse;</pre>
-				<!-- prettier-ignore -->
-				<p class="pink">//Notice that when you set the direction to a reversed row or column, start and end are also reversed.
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To put items in bottom-to-top order</h2>
+					<pre>flex-direction: column-reverse;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-direction: column-reverse;</pre>
+					<!-- prettier-ignore -->
+					<p class="pink">//Notice that when you set the direction to a reversed row or column, start and end are also reversed.
             </p>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h1><u>Internal order</u></h1>
-			</div>
-			<div>
-				<h2 id="order">
-					To put items in bottom-to-top order and change their internal order
-				</h2>
-				<pre>flex-direction: column-reverse;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>}</pre>
-				<!-- prettier-ignore -->
-				<p class="pink">//Sometimes reversing the row or column order of a container is not enough. In these cases, 
+					<pre>}</pre>
+				</div>
+				<div>
+					<h1><u>Internal order</u></h1>
+				</div>
+				<div>
+					<h2 id="order">
+						To put items in bottom-to-top order and change their internal order
+					</h2>
+					<pre>flex-direction: column-reverse;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>}</pre>
+					<!-- prettier-ignore -->
+					<p class="pink">//Sometimes reversing the row or column order of a container is not enough. In these cases, 
 we can apply the order property to individual items. Let's say we have 3 items. By default, items have a 
 value of 0, but we can use this property to also set it to a positive or negative integer value (-2, -1, 0, 1, 2). 
 It's like z-index, and can be applied to several elements within the same class.</p>
-				<pre>.yellow {</pre>
-				<pre class="pink">order:-2;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h1><u>Across lines</u></h1>
-			</div>
-			<div>
-				<h2 id="flex-wrap">To put every item in a single line</h2>
-				<pre>flex-wrap: nowrap;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-wrap: nowrap;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To wrap items to additional lines</h2>
-				<pre>flex-wrap: wrap;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-wrap: wrap;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To wrap items to additional lines in reverse</h2>
-				<pre>flex-wrap: wrap-reverse;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-wrap: wrap-reverse;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h1><u>Across lines and Vertical design</u></h1>
-			</div>
-			<div>
-				<h2 id="flex-flow">
-					To put every item in a single line and do also vertical design
-				</h2>
-				<pre>flex-flow: column wrap;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-flow: column wrap;</pre>
-				<!-- prettier-ignore -->
-				<p class="pink">//The two properties flex-direction and flex-wrap are used so often together 
+					<pre>.yellow {</pre>
+					<pre class="pink">order:-2;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h1><u>Across lines</u></h1>
+				</div>
+				<div>
+					<h2 id="flex-wrap">To put every item in a single line</h2>
+					<pre>flex-wrap: nowrap;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-wrap: nowrap;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To wrap items to additional lines</h2>
+					<pre>flex-wrap: wrap;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-wrap: wrap;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To wrap items to additional lines in reverse</h2>
+					<pre>flex-wrap: wrap-reverse;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-wrap: wrap-reverse;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h1><u>Across lines and Vertical design</u></h1>
+				</div>
+				<div>
+					<h2 id="flex-flow">
+						To put every item in a single line and do also vertical design
+					</h2>
+					<pre>flex-flow: column wrap;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-flow: column wrap;</pre>
+					<!-- prettier-ignore -->
+					<p class="pink">//The two properties flex-direction and flex-wrap are used so often together 
                 that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the 
                 two properties separated by a space.
                 For example, you can use flex-flow: row wrap to set rows and wrap them.</p>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To put every item in a single line and do also vertical design</h2>
-				<pre>flex-flow: row nowrap;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-flow: row nowrap;</pre>
-				<!-- prettier-ignore -->
-				<p class="pink">//The two properties flex-direction and flex-wrap are used so often together 
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>
+						To put every item in a single line and do also vertical design
+					</h2>
+					<pre>flex-flow: row nowrap;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-flow: row nowrap;</pre>
+					<!-- prettier-ignore -->
+					<p class="pink">//The two properties flex-direction and flex-wrap are used so often together 
                     that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the 
                     two properties separated by a space.
                     For example, you can use flex-flow: row wrap to set rows and wrap them.</p>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h1><u>Individual design</u></h1>
-			</div>
-			<div>
-				<h2 id="align-self">To style an individual item</h2>
-				<pre>align-self: flex-end;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>align-items: flex-start;</pre>
-				<pre>}</pre>
-				<!-- prettier-ignore -->
-				<p class="pink">//Another property you can apply to individual items is align-self. This property accepts the 
+					<pre>}</pre>
+				</div>
+				<div>
+					<h1><u>Individual design</u></h1>
+				</div>
+				<div>
+					<h2 id="align-self">To style an individual item</h2>
+					<pre>align-self: flex-end;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>align-items: flex-start;</pre>
+					<pre>}</pre>
+					<!-- prettier-ignore -->
+					<p class="pink">//Another property you can apply to individual items is align-self. This property accepts the 
                     same values as align-items and its value for the specific item.</p>
-				<pre>.yellow {</pre>
-				<pre>align-self: flex-end;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h1><u>Lines space</u></h1>
-			</div>
-			<div>
-				<h2 id="align-content">To pack lines at the top of the container</h2>
-				<pre>align-content:flex-start;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-wrap: wrap;</pre>
-				<pre>align-content:flex-start;</pre>
-				<!-- prettier-ignore -->
-				<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
+					<pre>.yellow {</pre>
+					<pre>align-self: flex-end;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h1><u>Lines space</u></h1>
+				</div>
+				<div>
+					<h2 id="align-content">To pack lines at the top of the container</h2>
+					<pre>align-content:flex-start;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-wrap: wrap;</pre>
+					<pre>align-content:flex-start;</pre>
+					<!-- prettier-ignore -->
+					<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
                     while align-items determines how the items as a whole are aligned within the container. 
                     When there is only one line, align-content has no effect.</p>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To pack lines at the bottom of the container</h2>
-				<pre>align-content:flex-end;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-wrap: wrap;</pre>
-				<pre>align-content:flex-end;</pre>
-				<!-- prettier-ignore -->
-				<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To pack lines at the bottom of the container</h2>
+					<pre>align-content:flex-end;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-wrap: wrap;</pre>
+					<pre>align-content:flex-end;</pre>
+					<!-- prettier-ignore -->
+					<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
                     while align-items determines how the items as a whole are aligned within the container. 
                     When there is only one line, align-content has no effect.</p>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To pack lines at the vertical center of the container</h2>
-				<pre>align-content:center;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-wrap: wrap;</pre>
-				<pre>align-content:center;</pre>
-				<!-- prettier-ignore -->
-				<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To pack lines at the vertical center of the container</h2>
+					<pre>align-content:center;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-wrap: wrap;</pre>
+					<pre>align-content:center;</pre>
+					<!-- prettier-ignore -->
+					<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
                     while align-items determines how the items as a whole are aligned within the container. 
                     When there is only one line, align-content has no effect.</p>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To display lines with equal spacing between them</h2>
-				<pre>align-content:space-between;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-wrap: wrap;</pre>
-				<pre>align-content:space-between;</pre>
-				<!-- prettier-ignore -->
-				<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To display lines with equal spacing between them</h2>
+					<pre>align-content:space-between;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-wrap: wrap;</pre>
+					<pre>align-content:space-between;</pre>
+					<!-- prettier-ignore -->
+					<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
                     while align-items determines how the items as a whole are aligned within the container. 
                     When there is only one line, align-content has no effect.</p>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To display lines with equal spacing around them</h2>
-				<pre>align-content:space-around;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-wrap: wrap;</pre>
-				<pre>align-content:space-around;</pre>
-				<!-- prettier-ignore -->
-				<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To display lines with equal spacing around them</h2>
+					<pre>align-content:space-around;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-wrap: wrap;</pre>
+					<pre>align-content:space-around;</pre>
+					<!-- prettier-ignore -->
+					<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
                     while align-items determines how the items as a whole are aligned within the container. 
                     When there is only one line, align-content has no effect.</p>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h2>To stretch lines to fit the container</h2>
-				<pre>align-content:stretch;</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-wrap: wrap;</pre>
-				<pre>align-content:stretch;</pre>
-				<!-- prettier-ignore -->
-				<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
+					<pre>}</pre>
+				</div>
+				<div>
+					<h2>To stretch lines to fit the container</h2>
+					<pre>align-content:stretch;</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-wrap: wrap;</pre>
+					<pre>align-content:stretch;</pre>
+					<!-- prettier-ignore -->
+					<p class="pink">//This can be confusing, but align-content determines the spacing between lines, 
                     while align-items determines how the items as a whole are aligned within the container. 
                     When there is only one line, align-content has no effect.</p>
-				<pre>}</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h1><u>Image gallery example</u></h1>
+				</div>
+				<div>
+					<h2>To center images in horizontal and vertical center</h2>
+					<pre>example</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-wrap: wrap;</pre>
+					<pre>align-content:center;</pre>
+					<pre>flex-direction: column-reverse;</pre>
+					<pre>}</pre>
+				</div>
+				<div>
+					<h1><u>Another example</u></h1>
+				</div>
+				<div>
+					<h2>To center images in horizontal and vertical center</h2>
+					<pre>example #2, 7 ordered items</pre>
+					<pre>#content {</pre>
+					<pre>display: flex;</pre>
+					<pre>flex-flow: column-reverse wrap-reverse;</pre>
+					<pre>justify-content: center;</pre>
+					<pre>align-content:space-between;</pre>
+					<pre>}</pre>
+				</div>
+				<!-- topNav List -->
 			</div>
-			<div>
-				<h1><u>Image gallery example</u></h1>
-			</div>
-			<div>
-				<h2>To center images in horizontal and vertical center</h2>
-				<pre>example</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-wrap: wrap;</pre>
-				<pre>align-content:center;</pre>
-				<pre>flex-direction: column-reverse;</pre>
-				<pre>}</pre>
-			</div>
-			<div>
-				<h1><u>Another example</u></h1>
-			</div>
-			<div>
-				<h2>To center images in horizontal and vertical center</h2>
-				<pre>example #2, 7 ordered items</pre>
-				<pre>#content {</pre>
-				<pre>display: flex;</pre>
-				<pre>flex-flow: column-reverse wrap-reverse;</pre>
-				<pre>justify-content: center;</pre>
-				<pre>align-content:space-between;</pre>
-				<pre>}</pre>
-			</div>
-			<!-- topNav List -->
 		</div>
 		<script src="../js/TopNav.js"></script>
+		<script src="../js/TopNavbar.js"></script>
 	</body>
 </html>
