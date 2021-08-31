@@ -6,6 +6,8 @@ body {
 .topnav {
 	overflow: hidden;
 	background-color: #333;
+	display: flex;
+	align-items: flex-start;
 }
 
 .topnav a {
