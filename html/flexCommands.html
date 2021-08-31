@@ -146,9 +146,10 @@
 			<pre>#content {</pre>
 			<pre>display: flex;</pre>
 			<pre>flex-direction: row-reverse;</pre>
-			<pre class="pink">
-//Notice that when you set the direction to a reversed row or column, start and end are also reversed.</pre
-			>
+			<!-- prettier-ignore -->
+			<pre class="pink">//Notice that when you set the 
+                direction to a reversed row or column, start and end are also reversed.
+                </pre>
 			<pre>}</pre>
 		</div>
 		<div>
@@ -160,9 +161,10 @@
 			<pre>#content {</pre>
 			<pre>display: flex;</pre>
 			<pre>flex-direction: column;</pre>
-			<pre class="pink">
-//Notice that when the flex direction is a column, justify-content changes to the vertical and align-items to the horizontal.</pre
-			>
+			<!-- prettier-ignore -->
+			<pre class="pink">//Notice that when the flex direction is a column, 
+                justify-content changes to the vertical and align-items to the horizontal.
+            </pre>
 			<pre>}</pre>
 		</div>
 		<div>
@@ -171,9 +173,10 @@
 			<pre>#content {</pre>
 			<pre>display: flex;</pre>
 			<pre>flex-direction: column-reverse;</pre>
+			<!-- prettier-ignore -->
 			<pre class="pink">
-//Notice that when you set the direction to a reversed row or column, start and end are also reversed.</pre
-			>
+//Notice that when you set the direction to a reversed row or column, start and end are also reversed.
+            </pre>
 			<pre>}</pre>
 		</div>
 		<div>
@@ -187,9 +190,15 @@
 			<pre>#content {</pre>
 			<pre>display: flex;</pre>
 			<pre>}</pre>
+			<!-- prettier-ignore -->
 			<pre class="pink">
-//Sometimes reversing the row or column order of a container is not enough. In these cases, we can apply the order property to individual items. Let's say we have 3 items. By default, items have a value of 0, but we can use this property to also set it to a positive or negative integer value (-2, -1, 0, 1, 2). It's like z-index, and can be applied to several elements within the same class.</pre
-			>
+//Sometimes reversing the row or column 
+order of a container is not enough. In these cases, 
+we can apply the order property to individual items. 
+Let's say we have 3 items. By default, items have a 
+value of 0, but we can use this property to also set 
+it to a positive or negative integer value (-2, -1, 0, 1, 2). 
+It's like z-index, and can be applied to several elements within the same class.</pre>
 			<pre>.yellow {</pre>
 			<pre>order:-2;</pre>
 			<pre>}</pre>
@@ -221,7 +230,7 @@
 			<pre>flex-wrap: wrap-reverse;</pre>
 			<pre>}</pre>
 		</div>
-        <div>
+		<div>
 			<h1><u>Across lines and Vertical design</u></h1>
 		</div>
 		<div>
@@ -230,109 +239,118 @@
 			<pre>#content {</pre>
 			<pre>display: flex;</pre>
 			<pre>flex-flow: column wrap;</pre>
-            <pre class="pink">
-                //The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the two properties separated by a space.
-
-                For example, you can use flex-flow: row wrap to set rows and wrap them.                            >
-			<pre>}</pre>
-		</div>
-		<div>
-			<h2>To put every item in a single line and do also vertical design</h2>
-			<pre>flex-flow: row nowrap;</pre>
-			<pre>#content {</pre>
-			<pre>display: flex;</pre>
-			<pre>flex-flow: row nowrap;</pre>
-            <pre class="pink">
-                //The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the two properties separated by a space.
-
-                For example, you can use flex-flow: row wrap to set rows and wrap them.                            >
-			<pre>}</pre>
-		</div>
-		<div>
-			<h1><u>Individual design</u></h1>
-		</div>
-		<div>
-			<h2>To style an individual item</h2>
-			<pre>align-self: flex-end;</pre>
-			<pre>#content {</pre>
-			<pre>display: flex;</pre>
-			<pre>align-items: flex-start;</pre>
-			<pre>}</pre>
+			<!-- prettier-ignore -->
 			<pre class="pink">
-//Another property you can apply to individual items is align-self. This property accepts the same values as align-items and its value for the specific item.</pre
-			>
-			<pre>.yellow {</pre>
-			<pre>align-self: flex-end;</pre>
+                //The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the two properties separated by a space.
+
+                For example, you can use flex-flow: row wrap to set rows and wrap them.</pre>
 			<pre>}</pre>
-		</div>
-        <div>
-			<h1><u>Lines space</u></h1>
-		</div>
-		<div>
-			<h2>To pack lines at the top of the container.</h2>
-			<pre>align-content:flex-start;</pre>
-			<pre>#content {</pre>
-			<pre>display: flex;</pre>
-			<pre>flex-wrap: wrap;</pre>
-			<pre>align-content:flex-start;</pre>
-            <pre class="pink">
-                //This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.</pre>                            >
-			<pre>}</pre>
-		</div>
-		<div>
-			<h2>To pack lines at the bottom of the container.</h2>
-			<pre>align-content:flex-end;</pre>
-			<pre>#content {</pre>
-			<pre>display: flex;</pre>
-			<pre>flex-wrap: wrap;</pre>
-			<pre>align-content:flex-end;</pre>
-            <pre class="pink">
-                //This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.</pre>                            >
-			<pre>}</pre>
-		</div>
-		<div>
-			<h2>To pack lines at the vertical center of the container.</h2>
-			<pre>align-content:center;</pre>
-			<pre>#content {</pre>
-			<pre>display: flex;</pre>
-			<pre>flex-wrap: wrap;</pre>
-			<pre>align-content:center;</pre>
-            <pre class="pink">
-                //This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.</pre>                            >
-			<pre>}</pre>
-		</div>
-		<div>
-			<h2>To display lines with equal spacing between them.</h2>
-			<pre>align-content:space-between;</pre>
-			<pre>#content {</pre>
-			<pre>display: flex;</pre>
-			<pre>flex-wrap: wrap;</pre>
-			<pre>align-content:space-between;</pre>
-            <pre class="pink">
-                //This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.</pre>                            >
-			<pre>}</pre>
-		</div>
-		<div>
-			<h2>To display lines with equal spacing around them.</h2>
-			<pre>align-content:space-around;</pre>
-			<pre>#content {</pre>
-			<pre>display: flex;</pre>
-			<pre>flex-wrap: wrap;</pre>
-			<pre>align-content:space-around;</pre>
-            <pre class="pink">
-                //This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.</pre>                            >
-			<pre>}</pre>
-		</div>
-		<div>
-			<h2>To stretch lines to fit the container.</h2>
-			<pre>align-content:stretch;</pre>
-			<pre>#content {</pre>
-			<pre>display: flex;</pre>
-			<pre>flex-wrap: wrap;</pre>
-			<pre>align-content:stretch;</pre>
-            <pre class="pink">
-                //This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.</pre>                            >
-			<pre>}</pre>
+
+			<div>
+				<h2>To put every item in a single line and do also vertical design</h2>
+				<pre>flex-flow: row nowrap;</pre>
+				<pre>#content {</pre>
+				<pre>display: flex;</pre>
+				<pre>flex-flow: row nowrap;</pre>
+				<!-- prettier-ignore -->
+				<pre class="pink">
+                //The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of the two properties separated by a space.
+
+                For example, you can use flex-flow: row wrap to set rows and wrap them.  </pre>
+				<pre>}</pre>
+			</div>
+			<div>
+				<h1><u>Individual design</u></h1>
+			</div>
+			<div>
+				<h2>To style an individual item</h2>
+				<pre>align-self: flex-end;</pre>
+				<pre>#content {</pre>
+				<pre>display: flex;</pre>
+				<pre>align-items: flex-start;</pre>
+				<pre>}</pre>
+				<!-- prettier-ignore -->
+				<pre class="pink">
+//Another property you can apply to individual items is align-self. This property accepts the same values as align-items and its value for the specific item.
+            </pre>
+				<pre>.yellow {</pre>
+				<pre>align-self: flex-end;</pre>
+				<pre>}</pre>
+			</div>
+			<div>
+				<h1><u>Lines space</u></h1>
+			</div>
+			<div>
+				<h2>To pack lines at the top of the container.</h2>
+				<pre>align-content:flex-start;</pre>
+				<pre>#content {</pre>
+				<pre>display: flex;</pre>
+				<pre>flex-wrap: wrap;</pre>
+				<pre>align-content:flex-start;</pre>
+				<!-- prettier-ignore -->
+				<pre class="pink">//This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.</pre>
+				<pre>}</pre>
+			</div>
+			<div>
+				<h2>To pack lines at the bottom of the container.</h2>
+				<pre>align-content:flex-end;</pre>
+				<pre>#content {</pre>
+				<pre>display: flex;</pre>
+				<pre>flex-wrap: wrap;</pre>
+				<pre>align-content:flex-end;</pre>
+				<!-- prettier-ignore -->
+				<pre class="pink">
+                //This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.</pre>
+				<pre>}</pre>
+			</div>
+			<div>
+				<h2>To pack lines at the vertical center of the container.</h2>
+				<pre>align-content:center;</pre>
+				<pre>#content {</pre>
+				<pre>display: flex;</pre>
+				<pre>flex-wrap: wrap;</pre>
+				<pre>align-content:center;</pre>
+				<!-- prettier-ignore -->
+				<pre class="pink">
+                //This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.</pre>
+				<pre>}</pre>
+			</div>
+			<div>
+				<h2>To display lines with equal spacing between them.</h2>
+				<pre>align-content:space-between;</pre>
+				<pre>#content {</pre>
+				<pre>display: flex;</pre>
+				<pre>flex-wrap: wrap;</pre>
+				<pre>align-content:space-between;</pre>
+				<!-- prettier-ignore -->
+				<pre class="pink">
+                //This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.</pre>
+				<pre>}</pre>
+			</div>
+			<div>
+				<h2>To display lines with equal spacing around them.</h2>
+				<pre>align-content:space-around;</pre>
+				<pre>#content {</pre>
+				<pre>display: flex;</pre>
+				<pre>flex-wrap: wrap;</pre>
+				<pre>align-content:space-around;</pre>
+				<!-- prettier-ignore -->
+				<pre class="pink">
+                //This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.</pre>
+				<pre>}</pre>
+			</div>
+			<div>
+				<h2>To stretch lines to fit the container.</h2>
+				<pre>align-content:stretch;</pre>
+				<pre>#content {</pre>
+				<pre>display: flex;</pre>
+				<pre>flex-wrap: wrap;</pre>
+				<pre>align-content:stretch;</pre>
+				<!-- prettier-ignore -->
+				<pre class="pink">
+                //This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.</pre>
+				<pre>}</pre>
+			</div>
 		</div>
 	</body>
 </html>
