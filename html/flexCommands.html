@@ -43,6 +43,19 @@
 	</head>
 	<body>
 		<div>
+			<h1><u>CSS Flex properties</u></h1>
+		</div>
+		<div>
+			<h2>display: flex;</h2>
+			<p>justify-content</p>
+			<p>align-items</p>
+			<p>order</p>
+			<p>align-self</p>
+			<p>flex-wrap</p>
+			<p>flex-flow</p>
+			<p>align-content</p>
+		</div>
+		<div>
 			<h1><u>Horizontal alignment</u></h1>
 		</div>
 		<div>
@@ -195,7 +208,7 @@ we can apply the order property to individual items. Let's say we have 3 items. 
 value of 0, but we can use this property to also set it to a positive or negative integer value (-2, -1, 0, 1, 2). 
 It's like z-index, and can be applied to several elements within the same class.</p>
 			<pre>.yellow {</pre>
-			<pre>order:-2;</pre>
+			<pre class="pink">order:-2;</pre>
 			<pre>}</pre>
 		</div>
 		<div>
@@ -363,6 +376,19 @@ It's like z-index, and can be applied to several elements within the same class.
 			<pre>flex-wrap: wrap;</pre>
 			<pre>align-content:center;</pre>
 			<pre>flex-direction: column-reverse;</pre>
+			<pre>}</pre>
+		</div>
+		<div>
+			<h1><u>Another example</u></h1>
+		</div>
+		<div>
+			<h2>To center images in horizontal and vertical center</h2>
+			<pre>example #2, 7 ordered items</pre>
+			<pre>#content {</pre>
+			<pre>display: flex;</pre>
+			<pre>flex-flow: column-reverse wrap-reverse;</pre>
+			<pre>justify-content: center;</pre>
+			<pre>align-content:space-between;</pre>
 			<pre>}</pre>
 		</div>
 	</body>
