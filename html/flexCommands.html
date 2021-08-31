@@ -47,19 +47,20 @@
 		</div>
 		<div>
 			<h2>display: flex;</h2>
-			<p>justify-content</p>
-			<p>align-items</p>
-			<p>order</p>
-			<p>align-self</p>
-			<p>flex-wrap</p>
-			<p>flex-flow</p>
-			<p>align-content</p>
+			<a href="#justify-content"><p>justify-content</p></a>
+			<a href="#align-items"><p>align-items</p></a>
+			<a href="#flex-direction"><p>flex-direction</p></a>
+			<a href="#order"><p>order</p></a>
+			<a href="#align-self"><p>align-self</p</a>
+			<a href="#flex-wrap"><p>flex-wrap</p></a>
+			<a href="#flex-flow"><p>flex-flow</p></a>
+			<a href="#align-content"><p>align-content</p></a>
 		</div>
 		<div>
 			<h1><u>Horizontal alignment</u></h1>
 		</div>
 		<div>
-			<h2>To align items to the left side of the container</h2>
+			<h2 id="justify-content">To align items to the left side of the container</h2>
 			<pre>justify-content: flex-start;</pre>
 			<pre>#content {</pre>
 			<pre>display: flex;</pre>
@@ -103,7 +104,7 @@
 			<h1><u>Vertical alignement</u></h1>
 		</div>
 		<div>
-			<h2>To align items to the top of the container</h2>
+			<h2 id="align-items">To align items to the top of the container</h2>
 			<pre>align-items: flex-start;</pre>
 			<pre>#content {</pre>
 			<pre>display: flex;</pre>
@@ -169,7 +170,7 @@
 			<h1><u>Vertical order</u></h1>
 		</div>
 		<div>
-			<h2>To put items in top-to-bottom order</h2>
+			<h2 id="flex-direction">To put items in top-to-bottom order</h2>
 			<pre>flex-direction: column;</pre>
 			<pre>#content {</pre>
 			<pre>display: flex;</pre>
@@ -195,7 +196,7 @@
 			<h1><u>Internal order</u></h1>
 		</div>
 		<div>
-			<h2>
+			<h2 id="order">
 				To put items in bottom-to-top order and change their internal order
 			</h2>
 			<pre>flex-direction: column-reverse;</pre>
@@ -215,7 +216,7 @@ It's like z-index, and can be applied to several elements within the same class.
 			<h1><u>Across lines</u></h1>
 		</div>
 		<div>
-			<h2>To put every item in a single line</h2>
+			<h2 id="flex-wrap">To put every item in a single line</h2>
 			<pre>flex-wrap: nowrap;</pre>
 			<pre>#content {</pre>
 			<pre>display: flex;</pre>
@@ -242,7 +243,7 @@ It's like z-index, and can be applied to several elements within the same class.
 			<h1><u>Across lines and Vertical design</u></h1>
 		</div>
 		<div>
-			<h2>To put every item in a single line and do also vertical design</h2>
+			<h2 id="flex-flow">To put every item in a single line and do also vertical design</h2>
 			<pre>flex-flow: column wrap;</pre>
 			<pre>#content {</pre>
 			<pre>display: flex;</pre>
@@ -271,7 +272,7 @@ It's like z-index, and can be applied to several elements within the same class.
 			<h1><u>Individual design</u></h1>
 		</div>
 		<div>
-			<h2>To style an individual item</h2>
+			<h2 id="align-self">To style an individual item</h2>
 			<pre>align-self: flex-end;</pre>
 			<pre>#content {</pre>
 			<pre>display: flex;</pre>
@@ -288,7 +289,7 @@ It's like z-index, and can be applied to several elements within the same class.
 			<h1><u>Lines space</u></h1>
 		</div>
 		<div>
-			<h2>To pack lines at the top of the container</h2>
+			<h2 id="align-content">To pack lines at the top of the container</h2>
 			<pre>align-content:flex-start;</pre>
 			<pre>#content {</pre>
 			<pre>display: flex;</pre>
