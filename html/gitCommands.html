@@ -10,15 +10,15 @@
 		<!-- prettier-ignore -->
 		<div id="mySidenav" class="sidenav">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<a href="#justify-content">justify-content</a>
-			<a href="#align-items">align-items</a>
-			<a href="#flex-direction">flex-direction</a>
-			<a href="#order">order</a>
-			<a href="#align-self">align-self</a>
-			<a href="#flex-wrap">flex-wrap</a>
-			<a href="#flex-flow">flex-flow</a>
-			<a href="#align-content">align-content</a>
-			<a href="#examples">examples</a>
+			<a href="#creating">creating</a>
+			<a href="#updating">updating</a>
+			<a href="#submodules">submodules</a>
+			<a href="#tags">tags</a>
+			<a href="#conflicts">conflicts</a>
+			<a href="#history">history</a>
+			<a href="#easier">easier</a>
+			<a href="#general">general</a>
+			<a href="#book">book</a>
 		</div>
 		<div id="main">
 			<div class="header">
@@ -41,7 +41,7 @@
 					<h2><u>Creating a repository</u></h2>
 				</div>
 				<div>
-					<h3>To initiate a repo</h3>
+					<h3 id="creating">To initiate a repo</h3>
 					<pre>git init</pre>
 				</div>
 				<div>
@@ -57,7 +57,7 @@
 					<h2><u>Updating a repository</u></h2>
 				</div>
 				<div>
-					<h3>To shorten commands to one line</h3>
+					<h3 id="updating">To shorten commands to one line</h3>
 					<pre>git add . && git commit -m "updated file" && git push</pre>
 				</div>
 				<!-- prettier-ignore -->
@@ -105,7 +105,7 @@
 					<h2><u>Sumbmodules</u></h2>
 				</div>
 				<div>
-					<h3 id="flex-wrap">To add new submodule</h3>
+					<h3 id="submodules">To add new submodule</h3>
 					<pre>git submodule add https://github.com/chaconinc/DbConnector</pre>
 				</div>
 				<!-- prettier-ignore -->
@@ -118,8 +118,10 @@
 					<h2><u>Tags</u></h2>
 				</div>
 				<div>
-					<h3>To tag a commit</h3>
-					<h3>(5 first figures of signature from git log --pretty=online)</h3>
+					<h3 id="tags">To tag a commit</h3>
+					<p class="pink">
+						5 first figures of signature from git log --pretty=online
+					</p>
 					<pre>git tag -a v1.0 60a85</pre>
 				</div>
 				<div>
@@ -139,7 +141,7 @@
 					<h2><u>Dealing with merge conflicts</u></h2>
 				</div>
 				<div>
-					<h3>To show differences of commit from HEAD</h3>
+					<h3 id="conflicts">To show differences of commit from HEAD</h3>
 					<pre>git diff hash_of_commit</pre>
 				</div>
 				<div>
@@ -186,7 +188,7 @@
 					<h2><u>Viewing project's history</u></h2>
 				</div>
 				<div>
-					<h3>To show project's roadmap</h3>
+					<h3 id="history">To show project's roadmap</h3>
 					<pre>git log --graph</pre>
 				</div>
 				<div>
@@ -233,7 +235,7 @@
 				</div>
 				<!-- prettier-ignore -->
 				<div>
-                    <h3>To shorten git commands (pull and push)</h3>
+                    <h3 id="easier">To shorten git commands (pull and push)</h3>
                     <pre>$ git remote add progit https://github.com/progit/progit2.git (1)</pre>
                     <pre>$ git fetch progit (2)</pre>
                     <pre>$ git branch --set-upstream-to=progit/master master (3)</pre>
@@ -259,7 +261,7 @@
 					<h2><u>General</u></h2>
 				</div>
 				<div>
-					<h3 id="flex-flow">To work correctly with merge and rebase</h3>
+					<h3 id="general">To work correctly with merge and rebase</h3>
 					<!-- prettier-ignore -->
 					<p class="pink">Rebase local changes before pushing to clean up your work, but never rebase anything that you have pushed somewhere</p>
 				</div>
@@ -274,6 +276,10 @@
 					<p class="pink">
 						http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project
 					</p>
+				</div>
+				<div>
+					<h3 id="book">GitPro book</h3>
+					<p class="pink">https://git-scm.com/book/en/v2</p>
 				</div>
 
 				<!-- topNav List -->
