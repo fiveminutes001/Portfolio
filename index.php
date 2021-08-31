@@ -577,6 +577,13 @@
 									</div>
 								</div>
 							</a>
+							<a href="https://elad.explainit.online/html/felxCommands.html">
+								<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+									<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+										Useful flex commands
+									</div>
+								</div>
+							</a>
 							<a href="https://elad.explainit.online/html/npmCommands.html">
 								<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 									<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
@@ -1288,6 +1295,11 @@
 				<div class="w3-container w3-card w3-white w3-margin-bottom">
 					<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-mortar-board fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Tutorials</h2>
 					<div class="row">
+						<div class="w3-container column">
+							<h3 class="w3-text-teal"><a href="https://flexboxfroggy.com/">Flexbox Froggy</a></h3>
+							<p>Learning CSS flex.</p>
+						</div>
+
 						<div class="w3-container column">
 							<h3 class="w3-text-teal"><a href="https://elad.explainit.online/udacity/QuantumComputing">Quantum Computing</a></h3>
 							<p>Learning path.</p>
