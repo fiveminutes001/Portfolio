@@ -186,10 +186,37 @@
 			<pre>display: flex;</pre>
 			<pre>}</pre>
 			<pre class="pink">
-//Sometimes reversing the row or column order of a container is not enough. In these cases, we can apply the order property to individual items. Let's say we have 3 items. By default, items have a value of 0, but we can use this property to also set it to a positive or negative integer value (-2, -1, 0, 1, 2).</pre
+//Sometimes reversing the row or column order of a container is not enough. In these cases, we can apply the order property to individual items. Let's say we have 3 items. By default, items have a value of 0, but we can use this property to also set it to a positive or negative integer value (-2, -1, 0, 1, 2). It's like z-index, and can be applied to several elements within the same class.</pre
 			>
 			<pre>.yellow {</pre>
 			<pre>order:-2;</pre>
+			<pre>}</pre>
+		</div>
+		<div>
+			<h1><u>Across lines</u></h1>
+		</div>
+		<div>
+			<h2>To put every item in a single line</h2>
+			<pre>flex-wrap: nowrap;</pre>
+			<pre>#content {</pre>
+			<pre>display: flex;</pre>
+			<pre>flex-wrap: nowrap;</pre>
+			<pre>}</pre>
+		</div>
+		<div>
+			<h2>To wrap items to additional lines</h2>
+			<pre>flex-wrap: wrap;</pre>
+			<pre>#content {</pre>
+			<pre>display: flex;</pre>
+			<pre>flex-wrap: wrap;</pre>
+			<pre>}</pre>
+		</div>
+		<div>
+			<h2>To wrap items to additional lines in reverse</h2>
+			<pre>flex-wrap: wrap-reverse;</pre>
+			<pre>#content {</pre>
+			<pre>display: flex;</pre>
+			<pre>flex-wrap: wrap-reverse;</pre>
 			<pre>}</pre>
 		</div>
 		<div>
