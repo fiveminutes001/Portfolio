@@ -26,37 +26,45 @@
 			<!-- prettier-ignore -->
 			<div id="Topnavbar">
 				<a href="flexCommands.html">Flex</a>
-				<a class="active" href="javascript:void(0)"><span style="font-size: 16px; cursor: pointer" onclick="openNav()">&#9776; Git</span></a>
-				<a href="nodeCommands.html">node</a>
-				<a href="npmCommands.html">npm</a>
+				<a href="gitCommands.html">Git</a>
+				<a class="active" href="javascript:void(0)"><span style="font-size: 16px; cursor: pointer" onclick="openNav()">&#9776; node</span></a>
+				<a href="javascript:void(0)">npm</a>
 			</div>
 			<div class="content">
 				<div id="navbar"></div>
 				<div>
-					<h1 style="margin: 0px"><b>Git</b></h1>
+					<h1 style="margin: 0px"><b>node</b></h1>
 				</div>
-				<div id="creating">
-					<h2><u>Creating a repository</u></h2>
-				</div>
-				<div>
-					<h3>To initiate a repo</h3>
-					<pre>git init</pre>
+				<div id="installing">
+					<h2><u>Installing node</u></h2>
 				</div>
 				<div>
-					<h3 id="align-self">To clone a repo</h3>
-					<pre>git clone https://github.com/fiveminutes001/Portfolio.git</pre>
+					<h3>To download node</h3>
+					<p class="pink">https://nodejs.org</p>
 				</div>
 				<div>
-					<h3 id="justify-content">To update local repo (fetch + merge)</h3>
-					<pre>git pull https://github.com/fiveminutes001/Portfolio.git</pre>
+					<h3>To check node version</h3>
+					<!-- prettier-ignore -->
+					<pre>node -v</pre>
+				</div>
+				<div>
+					<h3>To run file</h3>
+					<pre>node index.js</pre>
 				</div>
 
-				<div id="updating">
-					<h2><u>Updating a repository</u></h2>
+				<div id="modules">
+					<h2><u>Modules</u></h2>
 				</div>
 				<div>
-					<h3>To shorten commands to one line</h3>
-					<pre>git add . && git commit -m "updated file" && git push</pre>
+					<h3>To export functions from module</h3>
+					<pre>// exports as object module.exports = {</pre>
+					<pre>myFirstFunction: myFirstFunction,</pre>
+					<pre>mySecondFunction: mySecondFunction</pre>
+					<pre>}</pre>
+					<pre>//using ES6 shorthand property names module.exports = {</pre>
+					<pre>myFirstFunction,</pre>
+					<pre>mySecondFunction</pre>
+					<pre>}</pre>
 				</div>
 				<!-- prettier-ignore -->
 				<div>
