@@ -50,6 +50,10 @@ pre {
 	margin-left: -16px;
 	border-radius: 25px;
 }
+.insideHeaderDiv {
+	width: 18px;
+	background-color: lightblue;
+}
 a {
 	text-decoration: none;
 }
