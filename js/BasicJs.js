@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
 		const newElement = document.createElement('div');
 		newElement.className = 'insideHeaderDiv';
 		fragment.appendChild(newElement);
-		elementsArray.appendChild(fragment);
+		elementsArray[i].appendChild(fragment);
 	}
 
 	console.log('elements:', elements);
