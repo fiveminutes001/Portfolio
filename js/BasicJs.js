@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
 		// Add class to parent div
 		elementsArray[i].classList.add('headerDiv');
 		// Get the first child node of an element
-		let item = elementsArray[i].childNodes[0];
+		let item = elements[i].childNodes[0];
 		//Duplicate it
 		fragment.appendChild(item);
 		elementsArray[i].appendChild(fragment);
