@@ -55,6 +55,7 @@
 				<div id="modules">
 					<h2><u>Modules</u></h2>
 				</div>
+
 				<div>
 					<h3>To export functions from module</h3>
 					<pre>// exports as object module.exports = {</pre>
@@ -68,224 +69,209 @@
 				</div>
 				<!-- prettier-ignore -->
 				<div>
-					<h3>To update remote repo</h3>
-					<pre>git add . Or git add -A <span class="pink">//with higher directories</span></pre>
-					<pre>git diff --check</pre>
-					<pre>git commit -m "initial commit 2" <span class="pink">Or</span>git commit -v (for longer message)</pre>
-					<pre>git push origin master</pre>
+					<h3>To import functions from module</h3>
+					<p class="pink">It is standard to name the const the same as the file or module name.</p>
+					<pre>// working file = index.js</pre>
+					<pre>// all functions in util/logger.js are available</pre>
+					<pre>const logger = require('./util/logger.js');</pre>
+					<pre>// using ES6 object destructuring, only myFirstFunction is available</pre>
+					<pre> const { myFirstFunction } = require('./util/logger.js');</pre>
+				</div>
+
+				<div id="fs">
+					<h2><u>File system</u></h2>
 				</div>
 				<div>
-					<h3>To fix commit message</h3>
-					<pre>git commit --amend</pre>
+					<h3>To get data from the file system</h3>
+					<pre>const fs = require('fs');</pre>
 				</div>
 				<div>
-					<h3>To update all modules</h3>
-					<pre>git submodule update</pre>
+					<h3>To get current directory name/file name</h3>
+					<pre>// working file = /app/util/logger.js</pre>
+					<pre>console.log(__dirname);</pre>
+					<pre>// prints /app/util</pre>
+					<pre>console.log(__filename);</pre>
+					<pre>// prints /app/util/logger.js</pre>
 				</div>
 				<!-- prettier-ignore -->
 				<div>
-					<h3>To update submodule in main directory</h3>
-					<pre><span class="pink">In submodule local dir:</span> git add . && git commit -m "updated file" && git push gitMaster master</pre>
-					<pre><span class="pink">In main local dir:</span> git submodule update --remote udacity/JsAndTheDOM</pre>
-					<pre><span class="pink">In main local dir:</span> git add . && git commit -m "updated file" && git push</pre>
-					<pre><span class="pink">In submodule remote dir:</span> git pull origin master</pre>
-					<pre><span class="pink">In main remote dir:</span> git pull</pre>
+					<h3>To get file path</h3>
+					<pre>console.log(path.resolve('index.js'));</pre>
+					<pre>// prints /Users/user/Desktop/app/index.js</pre>
 				</div>
 				<div>
-					<h3>To find out what's the origin</h3>
-					<pre>git remote -v</pre>
-				</div>
-				<div>
-					<h3>To show remote details</h3>
-					<pre>git remote show origin</pre>
-				</div>
-				<!-- prettier-ignore -->
-				<div>
-					<h3>To add a local source to remote repo</h3>
-					<pre>git remote add origin https://github.com/fiveminutes001/Portfolio.git/</pre>
-                    <p class="pink">You can add any number of remotes with the command <span class="yellow">git remote add</span>. You can then push to one of them by explicitly stating the remote in <span class="yellow">git push</span>. E.g. <span class="yellow">git push foobar master</span> to push the current branch to <span class="yellow">master</span> on <span class="yellow">remote foobar</span></p>
-                    <p class="pink">https://stackoverflow.com/questions/5181845/git-push-existing-repo-to-a-new-and-different-remote-repo-server</p>
-				
-				</div>
-				<div id="submodules">
-					<h2><u>Sumbmodules</u></h2>
-				</div>
-				<div>
-					<h3>To add new submodule</h3>
-					<pre>git submodule add https://github.com/chaconinc/DbConnector</pre>
-				</div>
-				<!-- prettier-ignore -->
-				<div>
-					<h3>To reset submodule in same dir name</h3>
-					<pre>git submodule add --force https://github.com/fiveminutes001/FullJs.git</pre>
-				</div>
-
-				<div id="tags">
-					<h2><u>Tags</u></h2>
-				</div>
-				<div>
-					<h3>To tag a commit</h3>
+					<h3>To get file path with no .</h3>
 					<p class="pink">
-						5 first figures of signature from git log --pretty=online
+						Normalizes any path by removing instances of . , turning double
+						slashes into single slashes and removing a directory when .. is
+						found.
 					</p>
-					<pre>git tag -a v1.0 60a85</pre>
+					<pre>console.log(path.normalize('./app//src//util/..'));</pre>
+					<pre>// prints app/src</pre>
 				</div>
 				<div>
-					<h3>To show tags</h3>
-					<pre>git tag</pre>
-				</div>
-				<div>
-					<h3>To show tag details</h3>
-					<pre>git show v1.0</pre>
-				</div>
-				<div>
-					<h3>To push tags to remote</h3>
-					<pre>git push origin --tags</pre>
-				</div>
-
-				<div id="conflicts">
-					<h2><u>Dealing with merge conflicts</u></h2>
-				</div>
-				<div>
-					<h3>To show differences of commit from HEAD</h3>
-					<pre>git diff hash_of_commit</pre>
-				</div>
-				<div>
-					<h3>
-						To find commits that are in refA branch but not in refB branch
-					</h3>
-					<pre>git log refA..refB</pre>
-				</div>
-				<div>
-					<h3>To find commits that are In branches A and B but not in C</h3>
-					<pre>git log refA refB --not refC</pre>
-				</div>
-				<div>
-					<h3>To find commits in either branches but not in both</h3>
-					<pre>git log --left-right master...experiment</pre>
-				</div>
-				<div>
-					<h3>To get current work from remote</h3>
-					<pre>git fetch origin</pre>
-				</div>
-
-				<div>
-					<h3>To find out which part of fetched work needs to be merged</h3>
-					<pre>git log --no-merges currentBranch..origin/master</pre>
-				</div>
-				<div>
-					<h3>To merge work</h3>
-					<pre>git merge origin/master</pre>
-				</div>
-				<div>
-					<h3>To decide which files to stage</h3>
+					<h3>To create path with no .</h3>
 					<p class="pink">
-						https://github.com/git-guides/git-add#accidentally-staging-and-committing-files
+						Used to concatenate strings to create a path that works across
+						operating systems. It joins the strings, then normalizes the result.
 					</p>
-				</div>
-				<div>
-					<h3>To reset changes</h3>
-					<p class="pink">
-						http://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified
-					</p>
-				</div>
-
-				<div id="history">
-					<h2><u>Viewing project's history</u></h2>
-				</div>
-				<div>
-					<h3>To show project's roadmap</h3>
-					<pre>git log --graph</pre>
-				</div>
-				<div>
-					<h3>To view changes</h3>
-					<pre>gitk</pre>
-				</div>
-				<div>
-					<h3>To show one line commit log</h3>
-					<pre>git log --pretty=oneline</pre>
-					<pre>git log --pretty=format:%h%s --graph</pre>
-				</div>
-				<div>
-					<h3>To show commit log</h3>
-					<pre>git log</pre>
-				</div>
-				<div>
-					<h3>To find last couple of months LOCAL changes</h3>
-					<pre>git reflog</pre>
-					<pre>git show HEAD@{5}</pre>
-				</div>
-				<div>
-					<h3>To create a summary of logs by author from version v1.0</h3>
-					<pre>git shortlog --no-merges master --not v1.0</pre>
-				</div>
-				<div>
-					<h3>
-						To find all historic changes in git_deflate_bound function in zlib.c
-						file
-					</h3>
-					<pre>git log -L :git_deflate_bound:zlib.c</pre>
-				</div>
-				<div>
-					<h3>To change work email address to personal</h3>
-					<p class="pink">
-						git filter-branch --commit-filter ' if [ "$GIT_AUTHOR_EMAIL" =
-						"schacon@localhost" ]; then GIT_AUTHOR_NAME="Scott Chacon";
-						GIT_AUTHOR_EMAIL="schacon@example.com"; git commit-tree "$@"; else
-						git commit-tree "$@"; fi' HEAD
-					</p>
-				</div>
-
-				<div id="easier">
-					<h2><u>Making life easier</u></h2>
-				</div>
-				<!-- prettier-ignore -->
-				<div>
-                    <h3 >To shorten git commands (pull and push)</h3>
-                    <pre>$ git remote add progit https://github.com/progit/progit2.git (1)</pre>
-                    <pre>$ git fetch progit (2)</pre>
-                    <pre>$ git branch --set-upstream-to=progit/master master (3)</pre>
-                    <pre>$ git config --local remote.pushDefault origin (4)</pre>
-                    <p class="pink">
-                        Add the source repository and give it a name. Here, I have chosen to
-                        call it progit. Get a reference on progit's branches, in particular
-                        master. Set your master branch to fetch from the progit remote.
-                        Define the default push repository to origin. 
-                    </p>
-                    <p class="pink">http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project</p>
-                </div>
-				<div>
-					<h3>To get rid of pull alert</h3>
-					<pre>git config pull.ff only</pre>
-				</div>
-				<div>
-					<h3>To create a zipped repository copy</h3>
-					<pre>git archive --format zip --output 1.zip master</pre>
-				</div>
-
-				<div id="general">
-					<h2><u>General</u></h2>
-				</div>
-				<div>
-					<h3>To work correctly with merge and rebase</h3>
 					<!-- prettier-ignore -->
-					<p class="pink">Rebase local changes before pushing to clean up your work, but never rebase anything that you have pushed somewhere</p>
+					<pre>console.log(path.join('/app', 'src', 'util', '..', '/index.js'));</pre>
+					<pre>// prints  /app/src/index.js</pre>
 				</div>
+
 				<div>
-					<h3>To fix commits on a local level</h3>
-					<p class="pink">https://git-rebase.io/</p>
-				</div>
-				<div>
-					<h3>
-						To work correctly with pull request and merge changes (examples)
-					</h3>
+					<h3>To do things with other core modules</h3>
 					<p class="pink">
-						http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project
+						HTTP/HTTPS is used to transfer data. Later on, weâ€™ll be using
+						Express, which builds on top of this module, to create our server.
+					</p>
+					<p class="pink">URL is used for parsing and resolving URLs.</p>
+					<p class="pink">
+						TLS/SSL implements security protocols on top of OpenSSL There are
+						more core modules worth checking out in the Node.js documentation.
 					</p>
 				</div>
-				<div id="book">
-					<h3>GitPro book</h3>
-					<p class="pink">https://git-scm.com/book/en/v2</p>
+				<div id="processModule">
+					<h2><u>Process module</u></h2>
+					<p class="pink">
+						Not found in the browser APIs, Process relates to the global node
+						execution process which occurs when you run a js file through
+						Node.js. Process has many options available--we will focus on the
+						most commonly seen
+					</p>
+				</div>
+				<div>
+					<h3>process events</h3>
+					<p class="pink">
+						The Process module contains the ability to perform tasks immediately
+						before the process exits, and when it exits. beforeExit allows for
+						asynchronous calls which can make the process continue whereas exit
+						only happens once all synchronous and asynchronous code is complete.
+					</p>
+					<pre>// create conditions for exit code options</pre>
+					<pre>// example: 0 typically implies without errors, 1 with.</pre>
+					<pre>process.exitCode = 1;</pre>
+					<pre>process.on('beforeExit', () => {</pre>
+					<pre>console.log('beforeExit event');</pre>
+					<pre>});</pre>
+					<pre>process.on('exit', (code) => {</pre>
+					<pre>console.log(`exit event with code: ${code}`);</pre>
+					<pre>});</pre>
+				</div>
+				<div>
+					<h3>process.env</h3>
+					<p class="pink">
+						Process.env gives you access to the environment information of your
+						Node.js application. It also allows you to add environment variables
+						that can be used if your code is dependent on the environment it is
+						run in. With the use of a module like dotenv you can easily control
+						your project's configuration in separate .env files based on what
+						environment you are using (ex. production vs test vs development).
+					</p>
+					<p class="pink">
+						Common reasons include: changing the port or IP, accessing static
+						files, or access to the production vs development databases.
+					</p>
+					<pre>console.log(process.env);</pre>
+				</div>
+
+				<div>
+					<h3>process.stdout</h3>
+					<p class="pink">
+						A lesser-known fact is that console.log actually utilizes
+						process.stdout in order to log to the console.
+						process.stdout.write('Hello, world.'); and console.log('Hello,
+						world.'); are nearly identical except for one very important
+						difference, process.stdout does not force a new line break. This
+						allows you to create helpful tools like progress bars.
+					</p>
+				</div>
+				<div>
+					<h3>process.argv</h3>
+					<p class="pink">
+						An array containing your console arguments information for your
+						executed process.
+					</p>
+					<p class="pink">
+						process.argv allows you to pass in arguments to your application
+						which can be a common occurrence when needing to parse data from
+						files.
+					</p>
+					<p class="pink">
+						When index.js was run through Node.js, the entire command contained
+						four arguments, so the array has four values, the location of
+						Node.js on the system, the location of the file run, and then two
+						additional arguments.
+					</p>
+					<p class="pink">
+						process.argv allows you to pass in arguments to your application
+						which can be a common occurrence when needing to parse data from
+						files.
+					</p>
+					<pre>// index.js</pre>
+					<!-- prettier-ignore -->
+					<pre>// When run, will output an array of all arguments supplied to the node process.</pre>
+					<pre>console.log(process.argv)</pre>
+					<pre>// Terminal</pre>
+					<pre>$ node index.js argument1 argument2</pre>
+					<pre>[</pre>
+					<pre>'/usr/local/bin/node',</pre>
+					<pre>'/Users/user/Desktop/app/index.js',</pre>
+					<pre>'argument1',</pre>
+					<pre>'argument2'</pre>
+					<pre>]</pre>
+				</div>
+				<div>
+					<h3>process.nextTick</h3>
+					<p class="pink">
+						Allows you to run JavaScript between the different phases of the
+						event loop. process.nextTick will be described in detail when
+						discussing the event loop.
+					</p>
+				</div>
+				<div>
+					<h3>To schedule events</h3>
+					<p class="pink">synchronous - using nothing.</p>
+					<p class="pink">setTimeout - assigning to 0 or a second iteration.</p>
+					<p class="pink">
+						setInterval - could have used a loop of 1 to run one time at 0 or in
+						another iteration.
+					</p>
+					<p class="pink">
+						process.nextTick - to run after the synchronous code or after the
+						polling phase if used with the file system module.
+					</p>
+					<p class="pink">
+						fs - with synchronous code inside to run after the polling phase.
+					</p>
+					<p class="pink">
+						setImmediate - within fs call to run during the check phase.
+					</p>
+					<p class="pink">process.on - to run beforeExit or at exit.</p>
+				</div>
+
+				<div id="utils">
+					<h2><u>Utilities folder</u></h2>
+				</div>
+				<div>
+					<h3>To use utilities folder</h3>
+					<p class="pink">Create a utilities folder</p>
+					<p class="pink">Separate the functions into two files</p>
+					<p class="pink">
+						use module.exports = { function1, function2 } to export the
+						functions.
+					</p>
+					<p class="pink">
+						Import the functions into the index.js file using a module name and
+						destructuring. ex: const util = require('utilities/file.js'); or
+						const { function1, function2 } = require('utilities/file.js');
+					</p>
+					<p class="pink">
+						Output the results of the functions to console either using the
+						function name if you have used destructuring or
+						moduleName.functionName if you are calling the module.
+					</p>
 				</div>
 
 				<!-- topNav List -->
