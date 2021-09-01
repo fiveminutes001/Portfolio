@@ -23,7 +23,7 @@ p {
 	box-sizing: inherit;
 }
 h3 {
-	margin: 8px;
+	margin: 8px 14px 8px 8px;
 	font-size: 0.9em;
 }
 h2 {
@@ -42,6 +42,13 @@ pre {
 }
 .yellow {
 	color: yellow;
+}
+.headerDiv {
+	background-color: lightblue;
+	width: fit-content;
+	display: flex;
+	margin-left: -16px;
+	border-radius: 25px;
 }
 a {
 	text-decoration: none;
