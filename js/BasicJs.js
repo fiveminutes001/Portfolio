@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function (e) {
-	let elements = document.querySelectorAll('div[id]');
-	let elementsArray = Array.from(elements);
 	debugger;
+    let elements = document.querySelectorAll('div[id]');
+	let elementsArray = Array.from(elements);
+	
 	// const fragment = document.createDocumentFragment();
 	// for (let i = 4; i < elementsArray.length; i++) {
 	// 	//Create new div
