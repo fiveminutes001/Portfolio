@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
 
 	const fragment = document.createDocumentFragment();
 
-	for (let i = 4; i < elementsArray.length; i++) {
+	for (let i = 4; i < elements.length; i++) {
 		//Create new div
 		const newElement = document.createElement('div');
 		newElement.className = 'insideHeaderDiv';
