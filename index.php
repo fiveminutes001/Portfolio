@@ -252,7 +252,7 @@
 
 						<div class="chip">
 							<img src="img/NodeJs.png" alt="NodeJsLogo" width="96" height="96">
-							Node Js
+							node js
 						</div>
 
 						<div class="chip">
