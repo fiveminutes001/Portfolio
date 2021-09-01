@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function (e) {
-	debugger;
 	let elements = document.querySelectorAll('div[id]');
 
 	for (let i = 4; i < elements.length; i++) {
