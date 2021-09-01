@@ -779,6 +779,13 @@
 								</div>
 							</a>
 
+							<a href="https://www.w3.org/TR/CSS21/selector.html%23id-selectors">
+								<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
+									<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
+										CSS selectors
+									</div>
+								</div>
+							</a>
 							<a href="https://web.dev/javascript-this/">
 								<div class="w3-tag w3-round w3-green" style="padding:3px;margin-top:6px;">
 									<div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top:0px;">
