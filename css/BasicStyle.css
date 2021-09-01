@@ -58,3 +58,7 @@ pre {
 a {
 	text-decoration: none;
 }
+body,
+body * {
+	max-height: 1000000px;
+}
