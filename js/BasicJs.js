@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function (e) {
 	let elements = document.querySelectorAll('div[id]');
 	let elementsArray = Array.from(elements);
-
+	// debugger
 	const fragment = document.createDocumentFragment();
 	for (let i = 4; i < elementsArray.length; i++) {
 		//Create new div
@@ -10,14 +10,11 @@ document.addEventListener('DOMContentLoaded', function (e) {
 		// Add class to parent div
 		elementsArray[i].classList.add('headerDiv');
 		// Get the first child node of an element
-		let item = elements[i].childNodes[0];
+		let item = elementsArray[i].childNodes[0];
 		//Duplicate it
 		fragment.appendChild(item);
 		elementsArray[i].appendChild(fragment);
 		// Replace it with the new element
 		item.replaceChild(newElement, item.childNodes[0]);
 	}
-
-	console.log('elements:', elements);
-	console.log('e:', e);
 });
