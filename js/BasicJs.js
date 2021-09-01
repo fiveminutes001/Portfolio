@@ -1,10 +1,6 @@
 document.addEventListener('DOMContentLoaded', function (e) {
 	debugger;
 	let elements = document.querySelectorAll('div[id]');
-	// let elementsArray = Array.from(elements);
-	// let elemenay.from(elements);
-
-	const fragment = document.createDocumentFragment();
 
 	for (let i = 4; i < elements.length; i++) {
 		//Create new div
@@ -16,10 +12,5 @@ document.addEventListener('DOMContentLoaded', function (e) {
 		let item = elements[i].childNodes[1];
 		// Insert new div before second child
 		elements[i].insertBefore(newElement, item);
-		// //Duplicate it
-		// fragment.appendChild(item);
-		// elementsArray[i].appendChild(fragment);
-		// // Replace it with the new element
-		// item.replaceChild(newElement, item.childNodes[1]);
 	}
 });
