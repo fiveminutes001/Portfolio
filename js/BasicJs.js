@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function (e) {
 	debugger;
-    let elements = document.querySelectorAll('div[id]');
+	let elements = document.querySelectorAll('div[id]');
 	let elementsArray = Array.from(elements);
-	
+
 	// const fragment = document.createDocumentFragment();
 	// for (let i = 4; i < elementsArray.length; i++) {
 	// 	//Create new div
@@ -18,5 +18,5 @@ document.addEventListener('DOMContentLoaded', function (e) {
 	// 	elementsArray[i].appendChild(fragment);
 	// 	// Replace it with the new element
 	// 	item.replaceChild(newElement, item.childNodes[1]);
-	}
+	//}
 });
