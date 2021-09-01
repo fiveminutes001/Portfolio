@@ -62,3 +62,6 @@ body,
 body * {
 	max-height: 1000000px;
 }
+.content {
+	text-align: center;
+}
