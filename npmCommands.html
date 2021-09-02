@@ -1,0 +1,344 @@
+<html>
+	<head>
+		<style>
+			pre {
+				background-color: transparent;
+				float: left;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				min-width: 100%;
+				overflow: initial;
+				padding: 0.8em 1em;
+				border: 0 !important;
+				background: #2b2b2b;
+				border-radius: 0.3em;
+				word-wrap: normal;
+				color: #f8f8f2;
+				font-family: Menlo, Monaco, Consolas, Operator Mono, Andale Mono,
+					Ubuntu Mono, monospace;
+				font-size: 16px;
+				hyphens: none;
+				line-height: 1.5;
+				tab-size: 4;
+				text-align: left;
+				white-space: pre;
+				word-break: normal;
+				word-spacing: normal;
+				box-sizing: inherit;
+			}
+			h2 {
+				margin: 8px;
+			}
+			pre {
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>To check which npm packages are installed globally</h2>
+		<pre>npm list -g</pre>
+
+		<h2>To check if specific npm package is installed locally</h2>
+		<!-- prettier-ignore -->
+		<pre>npm list</pre>
+		<pre>npm list react</pre>
+
+		<h2>To download node</h2>
+		<pre>https://nodejs.org/.</pre>
+
+		<h2>To check node version</h2>
+		<pre>node -v</pre>
+
+		<h2>To run file</h2>
+		<pre>node index.js</pre>
+
+		<h2>To initialize npm and go through all of the settings use:</h2>
+		<!-- prettier-ignore -->
+		<pre>$ npm init</pre>
+
+		<h2>To automatically select all defaults use -y</h2>
+		<!-- prettier-ignore -->
+		<pre>$ npm init -y</pre>
+
+		<h2>To install dependencies</h2>
+		<!-- prettier-ignore -->
+		<pre>//go to npmjs.com</pre>
+
+		<pre>$ npm i module-name // install module to dependencies</pre>
+		<pre>$ npm i --save-dev module-name // install to dev dependencies</pre>
+		<!-- prettier-ignore -->
+		<pre>$ npm i --save-dev module-name@1.19 // install a specific version (1.19 here) of module</pre>
+
+		<p>
+			Pay special attention to the version listed. The format is as follows:
+		</p>
+		<ul>
+			<li>First number = major version</li>
+			<li>Second number = minor release</li>
+			<li>Third number = patch</li>
+		</ul>
+		<p>
+			The version states what was installed, but it also clarifies how it can be
+			updated should you remove the node_modules and package-lock.json files and
+			reinstall all dependencies with $ npm install. The additional included
+			characters (or lack thereof) tell npm how to maintain your dependencies.
+		</p>
+		<ul>
+			<li>* means that you'll accept all updates</li>
+			<li>^ means that you'll only accept minor releases</li>
+			<li>~ means that you'll only accept patch releases</li>
+			<li>
+				>, >=, <=, < are also valid for saying you'll accept versions
+				greater/less/equal to the listed version
+			</li>
+			<li>
+				|| allows you to combine instructions "prettier": "2.2.1 || >2.2.1 <
+				3.0.0" which says use prettier greater than 2.2.1 and less than version
+				3.0.0
+			</li>
+			<li>
+				You can also leave off a prefix and only accept the listed version.
+			</li>
+		</ul>
+
+		<h2>To install npm dependency Prettier (example)</h2>
+		<ul>
+			<li>
+				Locate prettier on npmjs.com to get the install script and other
+				information.
+			</li>
+			<li>Run the install script npm i --save-dev prettier.</li>
+			<li>
+				Add a prettier script to your package.json file. The script you choose
+				can vary dramatically depending on the project. The one below will only
+				overwrite files located in the src directory that are js files. You may
+				need a different script depending on the project.
+			</li>
+			<li>
+				<pre>
+				
+						
+							// example config file, path structure to check, and write fixes
+						
+							"prettier": "prettier --config .prettierrc 'src/**/*.js' --write"
+						
+						// or
+						
+							"prettier": "prettier --config .prettierrc \"src/**/*.js\"
+							--write"
+						
+					
+				</pre
+				>
+			</li>
+			<li>Create a .prettierrc file for any custom configurations.</li>
+			<li>
+				Run npm run prettier to run prettier (or whatever you named your
+				script).
+			</li>
+		</ul>
+		<h2>To update npm dependencies</h2>
+		<!-- prettier-ignore -->
+		<pre>running $ npm update will update all of your dependencies based on the specifications given in your package.json file.</pre>
+
+		<h2>To add prettier script to package.json</h2>
+		<!-- prettier-ignore -->
+		<pre>
+            "scripts": {
+            "prettier":"prettier --config .prettierrc ./**/*.js --write"
+            },
+        </pre>
+
+		<h2>To run scripts</h2>
+		<p>
+			To run a script that you have added to your package.json file, simply run
+			$ npm run argument with the name of the script as the argument.
+		</p>
+		<pre>$ npm run prettier</pre>
+
+		<h2>To export functions from module</h2>
+		<!-- prettier-ignore -->
+		<pre>// working file = util/logger.js 
+            
+            // exports as object module.exports = {
+			    myFirstFunction: myFirstFunction, 
+                mySecondFunction: mySecondFunction 
+            }
+
+			//using ES6 shorthand property names module.exports = { 
+                myFirstFunction,
+			    mySecondFunction 
+            }
+		</pre>
+
+		<h2>To import functions from module</h2>
+		<p>It is standard to name the const the same as the file or module name.</p>
+		<!-- prettier-ignore -->
+		<pre>
+            // working file = index.js
+            // all functions in util/logger.js are available
+            const logger = require('./util/logger.js');
+            
+            // using ES6 object destructuring, only myFirstFunction is available
+            const { myFirstFunction } = require('./util/logger.js');
+        </pre>
+
+		<h2>To get current directory name/file name</h2>
+		<!-- prettier-ignore -->
+		<pre>
+            // working file = /app/util/logger.js
+                console.log(__dirname);
+                // prints /app/util
+
+                console.log(__filename);
+                // prints /app/util/logger.js
+		</pre>
+
+		<h2>To get file path</h2>
+		<!-- prettier-ignore -->
+		<pre>
+            console.log(path.resolve('index.js'));
+            // prints /Users/user/Desktop/app/index.js
+		</pre>
+
+		<h2>To get file path with no .</h2>
+		<p>
+			Normalizes any path by removing instances of . , turning double slashes
+			into single slashes and removing a directory when .. is found.
+		</p>
+		<!-- prettier-ignore -->
+		<pre>
+            console.log(path.normalize('./app//src//util/..'));
+            // prints app/src
+		</pre>
+
+		<h2>To create path with no .</h2>
+		<p>
+			Used to concatenate strings to create a path that works across operating
+			systems. It joins the strings, then normalizes the result.
+		</p>
+		<!-- prettier-ignore -->
+		<pre>
+            console.log(path.join('/app', 'src', 'util', '..', '/index.js'));
+            // prints  /app/src/index.js
+		</pre>
+
+		<h2>To get data from the file system</h2>
+		<p>
+			The File System Module is highly sophisticated and must be imported using
+			the module system's const fs = require('fs');. File system (fs) allows for
+			reading and writing to files with many options.
+		</p>
+		<!-- prettier-ignore -->
+		<pre>
+            const fs = require('fs');
+		</pre>
+
+		<h2>To do things with other core modules</h2>
+
+		<ul>
+			<li>
+				HTTP/HTTPS is used to transfer data. Later on, we’ll be using Express,
+				which builds on top of this module, to create our server.
+			</li>
+			<li>URL is used for parsing and resolving URLs.</li>
+			<li>
+				TLS/SSL implements security protocols on top of OpenSSL There are more
+				core modules worth checking out in the Node.js documentation.
+			</li>
+		</ul>
+
+		<h2>To control events when running code through NodeJs</h2>
+		<!-- prettier-ignore -->
+		<pre>    
+            Process Module
+            Not found in the browser APIs, Process relates to the global node execution process which occurs when you run a js file through Node.js. Process has many options available--we will focus on the most commonly seen.
+
+            Examples
+            process events
+            The Process module contains the ability to perform tasks immediately before the process exits, and when it exits. beforeExit allows for asynchronous calls which can make the process continue whereas exit only happens once all synchronous and asynchronous code is complete.
+
+            // create conditions for exit code options
+            // example: 0 typically implies without errors, 1 with.
+
+            process.exitCode = 1;
+
+            process.on('beforeExit', () => {
+            console.log('beforeExit event');
+            });
+
+            process.on('exit', (code) => {
+            console.log(`exit event with code: ${code}`);
+            });
+            process.env
+            console.log(process.env);
+            Process.env gives you access to the environment information of your Node.js application. It also allows you to add environment variables that can be used if your code is dependent on the environment it is run in. With the use of a module like dotenv you can easily control your project's configuration in separate .env files based on what environment you are using (ex. production vs test vs development).
+
+            Common reasons include: changing the port or IP, accessing static files, or access to the production vs development databases.
+
+            process.stdout
+            A lesser-known fact is that console.log actually utilizes process.stdout in order to log to the console.
+
+            process.stdout.write('Hello, world.'); and console.log('Hello, world.'); are nearly identical except for one very important difference, process.stdout does not force a new line break. This allows you to create helpful tools like progress bars.
+
+            process.argv
+            An array containing your console arguments information for your executed process.
+
+            // index.js
+            // When run, will output an array of all arguments supplied to the node process.
+
+            console.log(process.argv);
+            // Terminal
+
+            $ node index.js argument1 argument2 
+            [
+            '/usr/local/bin/node',
+            '/Users/user/Desktop/app/index.js',
+            'argument1',
+            'argument2'
+            ]
+            When index.js was run through Node.js, the entire command contained four arguments, so the array has four values, the location of Node.js on the system, the location of the file run, and then two additional arguments.
+
+            process.argv allows you to pass in arguments to your application which can be a common occurrence when needing to parse data from files.
+
+            process.nextTick
+            Allows you to run JavaScript between the different phases of the event loop. process.nextTick will be described in detail when discussing the event loop.
+        </pre>
+
+		<h2>To schedule events</h2>
+		<ul>
+			<li>synchronous - using nothing.</li>
+			<li>setTimeout - assigning to 0 or a second iteration.</li>
+			<li>
+				setInterval - could have used a loop of 1 to run one time at 0 or in
+				another iteration.
+			</li>
+			<li>
+				process.nextTick - to run after the synchronous code or after the
+				polling phase if used with the file system module.
+			</li>
+			<li>fs - with synchronous code inside to run after the polling phase.</li>
+			<li>setImmediate - within fs call to run during the check phase.</li>
+			<li>process.on - to run beforeExit or at exit.</li>
+		</ul>
+
+		<h2>To use utilities folder</h2>
+		<ul>
+			<li>Create a utilities folder</li>
+			<li>Separate the functions into two files</li>
+			<li>
+				use module.exports = { function1, function2 } to export the functions.
+			</li>
+			<li>
+				Import the functions into the index.js file using a module name and
+				destructuring. ex: const util = require('utilities/file.js'); or const {
+				function1, function2 } = require('utilities/file.js');
+			</li>
+			<li>
+				Output the results of the functions to console either using the function
+				name if you have used destructuring or moduleName.functionName if you
+				are calling the module.
+			</li>
+		</ul>
+	</body>
+</html>
