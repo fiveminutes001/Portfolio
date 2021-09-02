@@ -62,3 +62,24 @@ body,
 body * {
 	max-height: 1000000px;
 }
+.content {
+	text-align: center;
+}
+.bigChip {
+	display: inline-block;
+	padding: 0 25px;
+	height: 70px;
+	font-size: 23px;
+	line-height: 70px;
+	border-radius: 25px;
+	background-color: #f1f1f1;
+	margin: 5px;
+}
+
+.bigChip img {
+	float: left;
+	margin: 0 10px 0 -25px;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+}
