@@ -11,6 +11,7 @@
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			<a href="#installing">installing</a>
 			<a href="#dependencies">dependencies</a>
+			<a href="#scripts">scripts</a>
 		</div>
 		<div id="main">
 			<div class="header">
@@ -134,6 +135,16 @@
 				</p>
 
 				<div>
+					<h3>To install these basic dependencies</h3>
+					<p>prettier</p>
+					<p>eslint</p>
+					<p>
+						eslint-config-prettier - to turn off ESLint reult that conflict with
+						Prettier
+					</p>
+					<p>eslint-plugin-prettier - which runs Prettier as an ESLint rule</p>
+				</div>
+				<div>
 					<h3>To update npm dependencies</h3>
 					<p>
 						running <span class="yellow">$ npm update</span> will update all of
@@ -141,6 +152,51 @@
 						package.json file.
 					</p>
 				</div>
+
+				<div id="scripts">
+					<h3>Scripts</h3>
+				</div>
+
+				<div>
+					<h3>To add .prettierrc</h3>
+					<p>//create a seperate .prettierrc file</p>
+					{
+					<p>$ wsl touch .prettierrc</p>
+					<pre>{</pre>
+					<pre>"semi": true,</pre>
+					<pre>"trailingComma": "none",</pre>
+					<pre>"singleQuote": true,</pre>
+					<pre>"printWidth": 80</pre>
+					<pre>}</pre>
+				</div>
+
+				<div>
+					<h3>To add .eslintrc</h3>
+					<p>//create a seperate .eslintrc file</p>
+					{
+					<p>$ wsl touch .eslintrc</p>
+
+					<pre>{</pre>
+					<pre>"root": true,</pre>
+					<pre>"plugins": ["prettier"],</pre>
+					<pre>"extends": ["eslint:recommended", "prettier"],</pre>
+					<pre>"rules": {</pre>
+					<pre>"prettier/prettier": 2,</pre>
+					<!-- prettier-ignore -->
+					<pre>"no-use-before-define": ["error", { "functions": true, "classes": true }],</pre>
+					<pre>"no-var": "error",</pre>
+					<pre>"prefer-const": "error"</pre>
+					<pre>},</pre>
+					<pre>"parserOptions": {</pre>
+					<pre>"ecmaVersion": 2017</pre>
+					<pre>},</pre>
+					<pre>"env": {</pre>
+					<pre>"node": true,</pre>
+					<pre>"es6": true</pre>
+					<pre>}</pre>
+					<pre>}</pre>
+				</div>
+
 				<div>
 					<h3>To add prettier script to package.json</h3>
 					<pre>"scripts": {</pre>
@@ -148,6 +204,7 @@
 					<pre>"prettier":"prettier --config .prettierrc ./**/*.js --write"</pre>
 					<pre>},</pre>
 				</div>
+
 				<div>
 					<h3>To run scripts</h3>
 					<p>

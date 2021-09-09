@@ -55,6 +55,30 @@
 				<div id="updating">
 					<h3>Updating a repository</h3>
 				</div>
+
+				<div>
+					<h3>To automate the updating process</h3>
+					<pre>//Make sure 'git status' is clean</pre>
+					<pre>//Go to remote terminal</pre>
+					<pre>//Run 'git pull' and make sure everything's ok</pre>
+					<pre>//If not, fixing is needed</pre>
+					<!-- prettier-ignore -->
+					<pre>git checkout integration //that's going to be the production branch eventually</pre>
+					<!-- prettier-ignore -->
+					<pre>git merge master --no-ff --log //master brach is where the local work is done</pre>
+					<!-- prettier-ignore -->
+					<pre>git checkout master //returning to dev work</pre>
+				</div>
+
+				<!-- prettier-ignore -->
+				<div>
+					<h3>To update remote repo</h3>
+					<pre>git add . Or git add -A <span class="pink">//with higher directories</span></pre>
+					<pre>git diff --check</pre>
+					<pre>git commit -m "initial commit 2" <span class="pink">Or</span>git commit -v (for longer message)</pre>
+					<pre>git push origin master</pre>
+				</div>
+
 				<div>
 					<h3>To shorten commands to one line</h3>
 					<pre>git add . && git commit -m "updated file" && git push</pre>
@@ -67,6 +91,7 @@
 					<pre>git commit -m "initial commit 2" <span class="pink">Or</span>git commit -v (for longer message)</pre>
 					<pre>git push origin master</pre>
 				</div>
+
 				<div>
 					<h3>To fix commit message</h3>
 					<pre>git commit --amend</pre>
