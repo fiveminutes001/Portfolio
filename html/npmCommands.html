@@ -198,10 +198,11 @@
 				</div>
 
 				<div>
-					<h3>To add prettier script to package.json</h3>
+					<h3>To add prettier and eslint scripts to package.json</h3>
 					<pre>"scripts": {</pre>
 					<!-- prettier-ignore -->
-					<pre>"prettier":"prettier --config .prettierrc ./**/*.js --write"</pre>
+					<pre>"prettier":"prettier --config .prettierrc ./**/*.js --write",</pre>
+					<pre>"lint":"eslint .eslintrc ./**/*.js --quiet",</pre>
 					<pre>},</pre>
 				</div>
 
