@@ -62,28 +62,32 @@
 					<pre>// 2. Go to remote terminal</pre>
 					<pre>// 3. Run 'git pull' and make sure everything's ok</pre>
 					<pre>// 4. If not, fixing is needed</pre>
+					<pre><span class="pink">// on dev branch</span></pre>
+					<pre>git add . && git commit -m "updated file"
 					<!-- prettier-ignore -->
-					<pre><span class="pink">//master's going to be the production branch eventually</span></pre>
+					<pre><span class="pink">// master's going to be the production branch eventually</span></pre>
 					<pre>git checkout master</pre>
 					<!-- prettier-ignore -->
-					<pre><span class="pink">//dev brach is where the local work is done</span></pre>
+					<pre><span class="pink">// dev brach is where the local work is done</span></pre>
 					<pre>git merge dev --no-ff --log</pre>
-					<pre><span class="pink">//to push -->.</span></pre>
+					<pre><span class="pink">// to push --></span></pre>
 					<!-- prettier-ignore -->
-					<pre><span class="pink">//returning to dev work</span></pre>
+					<pre><span class="pink">// returning to dev work</span></pre>
 					<pre>git checkout dev</pre>
 				</div>
 
 				<!-- prettier-ignore -->
 				<div>
 					<h3>To push</h3>
-					<pre><span class="pink">In submodule local dir:</span></pre>
+					<pre><span class="pink">If changes were made, do this in every submodule local dir:</span></pre>
 					<pre>git add . && git commit -m "updated file" && git push gitMaster master</pre>
-					<pre><span class="pink">For specific submodule:</span></pre>
+					<pre><span class="pink">For specific submodule in main local dir:</span></pre>
 					<pre>git submodule update --remote udacity/JsAndTheDOM</pre>
-					<pre><span class="pink">For all submodules:</span></pre>
+					<pre><span class="pink">For all submodules in main local dir:</span></pre>
 					<pre>git submodule update</pre>
-					<pre><span class="pink">In main local dir:</span></pre>
+					<pre><span class="pink">In main local dir if working with dev branch:</span></pre>
+					<pre>git push</pre>
+					<pre><span class="pink">In main local dir if <span class="pink">not working</span> with dev branch:</span></pre>
 					<pre>git add . && git commit -m "updated file" && git push</pre>
 					<pre><span class="pink">In every submodule remote dir:</span></pre>
 					<pre>git pull origin master</pre>
