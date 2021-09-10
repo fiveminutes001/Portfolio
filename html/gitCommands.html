@@ -68,9 +68,21 @@
 					<!-- prettier-ignore -->
 					<pre><span class="pink">//dev brach is where the local work is done</span></pre>
 					<pre>git merge dev --no-ff --log</pre>
+					<pre><span class="pink">//Pushing procidure starts here.</span></pre>
 					<!-- prettier-ignore -->
 					<pre><span class="pink">//returning to dev work</span></pre>
 					<pre>git checkout dev</pre>
+				</div>
+
+				<!-- prettier-ignore -->
+				<div>
+					<h3>To push correctly</h3>
+					<pre><span class="pink">In submodule local dir:</span> git add . && git commit -m "updated file" && git push gitMaster master</pre>
+					<pre><span class="pink">For specific submodule:</span> git submodule update --remote udacity/JsAndTheDOM</pre>
+					<pre><span class="pink">For all submodules:</span>git submodule update</pre>
+					<pre><span class="pink">In main local dir:</span> git add . && git commit -m "updated file" && git push</pre>
+					<pre><span class="pink">In every submodule remote dir:</span> git pull origin master</pre>
+					<pre><span class="pink">In main remote dir:</span> git pull</pre>
 				</div>
 
 				<!-- prettier-ignore -->
@@ -95,16 +107,7 @@
 					<h3>To update all modules</h3>
 					<pre>git submodule update</pre>
 				</div>
-				<!-- prettier-ignore -->
-				<div>
-					<h3>To update submodule in main directory</h3>
-					<pre><span class="pink">In submodule local dir:</span> git add . && git commit -m "updated file" && git push gitMaster master</pre>
-					<pre><span class="pink">For specific submodule:</span> git submodule update --remote udacity/JsAndTheDOM</pre>
-					<pre><span class="pink">For all submodules:</span>git submodule update</pre>
-					<pre><span class="pink">In main local dir:</span> git add . && git commit -m "updated file" && git push</pre>
-					<pre><span class="pink">In every submodule remote dir:</span> git pull origin master</pre>
-					<pre><span class="pink">In main remote dir:</span> git pull</pre>
-				</div>
+
 				<div>
 					<h3>To find out what's the origin</h3>
 					<pre>git remote -v</pre>
