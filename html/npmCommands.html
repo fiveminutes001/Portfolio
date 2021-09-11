@@ -55,6 +55,12 @@
 				</div>
 
 				<div>
+					<h3>To run dependencies (eslint for example)</h3>
+					<pre>eslint **/*.js --debug</pre>
+					<pre>eslint **/*.js --fix</pre>
+				</div>
+
+				<div>
 					<h3>To check which npm packages are installed globally</h3>
 					<pre>npm list -g</pre>
 				</div>
@@ -160,7 +166,6 @@
 				<div>
 					<h3>To add .prettierrc</h3>
 					<p>//create a seperate .prettierrc file</p>
-					{
 					<p>$ wsl touch .prettierrc</p>
 					<pre>{</pre>
 					<pre>"semi": true,</pre>
@@ -173,7 +178,6 @@
 				<div>
 					<h3>To add .eslintrc</h3>
 					<p>//create a seperate .eslintrc file</p>
-					{
 					<p>$ wsl touch .eslintrc</p>
 
 					<pre>{</pre>
@@ -215,6 +219,16 @@
 					</p>
 					<!-- prettier-ignore -->
 					<pre>$ npm run prettier</pre>
+				</div>
+				<div>
+					<h3>To run scripts with passing arguments</h3>
+					<p>
+						To run a script that you have added to your package.json file,
+						simply run $ npm run argument with the name of the script as the
+						argument.
+					</p>
+					<!-- prettier-ignore -->
+					<pre>npm run lint -- --debug <span class="pink">which would translate to</span> eslint **/*.js --debug</pre>
 				</div>
 
 				<!-- topNav List -->
