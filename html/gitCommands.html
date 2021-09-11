@@ -70,7 +70,7 @@
 					<!-- prettier-ignore -->
 					<pre><span class="pink">// dev brach is where the local work is done</span></pre>
 					<pre>git merge dev --no-ff --log</pre>
-					<pre><span class="pink">// to push -></span></pre>
+					<pre><span class="pink">// to push --></span></pre>
 					<!-- prettier-ignore -->
 					<pre><span class="pink">// returning to dev work</span></pre>
 					<pre>git checkout dev</pre>
@@ -85,8 +85,11 @@
 					<pre>git submodule update --remote udacity/JsAndTheDOM</pre>
 					<pre><span class="pink">For all submodules in main local dir:</span></pre>
 					<pre>git submodule update</pre>
+					<pre><span class="pink">In main local to push tags:</span></pre>
+					<pre>git push --tags</pre>
 					<pre><span class="pink">In main local dir if working with dev branch:</span></pre>
 					<pre>git push</pre>
+					<pre><span class="pink">Go back to dev branch --></span></pre>
 					<pre><span class="pink">In main local dir if <span class="yellow">not working</span> with dev branch:</span></pre>
 					<pre>git add . && git commit -m "updated file" && git push</pre>
 					<pre><span class="pink">In every submodule remote dir:</span></pre>
@@ -153,7 +156,7 @@
 				<div>
 					<h3>To tag a commit</h3>
 					<p class="pink">
-						5 first figures of signature from git log --pretty=online
+						5 first figures of signature from git log --pretty=oneline
 					</p>
 					<pre>git tag -a v1.0 60a85</pre>
 				</div>
