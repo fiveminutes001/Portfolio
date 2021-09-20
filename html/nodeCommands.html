@@ -276,21 +276,19 @@
 						moduleName.functionName if you are calling the module.
 					</p>
 					<p>
-						Here’s a CJS example using named exports, where util.cjs has an
+						Here is a CJS example using named exports, where util.cjs has an
 						export named sum.
 					</p>
 					<p>
 						// @filename: util.cjs <br />
-						module.exports.sum = (x, y) => x + y;
-					</p>
-
-					<p>
+						module.exports.sum = (x, y) => x + y;<br />
+						<br />
 						// @filename: main.cjs <br />
 						const {sum} = require('./util.cjs'); <br />
 						console.log(sum(2, 4));
 					</p>
 					<p>
-						Here’s a CJS example where util.cjs sets a default export. The
+						Here is a CJS example where util.cjs sets a default export. The
 						default export has no name; modules using require() define their own
 						name.
 					</p>
