@@ -275,6 +275,60 @@
 						function name if you have used destructuring or
 						moduleName.functionName if you are calling the module.
 					</p>
+					<p>
+						Here’s a CJS example using named exports, where util.cjs has an
+						export named sum.
+					</p>
+					<p>
+						// @filename: util.cjs <br />
+						module.exports.sum = (x, y) => x + y;
+					</p>
+
+					<p>
+						// @filename: main.cjs <br />
+						const {sum} = require('./util.cjs'); <br />
+						console.log(sum(2, 4));
+					</p>
+					<p>
+						Here’s a CJS example where util.cjs sets a default export. The
+						default export has no name; modules using require() define their own
+						name.
+					</p>
+					<p>
+						// @filename:<br />
+						util.cjs module.exports = (x, y) => x + y; <br />
+						<br />
+						// @filename: main.cjs<br />
+						const whateverWeWant = require('./util.cjs');<br />
+						console.log(whateverWeWant(2, 4));
+					</p>
+					<p>
+						In ESM scripts, import and export are part of the language; like
+						CJS, they have two different syntaxes for named exports and the
+						default export. Here’s an ESM example with named exports, where
+						util.mjs has an export named sum.
+					</p>
+					<p>
+						// @filename:util.mjs <br />
+						export const sum = (x, y) => x + y; <br />
+						<br />
+						// @filename: main.mjs <br />
+						import {sum} from './util.mjs' <br />
+						console.log(sum(2, 4)); <br />
+					</p>
+					<p>
+						Here’s an ESM example where util.mjs sets a default export. Just
+						like in CJS, the default export has no name, but the module using
+						import defines its own name.
+					</p>
+					<p>
+						// @filename: util.mjs<br />
+						export default (x, y) => x + y; <br />
+						<br />
+						//@filename: main.mjs <br />
+						import whateverWeWant from './util.mjs'<br />
+						console.log(whateverWeWant(2, 4));<br />
+					</p>
 				</div>
 
 				<!-- topNav List -->

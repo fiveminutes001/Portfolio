@@ -200,6 +200,14 @@
 					<pre>}</pre>
 					<pre>}</pre>
 				</div>
+				<div>
+					<h3>To add tsconfig.json</h3>
+					<p>$ npx tsc --init</p>
+				</div>
+				<div>
+					<h3>To allow libraries in tsconfig.json</h3>
+					<p>"lib": ["ES6","DOM"],</p>
+				</div>
 
 				<div>
 					<h3>To add prettier and eslint scripts to package.json</h3>
@@ -207,6 +215,7 @@
 					<!-- prettier-ignore -->
 					<pre>"prettier":"prettier --config .prettierrc ./**/*.js --write",</pre>
 					<pre>"lint":"eslint .eslintrc ./**/*.js --quiet",</pre>
+					<pre>"build": "npx tsc",</pre>
 					<pre>},</pre>
 				</div>
 
