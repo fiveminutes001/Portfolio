@@ -275,7 +275,7 @@
 						function name if you have used destructuring or
 						moduleName.functionName if you are calling the module.
 					</p>
-					<p>
+					<p class="yellow">
 						Here is a CJS example using named exports, where util.cjs has an
 						export named sum.
 					</p>
@@ -287,7 +287,7 @@
 						const {sum} = require('./util.cjs'); <br />
 						console.log(sum(2, 4));
 					</p>
-					<p>
+					<p class="yellow">
 						Here is a CJS example where util.cjs sets a default export. The
 						default export has no name; modules using require() define their own
 						name.
@@ -300,7 +300,7 @@
 						const whateverWeWant = require('./util.cjs');<br />
 						console.log(whateverWeWant(2, 4));
 					</p>
-					<p>
+					<p class="yellow">
 						In ESM scripts, import and export are part of the language; like
 						CJS, they have two different syntaxes for named exports and the
 						default export. Here’s an ESM example with named exports, where
@@ -314,7 +314,7 @@
 						import {sum} from './util.mjs' <br />
 						console.log(sum(2, 4)); <br />
 					</p>
-					<p>
+					<p class="yellow">
 						Here is an ESM example where util.mjs sets a default export. Just
 						like in CJS, the default export has no name, but the module using
 						import defines its own name.
