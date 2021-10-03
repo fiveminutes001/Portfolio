@@ -2299,7 +2299,7 @@
 
 				const fragment = document.createDocumentFragment();
 				const newElement = document.createElement('li');
-				newElement.innerText = dataFromDb;
+				newElement.innerHTML = dataFromDb;
 				fragment.appendChild(newElement);
 
 				let dataList = document.querySelector('#linksContainer');
