@@ -21,7 +21,7 @@ $links_array = [
         'ES modules'
     ],
 ];
-$footer = '</div>';
+$footer = '';
 
 $output = $header;
 
