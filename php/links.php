@@ -27,7 +27,7 @@ $links_array = [['https://redfin.engineering/node-modules-at-war-why-commonjs-an
 $output = '';
 
 foreach ($links_array as $link) {
-    $output += new_link($link);
+    $output = $output . new_link($link);
 }
 
 echo json_encode($output);
