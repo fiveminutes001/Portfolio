@@ -1,5 +1,5 @@
 <?php
-echo '<div class="column" style="margin-bottom: 6px">
+echo json_encode('<div class="column" style="margin-bottom: 6px">
     <a href="html/gitCommands.html">
         <button class="btn" style="width: 100%">
             <i class="fa fa-folder"></i>
@@ -462,4 +462,4 @@ echo '<div class="column" style="margin-bottom: 6px">
             </div>
         </div>
     </a>
-</div>';
+</div>');
