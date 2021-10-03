@@ -10,7 +10,7 @@ function new_link($arr)
         </div></div></a>';
 }
 
-$header = '<div class="column" style="margin-bottom: 6px">';
+$header = '';
 $links_array = [
     [
         'https://redfin.engineering/node-modules-at-war-why-commonjs-and-es-modules-cant-get-along-9617135eeca1',
