@@ -5,21 +5,9 @@ function new_link($arr)
     $url = $arr[0];
     $desc = $arr[1];
 
-    return '<a
-    href="' . $url . '"
->
-    <div
-        class="w3-tag w3-round w3-green"
-        style="padding: 3px; margin-top: 6px"
-    >
-        <div
-            class="w3-tag w3-round w3-green w3-border w3-border-white"
-            style="margin-top: 0px"
-        >
-            ' . $desc . '
-        </div>
-    </div>
-</a>';
+    return '<a href="' . $url . '"><div class="w3-tag w3-round w3-green" style="padding: 3px; margin-top: 6px">
+        <div class="w3-tag w3-round w3-green w3-border w3-border-white" style="margin-top: 0px">' . $desc . '
+        </div></div></a>';
 }
 
 
