@@ -24,6 +24,18 @@ $links_array = [
         'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules',
         'ES modules'
     ],
+    [
+        'https://fulcrum.rocks/blog/why-use-postgresql-database/',
+        'Why use PostgreSql/NoSql database'
+    ],
+    [
+        'https://www.npmjs.com/',
+        'NPMJS'
+    ],
+    [
+        'https://github.com/goldbergyoni/nodebestpractices',
+        'NodeJs - best practices'
+    ],
 ];
 $footer = '';
 
@@ -36,50 +48,9 @@ foreach ($links_array as $link) {
 $output = $output . $footer;
 
 echo json_encode($output);
-// echo json_encode('
 
-//     <a
-//         href="https://fulcrum.rocks/blog/why-use-postgresql-database/"
-//     >
-//         <div
-//             class="w3-tag w3-round w3-green"
-//             style="padding: 3px; margin-top: 6px"
-//         >
-//             <div
-//                 class="w3-tag w3-round w3-green w3-border w3-border-white"
-//                 style="margin-top: 0px"
-//             >
-//                 Why use PostgreSql/NoSql database
-//             </div>
-//         </div>
-//     </a>
-//     <a href="https://www.npmjs.com/">
-//         <div
-//             class="w3-tag w3-round w3-green"
-//             style="padding: 3px; margin-top: 6px"
-//         >
-//             <div
-//                 class="w3-tag w3-round w3-green w3-border w3-border-white"
-//                 style="margin-top: 0px"
-//             >
-//                 NPMJS
-//             </div>
-//         </div>
-//     </a>
 
-//     <a href="https://github.com/goldbergyoni/nodebestpractices">
-//         <div
-//             class="w3-tag w3-round w3-green"
-//             style="padding: 3px; margin-top: 6px"
-//         >
-//             <div
-//                 class="w3-tag w3-round w3-green w3-border w3-border-white"
-//                 style="margin-top: 0px"
-//             >
-//                 NodeJs - best practices
-//             </div>
-//         </div>
-//     </a>
+
 
 //     <a
 //         href="https://elad.explainit.online/udacity/FullJs/pdf/EventLoop.pdf"
