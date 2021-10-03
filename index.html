@@ -2298,13 +2298,9 @@
 				document.getElementById('linksContainer').innerHTML = '';
 
 				const fragment = document.createDocumentFragment();
-
-				for (let i = 0; i < dataFromDb.length; i++) {
-					const newElement = document.createElement('li');
-					newElement.innerText = dataFromDb[i];
-
-					fragment.appendChild(newElement);
-				}
+				const newElement = document.createElement('li');
+				newElement.innerText = dataFromDb;
+				fragment.appendChild(newElement);
 
 				let dataList = document.querySelector('#linksContainer');
 				dataList.appendChild(fragment);
