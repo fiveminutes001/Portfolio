@@ -11,7 +11,16 @@ function new_link($arr)
 }
 
 
-$links_array = [['https://redfin.engineering/node-modules-at-war-why-commonjs-and-es-modules-cant-get-along-9617135eeca1', 'CommonJS vs. ES modules']];
+$links_array = [
+    [
+        'https://redfin.engineering/node-modules-at-war-why-commonjs-and-es-modules-cant-get-along-9617135eeca1',
+        'CommonJS vs. ES modules'
+    ],
+    [
+        'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules',
+        'ES modules'
+    ],
+];
 $output = '';
 
 foreach ($links_array as $link) {
@@ -27,36 +36,7 @@ echo json_encode($output);
 //         </button>
 //     </a>
 //     <h6><u>JS</u></h6>
-//     <a
-//         href=""
-//     >
-//         <div
-//             class="w3-tag w3-round w3-green"
-//             style="padding: 3px; margin-top: 6px"
-//         >
-//             <div
-//                 class="w3-tag w3-round w3-green w3-border w3-border-white"
-//                 style="margin-top: 0px"
-//             >
-                
-//             </div>
-//         </div>
-//     </a>
-//     <a
-//         href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
-//     >
-//         <div
-//             class="w3-tag w3-round w3-green"
-//             style="padding: 3px; margin-top: 6px"
-//         >
-//             <div
-//                 class="w3-tag w3-round w3-green w3-border w3-border-white"
-//                 style="margin-top: 0px"
-//             >
-//                 ES modules
-//             </div>
-//         </div>
-//     </a>
+
 //     <a
 //         href="https://fulcrum.rocks/blog/why-use-postgresql-database/"
 //     >
