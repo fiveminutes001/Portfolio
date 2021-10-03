@@ -10,7 +10,7 @@ function new_link($arr)
         </div></div></a>';
 }
 
-
+$header = '<div class="column" style="margin-bottom: 6px">';
 $links_array = [
     [
         'https://redfin.engineering/node-modules-at-war-why-commonjs-and-es-modules-cant-get-along-9617135eeca1',
@@ -21,14 +21,18 @@ $links_array = [
         'ES modules'
     ],
 ];
-$output = '';
+$footer = '</div>';
+
+$output = $header;
 
 foreach ($links_array as $link) {
     $output = $output . new_link($link);
 }
 
+$output = $output . $footer;
+
 echo json_encode($output);
-// echo json_encode('<div class="column" style="margin-bottom: 6px">
+// echo json_encode('
 //     <a href="html/gitCommands.html">
 //         <button class="btn" style="width: 100%">
 //             <i class="fa fa-folder"></i>
@@ -462,4 +466,4 @@ echo json_encode($output);
 //             </div>
 //         </div>
 //     </a>
-// </div>');
+// ');
