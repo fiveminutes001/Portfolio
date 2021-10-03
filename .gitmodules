@@ -10,3 +10,6 @@
 	path = udacity/QuantumComputing
 	url = https://github.com/fiveminutes001/QuantumComputing.git
 
+[submodule "react/kendo-react-finance-portfolio"]
+	path = react/kendo-react-finance-portfolio
+	url = https://github.com/telerik/kendo-react-finance-portfolio.git
