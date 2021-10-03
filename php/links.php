@@ -13,6 +13,10 @@ function new_link($arr)
 $header = '';
 $links_array = [
     [
+        'html/gitCommands.html',
+        'useful commands'
+    ],
+    [
         'https://redfin.engineering/node-modules-at-war-why-commonjs-and-es-modules-cant-get-along-9617135eeca1',
         'CommonJS vs. ES modules'
     ],
@@ -33,13 +37,6 @@ $output = $output . $footer;
 
 echo json_encode($output);
 // echo json_encode('
-//     <a href="html/gitCommands.html">
-//         <button class="btn" style="width: 100%">
-//             <i class="fa fa-folder"></i>
-//             Useful Commands
-//         </button>
-//     </a>
-//     <h6><u>JS</u></h6>
 
 //     <a
 //         href="https://fulcrum.rocks/blog/why-use-postgresql-database/"
