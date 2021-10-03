@@ -123,7 +123,7 @@ input {
 #linksContainer li {
 	cursor: pointer;
 	position: relative;
-	padding: 12px 36px 12px 12px;
+	padding: 0px;
 	list-style-type: none;
 	background: #eee;
 	font-size: 18px;
