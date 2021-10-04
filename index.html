@@ -2303,17 +2303,17 @@
 
 		<!-- Populating LI -->
 		<script>
-			function addLi(dataFromDb) {
+			function addLi(dataFromDb, container) {
 				//discarding current content
-				document.getElementById('linksContainer').innerHTML = '';
+				const currentContainer = (document.getElementById(container).innerHTML =
+					'');
 
 				const fragment = document.createDocumentFragment();
 				const newElement = document.createElement('li');
 				newElement.innerHTML = dataFromDb;
 				fragment.appendChild(newElement);
 
-				let dataList = document.querySelector('#linksContainer');
-				dataList.appendChild(fragment);
+				currentContainer.appendChild(fragment);
 			}
 
 			// function getLinks(col) {
@@ -2422,7 +2422,9 @@
 			})
 				.then(function (responseText) {
 					let content = JSON.parse(responseText);
-					console.log(content);
+					console.log('firstColumnLinksContainer:' + content);
+					addLi(content, 'firstColumnLinksContainer');
+
 					return makeRequest({
 						method: 'GET',
 						url: 'https://elad.explainit.online/php/linksSecondColumn.php',
@@ -2430,7 +2432,8 @@
 				})
 				.then(function (responseText) {
 					let content = JSON.parse(responseText);
-					console.log(content);
+					console.log('secondColumnLinksContainer:' + content);
+					addLi(content, 'secondColumnLinksContainer');
 					return makeRequest({
 						method: 'GET',
 						url: 'https://elad.explainit.online/php/linksThirdColumn.php',
@@ -2438,7 +2441,8 @@
 				})
 				.then(function (responseText) {
 					let content = JSON.parse(responseText);
-					console.log(content);
+					console.log('thirdColumnLinksContainer:' + content);
+					addLi(content, 'thirdColumnLinksContainer');
 				})
 				.catch(function (err) {
 					console.error('Augh, there was an error!', err.statusText);
