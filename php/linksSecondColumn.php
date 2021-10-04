@@ -40,6 +40,22 @@ $links_array = [
         'https://www.youtube.com/watch?v=f687hBjwFcM',
         'React hooks video'
     ],
+    [
+        'https://developer.mozilla.org/en-US/docs/Web/API',
+        'Web APIs'
+    ],
+    [
+        'https://www.w3.org/2009/cheatsheet/',
+        'W3 cheat sheet'
+    ],
+    [
+        'https://docs.google.com/document/d/1WiOTIPb9LW8mtPpylyJrWiWS5ReLePh2w7GLrlln6JU/edit?usp=sharing',
+        'Interview questions'
+    ],
+    [
+        'https://www.w3.org/TR/DOM-Level-3-Events/#ui-events-intro',
+        'W3 working draft'
+    ],
 ];
 $footer = '';
 
