@@ -2421,9 +2421,8 @@
 				url: 'https://elad.explainit.online/php/linksFirstColumn.php',
 			})
 				.then(function (responseText) {
-					let content = JSON.parse(responseText);
-					console.log('firstColumnLinksContainer:' + content);
-					addLi(content, 'firstColumnLinksContainer');
+					console.log('firstColumnLinksContainer:' + JSON.parse(responseText));
+					addLi(JSON.parse(responseText), 'firstColumnLinksContainer');
 
 					return makeRequest({
 						method: 'GET',
@@ -2431,9 +2430,8 @@
 					});
 				})
 				.then(function (responseText) {
-					content = JSON.parse(responseText);
-					console.log('secondColumnLinksContainer:' + content);
-					addLi(content, 'secondColumnLinksContainer');
+					console.log('secondColumnLinksContainer:' + JSON.parse(responseText));
+					addLi(JSON.parse(responseText), 'secondColumnLinksContainer');
 
 					return makeRequest({
 						method: 'GET',
@@ -2441,9 +2439,8 @@
 					});
 				})
 				.then(function (responseText) {
-					content = JSON.parse(responseText);
-					console.log('thirdColumnLinksContainer:' + content);
-					addLi(content, 'thirdColumnLinksContainer');
+					console.log('thirdColumnLinksContainer:' + JSON.parse(responseText));
+					addLi(JSON.parse(responseText), 'thirdColumnLinksContainer');
 				})
 				.catch(function (err) {
 					console.error('Augh, there was an error!', err.statusText);
