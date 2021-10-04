@@ -2422,7 +2422,7 @@
 			})
 				.then(function (responseText) {
 					console.log('firstColumnLinksContainer:' + JSON.parse(responseText));
-					// addLi(JSON.parse(responseText), 'firstColumnLinksContainer');
+					addLi(JSON.parse(responseText), 'firstColumnLinksContainer');
 
 					return makeRequest({
 						method: 'GET',
@@ -2431,7 +2431,7 @@
 				})
 				.then(function (responseText) {
 					console.log('secondColumnLinksContainer:' + JSON.parse(responseText));
-					// addLi(JSON.parse(responseText), 'secondColumnLinksContainer');
+					addLi(JSON.parse(responseText), 'secondColumnLinksContainer');
 
 					return makeRequest({
 						method: 'GET',
@@ -2440,7 +2440,7 @@
 				})
 				.then(function (responseText) {
 					console.log('thirdColumnLinksContainer:' + JSON.parse(responseText));
-					// addLi(JSON.parse(responseText), 'thirdColumnLinksContainer');
+					addLi(JSON.parse(responseText), 'thirdColumnLinksContainer');
 				})
 				.catch(function (err) {
 					console.error('Augh, there was an error!', err.statusText);
