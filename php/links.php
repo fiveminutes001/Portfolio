@@ -36,10 +36,14 @@ $links_array = [
         'https://github.com/goldbergyoni/nodebestpractices',
         'NodeJs - best practices'
     ],
+    [
+        'https://stackoverflow.com/questions/30008114/how-do-i-promisify-native-xhr',
+        'using promises with XHR request'
+    ],
 ];
 $footer = '';
 
-$output = $header;
+$first_column = $header;
 
 foreach ($links_array as $link) {
     $output = $output . new_link($link);

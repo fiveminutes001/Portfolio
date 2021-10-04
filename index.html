@@ -1316,7 +1316,13 @@
 
 						<div class="row">
 							<div class="column" style="margin-bottom: 6px">
-								<ul id="linksContainer"></ul>
+								<ul id="firstColumnLinksContainer"></ul>
+							</div>
+							<div class="column" style="margin-bottom: 6px">
+								<ul id="secondColumnLinksContainer"></ul>
+							</div>
+							<div class="column" style="margin-bottom: 6px">
+								<ul id="thirdColumnLinksContainer"></ul>
 							</div>
 						</div>
 					</div>
@@ -2310,9 +2316,10 @@
 				dataList.appendChild(fragment);
 			}
 
-			function getLinks() {
+			function getLinks(col) {
 				//sending AJAX request
 				const xmlhttp = new XMLHttpRequest();
+
 				xmlhttp.onreadystatechange = function () {
 					if (this.readyState == 4 && this.status == 200) {
 						let linksArray = JSON.parse(xmlhttp.responseText);
@@ -2320,10 +2327,93 @@
 						addLi(linksArray);
 					}
 				};
-
-				xmlhttp.open('GET', 'php/links.php', true);
+				switch (col) {
+					case 1:
+						xmlhttp.open('GET', 'php/links.php?q=' + col, true);
+						break;
+					case 2:
+						xmlhttp.open('GET', 'php/links.php', true);
+						break;
+					case 3:
+						xmlhttp.open('GET', 'php/links.php', true);
+						break;
+				}
 				xmlhttp.send();
 			}
+
+			// let opt = {
+			// 	method: String,
+			// 	url: String,
+			// 	//optional
+			// 	params: String | Object,
+			// 	headers: Object,
+			// };
+
+			function makeRequest(opts) {
+				return new Promise(function (resolve, reject) {
+					var xhr = new XMLHttpRequest();
+					xhr.open(opts.method, opts.url);
+					xhr.onload = function () {
+						if (this.status >= 200 && this.status < 300) {
+							resolve(xhr.response);
+						} else {
+							reject({
+								status: this.status,
+								statusText: xhr.statusText,
+							});
+						}
+					};
+					xhr.onerror = function () {
+						reject({
+							status: this.status,
+							statusText: xhr.statusText,
+						});
+					};
+
+					if (opts.headers) {
+						Object.keys(opts.headers).forEach(function (key) {
+							xhr.setRequestHeader(key, opts.headers[key]);
+						});
+					}
+					var params = opts.params;
+					// We'll need to stringify if we've been given an object
+					// If we have a string, this is skipped.
+					if (params && typeof params === 'object') {
+						params = Object.keys(params)
+							.map(function (key) {
+								return (
+									encodeURIComponent(key) +
+									'=' +
+									encodeURIComponent(params[key])
+								);
+							})
+							.join('&');
+					}
+					xhr.send(params);
+				});
+			}
+
+			// Headers and params are optional
+			makeRequest({
+				method: 'GET',
+				url: 'https://elad.explainit.online/php/links.php',
+			})
+				.then(function (datums) {
+					console.log(datums);
+					// return makeRequest({
+					// 	method: 'POST',
+					// 	url: datums.url,
+					// 	params: {
+					// 		score: 9001,
+					// 	},
+					// 	headers: {
+					// 		'X-Subliminal-Message': 'Upvote-this-answer',
+					// 	},
+					// });
+				})
+				.catch(function (err) {
+					console.error('Augh, there was an error!', err.statusText);
+				});
 
 			window.addEventListener('DOMContentLoaded', (event) => {
 				console.log('DOM fully loaded and parsed');
