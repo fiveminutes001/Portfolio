@@ -56,6 +56,14 @@ $links_array = [
         'https://www.w3.org/TR/DOM-Level-3-Events/#ui-events-intro',
         'W3 working draft'
     ],
+    [
+        'https://definitelytyped.org/',
+        'Checking for Typescripted npm packages'
+    ],
+    [
+        'https://www.typescriptlang.org/dt/search?search=',
+        'Find npm packages that have type declarations'
+    ],
 ];
 $footer = '';
 
