@@ -2420,22 +2420,25 @@
 				method: 'GET',
 				url: 'https://elad.explainit.online/php/linksFirstColumn.php',
 			})
-				.then(function (datums) {
-					console.log(datums);
+				.then(function (responseText) {
+					let content = JSON.parse(responseText);
+					console.log(content);
 					return makeRequest({
 						method: 'GET',
 						url: 'https://elad.explainit.online/php/linksSecondColumn.php',
 					});
 				})
-				.then(function (datums) {
-					console.log(datums);
+				.then(function (responseText) {
+					let content = JSON.parse(responseText);
+					console.log(content);
 					return makeRequest({
 						method: 'GET',
 						url: 'https://elad.explainit.online/php/linksThirdColumn.php',
 					});
 				})
-				.then(function (datums) {
-					console.log(datums);
+				.then(function (responseText) {
+					let content = JSON.parse(responseText);
+					console.log(content);
 				})
 				.catch(function (err) {
 					console.error('Augh, there was an error!', err.statusText);
