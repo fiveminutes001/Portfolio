@@ -2305,8 +2305,8 @@
 		<script>
 			function addLi(dataFromDb, container) {
 				//discarding current content
-				const currentContainer = (document.getElementById(container).innerHTML =
-					'');
+				const currentContainer = document.getElementById(container);
+				currentContainer.innerHTML = '';
 
 				const fragment = document.createDocumentFragment();
 				const newElement = document.createElement('li');
