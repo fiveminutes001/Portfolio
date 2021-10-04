@@ -45,8 +45,20 @@ $links_array = [
         'FullJs - Event Loop'
     ],
     [
-        ' href="https://elad.explainit.online/udacity/FullJs/L2-eventLoop.js',
+        'https://elad.explainit.online/udacity/FullJs/L2-eventLoop.js',
         'FullJs file'
+    ],
+    [
+        'https://www.codementor.io/howitworks/mentorship',
+        'Codementor'
+    ],
+    [
+        'https://github.com/sdmg15/Best-websites-a-programmer-should-visit',
+        'Best-websites-a-programmer-should-visit'
+    ],
+    [
+        'https://github.com/fiveminutes001/FarmData2/blob/main/CONTRIBUTING.md',
+        'How to contribute on GIT'
     ],
 ];
 $footer = '';

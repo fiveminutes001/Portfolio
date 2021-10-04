@@ -13,3 +13,6 @@
 [submodule "react/kendo-react-finance-portfolio"]
 	path = react/kendo-react-finance-portfolio
 	url = https://github.com/telerik/kendo-react-finance-portfolio.git
+[submodule "FarmData2"]
+	path = FarmData2
+	url = https://github.com/fiveminutes001/FarmData2.git
