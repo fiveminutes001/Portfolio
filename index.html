@@ -2431,16 +2431,17 @@
 					});
 				})
 				.then(function (responseText) {
-					let content = JSON.parse(responseText);
+					content = JSON.parse(responseText);
 					console.log('secondColumnLinksContainer:' + content);
 					addLi(content, 'secondColumnLinksContainer');
+
 					return makeRequest({
 						method: 'GET',
 						url: 'https://elad.explainit.online/php/linksThirdColumn.php',
 					});
 				})
 				.then(function (responseText) {
-					let content = JSON.parse(responseText);
+					content = JSON.parse(responseText);
 					console.log('thirdColumnLinksContainer:' + content);
 					addLi(content, 'thirdColumnLinksContainer');
 				})
