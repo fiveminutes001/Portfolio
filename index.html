@@ -2349,6 +2349,28 @@
 			// 	headers: Object,
 			// };
 
+			// Headers and params are optional
+			// makeRequest({
+			// 	method: 'GET',
+			// 	url: 'https://elad.explainit.online/php/linksFirstColumn.php',
+			// })
+			// 	.then(function (datums) {
+			// 		console.log(datums);
+			// 		return makeRequest({
+			// 			method: 'GET',
+			// 			url: datums.url,
+			// 			params: {
+			// 				score: 9001,
+			// 			},
+			// 			headers: {
+			// 				'X-Subliminal-Message': 'Upvote-this-answer',
+			// 			},
+			// 		});
+			// 	})
+			// 	.catch(function (err) {
+			// 		console.error('Augh, there was an error!', err.statusText);
+			// 	});
+
 			function makeRequest(opts) {
 				return new Promise(function (resolve, reject) {
 					var xhr = new XMLHttpRequest();
@@ -2396,20 +2418,24 @@
 			// Headers and params are optional
 			makeRequest({
 				method: 'GET',
-				url: 'https://elad.explainit.online/php/links.php',
+				url: 'https://elad.explainit.online/php/linksFirstColumn.php',
 			})
 				.then(function (datums) {
 					console.log(datums);
-					// return makeRequest({
-					// 	method: 'POST',
-					// 	url: datums.url,
-					// 	params: {
-					// 		score: 9001,
-					// 	},
-					// 	headers: {
-					// 		'X-Subliminal-Message': 'Upvote-this-answer',
-					// 	},
-					// });
+					return makeRequest({
+						method: 'GET',
+						url: 'https://elad.explainit.online/php/linksSecondColumn.php',
+					});
+				})
+				.then(function (datums) {
+					console.log(datums);
+					return makeRequest({
+						method: 'GET',
+						url: 'https://elad.explainit.online/php/linksThirdColumn.php',
+					});
+				})
+				.then(function (datums) {
+					console.log(datums);
 				})
 				.catch(function (err) {
 					console.error('Augh, there was an error!', err.statusText);
