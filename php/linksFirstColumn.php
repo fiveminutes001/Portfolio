@@ -68,6 +68,10 @@ $links_array = [
         'https://github.com/microsoft/TypeScript/wiki/Performance',
         'Microsoft\'s guide to performant TypeScript'
     ],
+    [
+        'https://2ality.com/2020/04/migrating-to-typescript.html',
+        'Strategies for migrating to TypeScript'
+    ],
 ];
 $footer = '';
 
