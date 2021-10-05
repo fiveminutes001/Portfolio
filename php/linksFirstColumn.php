@@ -60,6 +60,14 @@ $links_array = [
         'https://github.com/fiveminutes001/FarmData2/blob/main/CONTRIBUTING.md',
         'How to contribute on GIT'
     ],
+    [
+        'https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html',
+        'TypeScripts official Do\'s and Don\'ts documentation'
+    ],
+    [
+        'https://github.com/microsoft/TypeScript/wiki/Performance',
+        'Microsoft\'s guide to performant TypeScript'
+    ],
 ];
 $footer = '';
 
