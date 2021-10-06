@@ -16,3 +16,6 @@
 [submodule "FarmData2"]
 	path = FarmData2
 	url = https://github.com/fiveminutes001/FarmData2.git
+[submodule "TasksList"]
+	path = TasksList
+	url = https://github.com/fiveminutes001/TasksList.git
